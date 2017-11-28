@@ -43,39 +43,128 @@
           </li>
         </ol>
         <ol>
-          <li id="scienceai">
-            <a href="http://vlupoaie.github.io/scira/" typeof="schema:Corporation">
-              <span property="schema:name">scira.ai</span>
-            </a>
-          </li>
+            <li id="institution">
+              <a href="https://www.info.uaic.ro/bin/Main/" typeof="schema:Corporation">
+                <span property="schema:name">"Alexandru Ioan Cuza" University, Iasi, Faculty of Computer Science</span>
+              </a>
+            </li>
         </ol>
       </section>
 
       <section typeof="sa:Abstract" id="abstract">
         <h2>Abstract</h2>
         <p>
-          SciRA bla bla...
+         A wide variety of academic papers are published daily and searching for related literature can be a burden.
+         SciRA, short for Scientific Research Smart Assistant is a smart platform able to provide an innovative experience
+         regarding the references between papers. It integrates various data sources such as DBLP, Colinda, ACM, arxiv and
+         DBPedia datasets, taking advantage of 2012 ACM Computing Classification System and offers a platform to upload
+         and manage new publications, providing a recommendation system based on user's search history. The big amount of 
+         data provided by the platform can be filtered by a series of custom attributes tailored to each user's needs.
         </p>
       </section>
       <section typeof="sa:MaterialsAndMethods" id="motivation">
         <h2>Motivation</h2>
-        <p>Motivation comes here</p>
+        <p>
+        In the last years, the term Semantic Web receives more and more attention. With the variety of search engines
+        available it is fairly easy for a human to search for academic literature but, searching for related papers is
+        still a concern. SciRA incorporates the Semantic Web so that the data related to a scientific paper can be
+        easily processed by machines. There are various linked data sets available on the internet, and SciRA incorporates
+        these datasets alongside with its own publication platform, exposing a SPARQL endpoint to allow the user to
+        retrieve data from all its sources. The platform is intended to be an invaluable resource while researching on a given
+        topic, but can also be used by newcomers in learning a given subject.
+        </p>
       </section>
       <section typeof="sa:Results" id="architecture">
-        <h2>Architecture</h2>
+      <h2>Architecture</h2>
         <p>
-         General architecture ...
+         In the first section we briefly described the main goals of the application. The proposed project
+         is based on a fat client - thin server architecture, exposing multiple independent microservices 
+         providing a variety of functionalities such as publications querying, user management, recommendation system,
+         graph visualization of publications and authors relations. <i>SciRA</i> has three main components which are 
+         described in detail in the next subchapters:
+         <ul>
+          <li>
+            <b>Client</b>: web pages that communicate with the server's exposed API. Can also be implemented on
+            different platforms (such as mobile devices).
+          </li>
+          <li>
+            <b>Server</b>: based on multiple components, processes client's requests, fetches information from external
+            linked data sources and generates recommendations accustomed to each user.
+          </li>
+          <li>
+            <b>Database</b>: stores information about subscribed users and their publications.
+          </li>
+        </ul>
         </p>
         <section id="server">
           <h3>Server</h3>
           <p>
-            Server side here
+            The server is based on the MVC (Model - View - Controller) design pattern:
+            <ul>
+              <li>
+                <b>Controller</b>: interacts with the clients through an API, using JSON-LD, and decides which
+                microservices to use for processing the requests.
+              </li>
+              <li>
+                <b>Model</b>: has multiple components focusing on different services:
+                <ol>
+                  <li>
+                    <i>Search</i>: processes search input from the client, having three different implementations:
+                    Simple (used for casual searches, combining keywords to find matching publications),
+                    Advanced (combining multiple advanced filters in order to constraint the search domain
+                              for more specific results),
+                    Editor (exposes an endpoint where each subscribed user can submit his own SPARQL query).
+                  </li>
+                  <li>
+                    <i>SPARQL Parser</i>: based on the input from the search component, builds the SPARQL query
+                    tailored to each endpoint (Colinda, DBLP, ACM, Arxiv, DBPedia or the local dataset) and retrieves
+                    and combines the pieces of information acquired from the linked data endpoints.
+                  </li>
+                  <li>
+                    <i>Recommendation System</i>: used in generating recommendations for a specific user and for
+                    providing related results for queried publications. The algorithm executes a fuzzy search taking
+                    into consideration publications that have related topics, tags, authors, publication dates etc.
+                  </li>
+                  <li>
+                    <i>User Manager</i>: Manages all interactions of a user with the local database including
+                    authentication, profile editing, publication uploading etc.
+                  </li>
+                </ol>
+              </li>
+            </ul>
+            <figure typeof="sa:Image">
+              <img src="resources/img/architecture-diagram.png" width="880" height="655">
+              <figcaption>
+                SciRA Architecture
+              </figcaption>
+            </figure>
+            When the server receives a request from the client, the controller processes it and decides which component 
+            to use in order to provide the response. The main use case, available also to unregistered users, is submitting
+            a search request. The user can opt for a quick, simple search or a more advanced one, based on different filters.
+            In addition to this, the client can use the SPARQL editor to run his own query against an exposed endpoint.
+            Subscribed users can also update their profile, upload publications (which will be stored in the local database)
+            and view history and custom recommendations.
+            <figure typeof="sa:Image">
+              <img src="resources/img/use-case-diagram.png" width="880" height="655">
+              <figcaption>
+                SciRA Use Cases
+              </figcaption>
+            </figure>
+            - in the figure below
+            - code structure
+            - design patterns
+            - how components link
+            <figure typeof="sa:Image">
+              <img src="resources/img/class-diagram.png" width="880" height="655">
+              <figcaption>
+                SciRA Class Diagram
+              </figcaption>
+            </figure>
           </p>
-        </section>
-        <section id="api">
-          <h3>Open API</h3>
+        <section id="server">
+          <h3>API</h3>
           <p>
-           Open API here
+            Api here
           </p>
         </section>
         <section id="client">
