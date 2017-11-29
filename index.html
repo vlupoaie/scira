@@ -164,7 +164,32 @@
         <section id="server">
           <h3>API</h3>
           <p>
-            Api here
+            The server exposes two main API endpoints corresponding to the two main controller components 
+            (Search and User Management). All client - server communication is done via the API which uses JSON-LD. We
+            also provide an OpenAPI 2.0 specification that describes in detail each available path. Offering multiple HTTP methods
+            through which the API can be used, the application integrates the whole CRUD spectrum.
+          </p>
+          <p>
+            The user component provides all the necessary operations for user management (user creation, logging in,
+            profile updates, publication view history and recommendations). A short description of each available operation can be seen in the figure below.
+          </p>
+            <figure typeof="sa:Image">
+              <img src="resources/img/user-api.png" width="880" height="655">
+              <figcaption>
+                SciRA User API
+              </figcaption>
+            </figure>
+          <p>
+            The publication component handles all queries related to publications searching and recommandations. It is composed of three components
+            which correspond to the three search components in the server (Simple Search, Advanced Search and Raw SPARQL Search) and also has a route
+            for the recommendation system, in which, given a publication, similar ones are returned.
+          </p>
+            <figure typeof="sa:Image">
+              <img src="resources/img/publication-api.png" width="880" height="655">
+              <figcaption>
+                SciRA Publication API
+              </figcaption>
+            </figure>
           </p>
         </section>
         <section id="client">
