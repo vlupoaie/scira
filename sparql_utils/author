@@ -1,0 +1,604 @@
+{
+ "publication_list": [
+  {
+   "publication": "Differentiation of Phytophthora infestans sporangia from other airborne biological particles by flow cytometry.",
+   "publication_id": "http://www.wikidata.org/entity/Q39649202"
+  },
+  {
+   "publication": "Absolute quantification of the glycolytic pathway in yeast: deployment of a complete QconCAT approach.",
+   "publication_id": "http://www.wikidata.org/entity/Q39766915"
+  },
+  {
+   "publication": "Comparative genomic assessment of novel broad-spectrum targets for antibacterial drugs.",
+   "publication_id": "http://www.wikidata.org/entity/Q39776959"
+  },
+  {
+   "publication": "The virtual human: towards a global systems biology of multiscale, distributed biochemical network models.",
+   "publication_id": "http://www.wikidata.org/entity/Q39819351"
+  },
+  {
+   "publication": "The estimation of microbial biomass.",
+   "publication_id": "http://www.wikidata.org/entity/Q39843915"
+  },
+  {
+   "publication": "A minimal hypothesis for membrane-linked free-energy transduction. The role of independent, small coupling units.",
+   "publication_id": "http://www.wikidata.org/entity/Q40079402"
+  },
+  {
+   "publication": "The apparent permeabilities of Caco-2 cells to marketed drugs: magnitude, and independence from both biophysical properties and endogenite similarities.",
+   "publication_id": "http://www.wikidata.org/entity/Q40262879"
+  },
+  {
+   "publication": "Differentiation of Micromonospora isolates from a coastal sediment in Wales on the basis of Fourier transform infrared spectroscopy, 16S rRNA sequence analysis, and the amplified fragment length polymorphism technique.",
+   "publication_id": "http://www.wikidata.org/entity/Q40279341"
+  },
+  {
+   "publication": "Solvent selection for whole cell biotransformations in organic media.",
+   "publication_id": "http://www.wikidata.org/entity/Q40463302"
+  },
+  {
+   "publication": "Understanding the foundations of the structural similarities between marketed drugs and endogenous human metabolites.",
+   "publication_id": "http://www.wikidata.org/entity/Q40605856"
+  },
+  {
+   "publication": "Arcadia: a visualization tool for metabolic pathways.",
+   "publication_id": "http://www.wikidata.org/entity/Q40618255"
+  },
+  {
+   "publication": "Do bacteria need to communicate with each other for growth?",
+   "publication_id": "http://www.wikidata.org/entity/Q41104116"
+  },
+  {
+   "publication": "Rapid authentication of animal cell lines using pyrolysis mass spectrometry and auto-associative artificial neural networks.",
+   "publication_id": "http://www.wikidata.org/entity/Q41241028"
+  },
+  {
+   "publication": "Continuous monitoring of the electrical potential across energy-transducing membranes using ion-selective electrodes. Application to submitochondrial particles and chromatophores.",
+   "publication_id": "http://www.wikidata.org/entity/Q41366037"
+  },
+  {
+   "publication": "Measurement by a flow dialysis technique of the steady-state proton-motive force in chromatophores from Rhodospirillum rubrum. Comparison with phosphorylation potential.",
+   "publication_id": "http://www.wikidata.org/entity/Q41386765"
+  },
+  {
+   "publication": "Mosaic protonic coupling hypothesis for free energy transduction.",
+   "publication_id": "http://www.wikidata.org/entity/Q41558861"
+  },
+  {
+   "publication": "Analysis of drug-endogenous human metabolite similarities in terms of their maximum common substructures.",
+   "publication_id": "http://www.wikidata.org/entity/Q41959283"
+  },
+  {
+   "publication": "Scientific discovery as a combinatorial optimisation problem: how best to navigate the landscape of possible experiments?",
+   "publication_id": "http://www.wikidata.org/entity/Q42135811"
+  },
+  {
+   "publication": "A systematic survey of the response of a model NF-\u03baB signalling pathway to TNF\u03b1 stimulation.",
+   "publication_id": "http://www.wikidata.org/entity/Q42157491"
+  },
+  {
+   "publication": "Corrigendum to \"Metabolomics and systems pharmacology: why and how to model the human metabolic network for drug discovery\" [Drug Discov. Today 19 (2014), 171-182.",
+   "publication_id": "http://www.wikidata.org/entity/Q42365461"
+  },
+  {
+   "publication": "Progress being made on standards for use in data sharing.",
+   "publication_id": "http://www.wikidata.org/entity/Q42602408"
+  },
+  {
+   "publication": "Convergent evolution to an aptamer observed in small populations on DNA microarrays.",
+   "publication_id": "http://www.wikidata.org/entity/Q42920087"
+  },
+  {
+   "publication": "Changes in the metabolic footprint of placental explant-conditioned medium cultured in different oxygen tensions from placentas of small for gestational age and normal pregnancies.",
+   "publication_id": "http://www.wikidata.org/entity/Q42937689"
+  },
+  {
+   "publication": "Changes in the metabolic footprint of placental explant-conditioned culture medium identifies metabolic disturbances related to hypoxia and pre-eclampsia.",
+   "publication_id": "http://www.wikidata.org/entity/Q43272404"
+  },
+  {
+   "publication": "Predictive models for population performance on real biological fitness landscapes.",
+   "publication_id": "http://www.wikidata.org/entity/Q43656975"
+  },
+  {
+   "publication": "Monitoring of complex industrial bioprocesses for metabolite concentrations using modern spectroscopies and machine learning: application to gibberellic acid production.",
+   "publication_id": "http://www.wikidata.org/entity/Q44062213"
+  },
+  {
+   "publication": "Metabolic profiling of serum using Ultra Performance Liquid Chromatography and the LTQ-Orbitrap mass spectrometry system.",
+   "publication_id": "http://www.wikidata.org/entity/Q44069235"
+  },
+  {
+   "publication": "Schemes of flux control in a model of Saccharomyces cerevisiae glycolysis.",
+   "publication_id": "http://www.wikidata.org/entity/Q44103725"
+  },
+  {
+   "publication": "The rpf gene of Micrococcus luteus encodes an essential secreted growth factor.",
+   "publication_id": "http://www.wikidata.org/entity/Q44201185"
+  },
+  {
+   "publication": "A novel method for assessing the role of iron and its functional chelation in fibrin fibril formation: the use of scanning electron microscopy.",
+   "publication_id": "http://www.wikidata.org/entity/Q44286743"
+  },
+  {
+   "publication": "Short- and long-term dynamic responses of the metabolic network and gene expression in yeast to a transient change in the nutrient environment.",
+   "publication_id": "http://www.wikidata.org/entity/Q45025107"
+  },
+  {
+   "publication": "Vacuum packing: a model system for laboratory-scale silage fermentations.",
+   "publication_id": "http://www.wikidata.org/entity/Q45195217"
+  },
+  {
+   "publication": "Huntington disease patients and transgenic mice have similar pro-catabolic serum metabolite profiles.",
+   "publication_id": "http://www.wikidata.org/entity/Q45300045"
+  },
+  {
+   "publication": "Bayesian inference of the sites of perturbations in metabolic pathways via Markov chain Monte Carlo.",
+   "publication_id": "http://www.wikidata.org/entity/Q45876108"
+  },
+  {
+   "publication": "Optimal construction of a fast and accurate polarisable water potential based on multipole moments trained by machine learning.",
+   "publication_id": "http://www.wikidata.org/entity/Q45963432"
+  },
+  {
+   "publication": "Theodor B\u00fccher Lecture. Metabolomics, modelling and machine learning in systems biology - towards an understanding of the languages of cells. Delivered on 3 July 2005 at the 30th FEBS Congress and the 9th IUBMB conference in Budapest.",
+   "publication_id": "http://www.wikidata.org/entity/Q45966124"
+  },
+  {
+   "publication": "Closed-loop, multiobjective optimization of analytical instrumentation: gas chromatography/time-of-flight mass spectrometry of the metabolomes of human serum and of yeast fermentations.",
+   "publication_id": "http://www.wikidata.org/entity/Q45966569"
+  },
+  {
+   "publication": "High-throughput classification of yeast mutants for functional genomics using metabolic footprinting.",
+   "publication_id": "http://www.wikidata.org/entity/Q45967017"
+  },
+  {
+   "publication": "On the optimization of classes for the assignment of unidentified reading frames in functional genomics programmes: the need for machine learning.",
+   "publication_id": "http://www.wikidata.org/entity/Q45967378"
+  },
+  {
+   "publication": "Robust early pregnancy prediction of later preeclampsia using metabolomic biomarkers.",
+   "publication_id": "http://www.wikidata.org/entity/Q46329980"
+  },
+  {
+   "publication": "A GC-TOF-MS study of the stability of serum and urine metabolomes during the UK Biobank sample collection and preparation protocols.",
+   "publication_id": "http://www.wikidata.org/entity/Q46409977"
+  },
+  {
+   "publication": "Analysis of the metabolic footprint and tissue metabolome of placental villous explants cultured at different oxygen tensions reveals novel redox biomarkers.",
+   "publication_id": "http://www.wikidata.org/entity/Q46523516"
+  },
+  {
+   "publication": "Detection and identification of novel metabolomic biomarkers in preeclampsia.",
+   "publication_id": "http://www.wikidata.org/entity/Q46585274"
+  },
+  {
+   "publication": "Identification and characterization of high-flux-control genes of yeast through competition analyses in continuous cultures.",
+   "publication_id": "http://www.wikidata.org/entity/Q46834808"
+  },
+  {
+   "publication": "Muralytic activity of Micrococcus luteus Rpf and its relationship to physiological activity in promoting bacterial growth and resuscitation.",
+   "publication_id": "http://www.wikidata.org/entity/Q46854868"
+  },
+  {
+   "publication": "Confirmation by using mutant strains that the membrane-bound H(+)-ATPase is the major source of non-linear dielectricity in Saccharomyces cerevisiae.",
+   "publication_id": "http://www.wikidata.org/entity/Q46909169"
+  },
+  {
+   "publication": "Why and when channelling can decrease pool size at constant net flux in a simple dynamic channel.",
+   "publication_id": "http://www.wikidata.org/entity/Q47334853"
+  },
+  {
+   "publication": "On the role of enzyme kinetic parameters in determining the effectiveness with which channelling can decrease the size of a metabolite pool.",
+   "publication_id": "http://www.wikidata.org/entity/Q47393182"
+  },
+  {
+   "publication": "Channelling can decrease pool size.",
+   "publication_id": "http://www.wikidata.org/entity/Q47416233"
+  },
+  {
+   "publication": "Analysing and Navigating Natural Products Space for Generating Small, Diverse, But Representative Chemical Libraries.",
+   "publication_id": "http://www.wikidata.org/entity/Q47424759"
+  },
+  {
+   "publication": "Genetics and iron in the systems biology of Parkinson's disease and some related disorders.",
+   "publication_id": "http://www.wikidata.org/entity/Q38065668"
+  },
+  {
+   "publication": "Diagnostic morphology: biophysical indicators for iron-driven inflammatory diseases.",
+   "publication_id": "http://www.wikidata.org/entity/Q38203153"
+  },
+  {
+   "publication": "The inhibition by CO2 of the growth and metabolism of micro-organisms.",
+   "publication_id": "http://www.wikidata.org/entity/Q38237174"
+  },
+  {
+   "publication": "The simultaneous occurrence of both hypercoagulability and hypofibrinolysis in blood and serum during systemic inflammation, and the roles of iron and fibrin(ogen).",
+   "publication_id": "http://www.wikidata.org/entity/Q38261764"
+  },
+  {
+   "publication": "What would be the observable consequences if phospholipid bilayer diffusion of drugs into cells is negligible?",
+   "publication_id": "http://www.wikidata.org/entity/Q38280120"
+  },
+  {
+   "publication": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
+   "publication_id": "http://www.wikidata.org/entity/Q38287400"
+  },
+  {
+   "publication": "Analysis of aptamer sequence activity relationships.",
+   "publication_id": "http://www.wikidata.org/entity/Q38347807"
+  },
+  {
+   "publication": "Analysis of a complete DNA-protein affinity landscape.",
+   "publication_id": "http://www.wikidata.org/entity/Q38352043"
+  },
+  {
+   "publication": "Aptamer evolution for array-based diagnostics.",
+   "publication_id": "http://www.wikidata.org/entity/Q38354972"
+  },
+  {
+   "publication": "Array-based evolution of DNA aptamers allows modelling of an explicit sequence-fitness landscape.",
+   "publication_id": "http://www.wikidata.org/entity/Q38358691"
+  },
+  {
+   "publication": "Membrane transporter engineering in industrial biotechnology and whole cell biocatalysis.",
+   "publication_id": "http://www.wikidata.org/entity/Q38369025"
+  },
+  {
+   "publication": "KiPar, a tool for systematic information retrieval regarding parameters for kinetic modelling of yeast metabolic pathways.",
+   "publication_id": "http://www.wikidata.org/entity/Q38382740"
+  },
+  {
+   "publication": "Information-theoretic sensitivity analysis: a general method for credit assignment in complex networks.",
+   "publication_id": "http://www.wikidata.org/entity/Q38526804"
+  },
+  {
+   "publication": "Lipopolysaccharide-binding protein (LBP) reverses the amyloid state of fibrin seen in plasma of type 2 diabetics with cardiovascular co-morbidities.",
+   "publication_id": "http://www.wikidata.org/entity/Q38603046"
+  },
+  {
+   "publication": "Stability in metabolic phenotypes and inferred metagenome profiles before the onset of colitis-induced inflammation.",
+   "publication_id": "http://www.wikidata.org/entity/Q38617974"
+  },
+  {
+   "publication": "On the functional proton current pathway of electron transport phosphorylation. An electrodic view.",
+   "publication_id": "http://www.wikidata.org/entity/Q39268061"
+  },
+  {
+   "publication": "Oxidation-reduction properties of coenzyme M (2-mercaptoethane sulphonate) at the mercury electrode.",
+   "publication_id": "http://www.wikidata.org/entity/Q39292667"
+  },
+  {
+   "publication": "Efficient improvement of silage additives by using genetic algorithms.",
+   "publication_id": "http://www.wikidata.org/entity/Q39485721"
+  },
+  {
+   "publication": "Defrosting the digital library: bibliographic tools for the next generation web.",
+   "publication_id": "http://www.wikidata.org/entity/Q21092568"
+  },
+  {
+   "publication": "Deterministic mathematical models of the cAMP pathway in Saccharomyces cerevisiae",
+   "publication_id": "http://www.wikidata.org/entity/Q21093161"
+  },
+  {
+   "publication": "A consensus yeast metabolic network reconstruction obtained from a community approach to systems biology",
+   "publication_id": "http://www.wikidata.org/entity/Q21147058"
+  },
+  {
+   "publication": "Genome-wide assessment of the carriers involved in the cellular uptake of drugs: a model system in yeast",
+   "publication_id": "http://www.wikidata.org/entity/Q21245306"
+  },
+  {
+   "publication": "Visualising biological data: a semantic approach to tool and database integration",
+   "publication_id": "http://www.wikidata.org/entity/Q21284356"
+  },
+  {
+   "publication": "maxdLoad2 and maxdBrowse: standards-compliant tools for microarray experimental annotation, data management and dissemination.",
+   "publication_id": "http://www.wikidata.org/entity/Q24813876"
+  },
+  {
+   "publication": "Metabolomics and systems pharmacology: why and how to model the human metabolic network for drug discovery",
+   "publication_id": "http://www.wikidata.org/entity/Q27144251"
+  },
+  {
+   "publication": "A community-driven global reconstruction of human metabolism.",
+   "publication_id": "http://www.wikidata.org/entity/Q29614690"
+  },
+  {
+   "publication": "Metabolomics, machine learning and modelling: towards an understanding of the language of cells.",
+   "publication_id": "http://www.wikidata.org/entity/Q30350782"
+  },
+  {
+   "publication": "The virtue of innovation: innovation through the lenses of biological evolution.",
+   "publication_id": "http://www.wikidata.org/entity/Q30369734"
+  },
+  {
+   "publication": "Quantification of microbial productivity via multi-angle light scattering and supervised learning.",
+   "publication_id": "http://www.wikidata.org/entity/Q30629150"
+  },
+  {
+   "publication": "Metabolomics and machine learning: explanatory analysis of complex metabolome data using genetic programming to produce simple, robust rules.",
+   "publication_id": "http://www.wikidata.org/entity/Q30724407"
+  },
+  {
+   "publication": "A systematic approach to modeling, capturing, and disseminating proteomics experimental data.",
+   "publication_id": "http://www.wikidata.org/entity/Q30773113"
+  },
+  {
+   "publication": "The cytochrome P450 complement (CYPome) of Streptomyces coelicolor A3(2).",
+   "publication_id": "http://www.wikidata.org/entity/Q30831311"
+  },
+  {
+   "publication": "Sample preparation in matrix-assisted laser desorption/ionization mass spectrometry of whole bacterial cells and the detection of high mass (>20 kDa) proteins.",
+   "publication_id": "http://www.wikidata.org/entity/Q30835771"
+  },
+  {
+   "publication": "'Metabolite-likeness' as a criterion in the design and selection of pharmaceutical drug libraries.",
+   "publication_id": "http://www.wikidata.org/entity/Q30854803"
+  },
+  {
+   "publication": "Metabolomics by numbers: acquiring and understanding global metabolite data.",
+   "publication_id": "http://www.wikidata.org/entity/Q30925430"
+  },
+  {
+   "publication": "Computational cluster validation in post-genomic data analysis.",
+   "publication_id": "http://www.wikidata.org/entity/Q30990574"
+  },
+  {
+   "publication": "Flow-injection electrospray ionization mass spectrometry of crude cell extracts for high-throughput bacterial identification.",
+   "publication_id": "http://www.wikidata.org/entity/Q31038092"
+  },
+  {
+   "publication": "MeMo: a hybrid SQL/XML approach to metabolomic data management for functional genomics.",
+   "publication_id": "http://www.wikidata.org/entity/Q31043404"
+  },
+  {
+   "publication": "Primary and secondary metabolism, and post-translational protein modifications, as portrayed by proteomic analysis of Streptomyces coelicolor.",
+   "publication_id": "http://www.wikidata.org/entity/Q31117973"
+  },
+  {
+   "publication": "Genomic computing. Explanatory analysis of plant expression profiling data using machine learning.",
+   "publication_id": "http://www.wikidata.org/entity/Q31932961"
+  },
+  {
+   "publication": "Metabolic control analysis and engineering of the yeast sterol biosynthetic pathway.",
+   "publication_id": "http://www.wikidata.org/entity/Q33184425"
+  },
+  {
+   "publication": "Automated manipulation of systems biology models using libSBML within Taverna workflows.",
+   "publication_id": "http://www.wikidata.org/entity/Q33308464"
+  },
+  {
+   "publication": "Facilitating the development of controlled vocabularies for metabolomics technologies with text mining.",
+   "publication_id": "http://www.wikidata.org/entity/Q33332018"
+  },
+  {
+   "publication": "Functional genomics via metabolic footprinting: monitoring metabolite secretion by Escherichia coli tryptophan metabolism mutants using FT-IR and direct injection electrospray mass spectrometry.",
+   "publication_id": "http://www.wikidata.org/entity/Q33352068"
+  },
+  {
+   "publication": "Mass spectrometry tools and metabolite-specific databases for molecular identification in metabolomics.",
+   "publication_id": "http://www.wikidata.org/entity/Q33475674"
+  },
+  {
+   "publication": "Information management for high content live cell imaging.",
+   "publication_id": "http://www.wikidata.org/entity/Q33484952"
+  },
+  {
+   "publication": "Interactions among oscillatory pathways in NF-kappa B signaling.",
+   "publication_id": "http://www.wikidata.org/entity/Q33811270"
+  },
+  {
+   "publication": "Predicting the points of interaction of small molecules in the NF-\u03baB pathway.",
+   "publication_id": "http://www.wikidata.org/entity/Q33826816"
+  },
+  {
+   "publication": "Genetic programming:\u2009 a novel method for the quantitative analysis of pyrolysis mass spectral data.",
+   "publication_id": "http://www.wikidata.org/entity/Q33921827"
+  },
+  {
+   "publication": "Bacterial dormancy and culturability: the role of autocrine growth factors.",
+   "publication_id": "http://www.wikidata.org/entity/Q33941499"
+  },
+  {
+   "publication": "Discrimination of modes of action of antifungal substances by use of metabolic footprinting.",
+   "publication_id": "http://www.wikidata.org/entity/Q33982082"
+  },
+  {
+   "publication": "Synergistic control of oscillations in the NF-kappaB signalling pathway.",
+   "publication_id": "http://www.wikidata.org/entity/Q33999638"
+  },
+  {
+   "publication": "Sensitivity analysis of parameters controlling oscillatory signalling in the NF-kappaB pathway: the roles of IKK and IkappaBalpha.",
+   "publication_id": "http://www.wikidata.org/entity/Q34000346"
+  },
+  {
+   "publication": "Microbes and Alzheimer's Disease.",
+   "publication_id": "http://www.wikidata.org/entity/Q34046427"
+  },
+  {
+   "publication": "Rapid and quantitative detection of the microbial spoilage of meat by fourier transform infrared spectroscopy and machine learning.",
+   "publication_id": "http://www.wikidata.org/entity/Q34053797"
+  },
+  {
+   "publication": "Hierarchical metabolomics demonstrates substantial compositional similarity between genetically modified and conventional potato crops.",
+   "publication_id": "http://www.wikidata.org/entity/Q34063497"
+  },
+  {
+   "publication": "Systematic functional analysis of the yeast genome.",
+   "publication_id": "http://www.wikidata.org/entity/Q34067467"
+  },
+  {
+   "publication": "Event extraction for systems biology by text mining the literature.",
+   "publication_id": "http://www.wikidata.org/entity/Q34122157"
+  },
+  {
+   "publication": "Evidence that multiple defects in lipid regulation occur before hyperglycemia during the prodrome of type-2 diabetes.",
+   "publication_id": "http://www.wikidata.org/entity/Q34128364"
+  },
+  {
+   "publication": "Enzyme kinetics informatics: from instrument to browser.",
+   "publication_id": "http://www.wikidata.org/entity/Q34133108"
+  },
+  {
+   "publication": "Automated workflows for accurate mass-based putative metabolite identification in LC/MS-derived metabolomic datasets.",
+   "publication_id": "http://www.wikidata.org/entity/Q34164910"
+  },
+  {
+   "publication": "The passive electrical properties of biological systems: their significance in physiology, biophysics and biotechnology.",
+   "publication_id": "http://www.wikidata.org/entity/Q34173531"
+  },
+  {
+   "publication": "Pharmaceutical drug transport: the issues and the implications that it is essentially carrier-mediated only.",
+   "publication_id": "http://www.wikidata.org/entity/Q34188324"
+  },
+  {
+   "publication": "The SuBliMinaL Toolbox: automating steps in the reconstruction of metabolic networks.",
+   "publication_id": "http://www.wikidata.org/entity/Q34233757"
+  },
+  {
+   "publication": "The genetic control of growth rate: a systems biology study in yeast.",
+   "publication_id": "http://www.wikidata.org/entity/Q34246940"
+  },
+  {
+   "publication": "Extracting semantically enriched events from biomedical literature.",
+   "publication_id": "http://www.wikidata.org/entity/Q34278985"
+  },
+  {
+   "publication": "Improving metabolic flux predictions using absolute gene expression data.",
+   "publication_id": "http://www.wikidata.org/entity/Q34309177"
+  },
+  {
+   "publication": "The promiscuous binding of pharmaceutical drugs and their transporter-mediated uptake into cells: what we (need to) know and how we can do so.",
+   "publication_id": "http://www.wikidata.org/entity/Q34315247"
+  },
+  {
+   "publication": "Selective detection of proteins in mixtures using electrospray ionization mass spectrometry: influence of instrumental settings and implications for proteomics.",
+   "publication_id": "http://www.wikidata.org/entity/Q34349136"
+  },
+  {
+   "publication": "Metabolic footprinting and systems biology: the medium is the message.",
+   "publication_id": "http://www.wikidata.org/entity/Q34426189"
+  },
+  {
+   "publication": "The dormant blood microbiome in chronic, inflammatory diseases.",
+   "publication_id": "http://www.wikidata.org/entity/Q34474989"
+  },
+  {
+   "publication": "Non-linear optimization of biochemical pathways: applications to metabolic engineering and parameter estimation.",
+   "publication_id": "http://www.wikidata.org/entity/Q34490423"
+  },
+  {
+   "publication": "Metabolomics and systems biology: making sense of the soup.",
+   "publication_id": "http://www.wikidata.org/entity/Q34548620"
+  },
+  {
+   "publication": "Multiobjective optimization in bioinformatics and computational biology.",
+   "publication_id": "http://www.wikidata.org/entity/Q34624817"
+  },
+  {
+   "publication": "Finding novel pharmaceuticals in the systems biology era using multiple effective drug targets, phenotypic screening and knowledge of transporters: where drug discovery went wrong and how to fix it.",
+   "publication_id": "http://www.wikidata.org/entity/Q34646772"
+  },
+  {
+   "publication": "An analysis of a 'community-driven' reconstruction of the human metabolic network.",
+   "publication_id": "http://www.wikidata.org/entity/Q34867072"
+  },
+  {
+   "publication": "Development of a robust and repeatable UPLC-MS method for the long-term metabolomic study of human serum.",
+   "publication_id": "http://www.wikidata.org/entity/Q34930194"
+  },
+  {
+   "publication": "Implications of the dominant role of transporters in drug uptake by cells.",
+   "publication_id": "http://www.wikidata.org/entity/Q34939329"
+  },
+  {
+   "publication": "Pulsatile stimulation determines timing and specificity of NF-kappaB-dependent transcription.",
+   "publication_id": "http://www.wikidata.org/entity/Q34975036"
+  },
+  {
+   "publication": "Genotype-phenotype mapping: genes as computer programs.",
+   "publication_id": "http://www.wikidata.org/entity/Q34987779"
+  },
+  {
+   "publication": "Journal club. A systems biologist ponders how disparate ideas can sometimes come together beautifully.",
+   "publication_id": "http://www.wikidata.org/entity/Q34996104"
+  },
+  {
+   "publication": "Mining metabolites: extracting the yeast metabolome from the literature.",
+   "publication_id": "http://www.wikidata.org/entity/Q35036794"
+  },
+  {
+   "publication": "GeneGenie: optimized oligomer design for directed evolution.",
+   "publication_id": "http://www.wikidata.org/entity/Q35159953"
+  },
+  {
+   "publication": "Poorly controlled type 2 diabetes is accompanied by significant morphological and ultrastructural changes in both erythrocytes and in thrombin-generated fibrin: implications for diagnostics.",
+   "publication_id": "http://www.wikidata.org/entity/Q35189544"
+  },
+  {
+   "publication": "SpeedyGenes: an improved gene synthesis method for the efficient production of error-corrected, synthetic protein libraries for directed evolution.",
+   "publication_id": "http://www.wikidata.org/entity/Q35222433"
+  },
+  {
+   "publication": "New materials and technology for cell immobilization.",
+   "publication_id": "http://www.wikidata.org/entity/Q35293686"
+  },
+  {
+   "publication": "Adoption of the transiently non-culturable state--a bacterial survival strategy?",
+   "publication_id": "http://www.wikidata.org/entity/Q35560166"
+  },
+  {
+   "publication": "On the translocation of bacteria and their lipopolysaccharides between blood and peripheral locations in chronic, inflammatory diseases: the central roles of LPS and LPS-induced cell death.",
+   "publication_id": "http://www.wikidata.org/entity/Q35765830"
+  },
+  {
+   "publication": "Viscoelastic and ultrastructural characteristics of whole blood and plasma in Alzheimer-type dementia, and the possible role of bacterial lipopolysaccharides (LPS).",
+   "publication_id": "http://www.wikidata.org/entity/Q36546334"
+  },
+  {
+   "publication": "Quantitative approaches to the analysis of the control and regulation of microbial metabolism.",
+   "publication_id": "http://www.wikidata.org/entity/Q36548763"
+  },
+  {
+   "publication": "Text mining and its potential applications in systems biology.",
+   "publication_id": "http://www.wikidata.org/entity/Q36625511"
+  },
+  {
+   "publication": "Systems biology, metabolic modelling and metabolomics in drug discovery and development.",
+   "publication_id": "http://www.wikidata.org/entity/Q36665669"
+  },
+  {
+   "publication": "Quantifying heterogeneity: flow cytometry of bacterial cultures.",
+   "publication_id": "http://www.wikidata.org/entity/Q36718731"
+  },
+  {
+   "publication": "Correction of mass spectral drift using artificial neural networks.",
+   "publication_id": "http://www.wikidata.org/entity/Q36845837"
+  },
+  {
+   "publication": "High-throughput metabolic fingerprinting of legume silage fermentations via Fourier transform infrared spectroscopy and chemometrics.",
+   "publication_id": "http://www.wikidata.org/entity/Q36931919"
+  },
+  {
+   "publication": "Carrier-mediated cellular uptake of pharmaceutical drugs: an exception or the rule?",
+   "publication_id": "http://www.wikidata.org/entity/Q37097848"
+  },
+  {
+   "publication": "A model of yeast glycolysis based on a consistent kinetic characterisation of all its enzymes.",
+   "publication_id": "http://www.wikidata.org/entity/Q37150397"
+  },
+  {
+   "publication": "Acute induction of anomalous and amyloidogenic blood clotting by molecular amplification of highly substoichiometric levels of bacterial lipopolysaccharide.",
+   "publication_id": "http://www.wikidata.org/entity/Q37304424"
+  },
+  {
+   "publication": "High ferritin levels have major effects on the morphology of erythrocytes in Alzheimer's disease.",
+   "publication_id": "http://www.wikidata.org/entity/Q37369954"
+  },
+  {
+   "publication": "Profound morphological changes in the erythrocytes and fibrin networks of patients with hemochromatosis or with hyperferritinemia, and their normalization by iron chelators and other agents.",
+   "publication_id": "http://www.wikidata.org/entity/Q37458594"
+  }
+ ]
+}

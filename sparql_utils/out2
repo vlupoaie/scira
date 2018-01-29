@@ -1,0 +1,35 @@
+{
+ "author": [],
+ "cites": [],
+ "cited_by": [],
+ "publication_date": [
+  {
+   "date": "2017-02-09T00:00:00Z"
+  }
+ ],
+ "published_in": [
+  {
+   "journal": "YouTube",
+   "journal_id": "http://www.wikidata.org/entity/Q866"
+  },
+  {
+   "journal": "Wikimedia Commons",
+   "journal_id": "http://www.wikidata.org/entity/Q565"
+  }
+ ],
+ "language": [],
+ "main_subject": [
+  {
+   "main_subject": "Wikidata",
+   "main_subject_id": "http://www.wikidata.org/entity/Q2013"
+  }
+ ],
+ "resource": [
+  {
+   "resource": "https://commons.wikimedia.org/wiki/File:A_Gentle_Introduction_to_Wikidata_for_Absolute_Beginners_(including_non-techies!).webm"
+  },
+  {
+   "resource": "https://www.youtube.com/watch?v=eVrAx3AmUvA"
+  }
+ ]
+}

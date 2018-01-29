@@ -1,0 +1,315 @@
+{% extends 'hunting/base.html' %}
+
+{% load staticfiles %}
+{% load humanize %}
+
+{% block links %}
+    <link rel="stylesheet" href="{% static 'css/plugins.css' %}">
+    <link rel="stylesheet" href="{% static 'css/statistics.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themes/theme.bootstrap.css' %}">
+    <script src="{% static 'js/jquery.tablesorter.js' %}"></script>
+    <script src="{% static 'js/jquery.tablesorter.widgets.js' %}"></script>
+    <script src="{% static 'js/statistics.js' %}"></script>
+{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+        <!-- Plugins statistics accordion -->
+        <h2 class="plugins-title">Statistics for your plugins</h2>
+        <div class="panel-group" id="accordion">
+            {% for plugin, info in plugins %}
+                <div class="panel panel-default">
+                    <div class="panel-heading edit-plugin-heading" data-toggle="collapse" data-parent="#accordion"
+                         href="#collapse_{{ forloop.counter }}">
+                        <h4 class="panel-title edit-plugin-title">
+                            <a href="#collapse_{{ forloop.counter }}">{{ plugin.name }}</a>
+                        </h4>
+                    </div>
+                    <div id="collapse_{{ forloop.counter }}" class="panel-collapse collapse">
+                        <div class="panel-body" id="accordion_plugin_{{ forloop.counter }}">
+                            <div class="container-fluid">
+                                <div class="col-md-2">
+                                    <h4><label>Destination:</label></h4>
+                                </div>
+                                <div class="col-md-8">
+                                    <h4 style="width: 102.5%; margin-left: -2.5%;">
+                                        <small><b>{{ plugin.destination }}</b></small>
+                                    </h4>
+                                </div>
+                                <div class="col-md-2 styled-content-red">
+                                    <h4><label>Plugin is {% if plugin.is_active %}active{% else %}
+                                        inactive{% endif %}</label></h4>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="col-md-2">
+                                    <h4><label>Plugin filter:</label></h4>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4 style="width: 102%; margin-left: -2%;">
+                                        <small><b>{{ plugin.textual_rule }}</b></small>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="col-md-2">
+                                    <h4><label>Plugin token:</label></h4>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4 style="width: 102%; margin-left: -2%;">
+                                        <small><b>{{ plugin.token }}</b></small>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="col-md-2">
+                                    <h4><label>Filter meaning:</label></h4>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4 style="width: 102%; margin-left: -2%;">
+                                        <small><b>{{ info.meaning }}</b></small>
+                                    </h4>
+                                </div>
+                            </div>
+                            <hr>  # pana aici
+                            <div class="container-fluid">
+                                <div class="col-md-3">
+                                    <h4>
+                                        <label>Total matched:</label>&nbsp;&nbsp;
+                                        <label class="styled-content-red">{{ info.total_matched|intcomma }}</label>
+                                    </h4>
+                                </div>
+                                <div class="col-md-3 downloads-pill">
+                                    <h4 style="margin-left: 14%; width: 86%;">
+                                        <label>
+                                            <a data-toggle="collapse"
+                                               data-parent="#accordion_plugin_{{ forloop.counter }}"
+                                               href="#collapse_day_{{ forloop.counter }}">Last 24 hours:</a>
+                                        </label>&nbsp;&nbsp;
+                                        <label class="styled-content-red">{{ info.last_day_count|intcomma }}</label>
+                                    </h4>
+                                </div>
+                                <div class="col-md-3 downloads-pill">
+                                    <h4 style="margin-left: 7%; width: 93%;">
+                                        <label>
+                                            <a data-toggle="collapse"
+                                               data-parent="#accordion_plugin_{{ forloop.counter }}"
+                                               href="#collapse_seven_{{ forloop.counter }}">Last 7 days:</a>
+                                        </label>&nbsp;&nbsp;
+                                        <label class="styled-content-red">{{ info.seven_days_count|intcomma }}</label>
+                                    </h4>
+                                </div>
+                                <div class="col-md-3 downloads-pill">
+                                    <h4>
+                                        <label>
+                                            <a data-toggle="collapse"
+                                               data-parent="#accordion_plugin_{{ forloop.counter }}"
+                                               href="#collapse_thirty_{{ forloop.counter }}">Last 30 days:</a>
+                                        </label>&nbsp;&nbsp;
+                                        <label class="styled-content-red">{{ info.thirty_days_count|intcomma }}</label>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="container-fluid panel no-decoration-panel">
+                                <div class="container-fluid panel-collapse collapse"
+                                     id="collapse_day_{{ forloop.counter }}">
+                                    <hr>
+                                    <h3><label>Files matched in the last 24 hours</label></h3>
+                                    {% if not info.last_timestamp_1 %}
+                                        <h4 class="styled-content-red">
+                                            <label>No files matched in the last 24 hours!</label>
+                                        </h4>
+                                    {% else %}
+                                        <table class="table table-hover table-condensed table-bordered tablesorter">
+                                            <thead>
+                                            <tr>
+                                                <th style="width: 19%;">File MD5</th>
+                                                <th style="width: 30%;">File SHA256</th>
+                                                <th style="width: 8%;">Size</th>
+                                                <th style="width: 8%;">Positives</th>
+                                                <th style="width: 20%;">Type</th>
+                                                <th style="width: 15%;">Date & Time</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for hash_info in info.last_day_items %}
+                                                <tr>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.md5 }}</small>
+                                                    </th>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.sha256 }}</small>
+                                                    </th>
+                                                    <td>
+                                                        <small>{{ hash_info.size }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.positives }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.type }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.timestamp }}</small>
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <div class="container-fluid">
+                                            <div class="col-md-2">
+                                                <button type="button" class="btn btn-default on-focus-info"
+                                                        onclick="appendLines(this, {{ plugin.id }}, {{ info.last_timestamp_1 }}, 1)">
+                                                    Show more files
+                                                </button>
+                                            </div>
+                                            <div class="col-md-7"></div>
+                                            <div class="col-md-3">
+                                                <h4>
+                                                    <label>Total items shown: </label>
+                                                    <label class="show_display">{{ info.last_day_count_shown }}</label>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                                <div class="container-fluid panel-collapse collapse"
+                                     id="collapse_seven_{{ forloop.counter }}">
+                                    <hr>
+                                    <h3><label>Files matched in the last 7 days</label></h3>
+                                    {% if not info.last_timestamp_7 %}
+                                        <h4 class="styled-content-red">
+                                            <label>No files matched in the last 7 days!</label>
+                                        </h4>
+                                    {% else %}
+                                        <table class="table table-hover table-condensed table-bordered tablesorter">
+                                            <thead>
+                                            <tr>
+                                                <th style="width: 19%;">File MD5</th>
+                                                <th style="width: 30%;">File SHA256</th>
+                                                <th style="width: 8%;">Size</th>
+                                                <th style="width: 8%;">Positives</th>
+                                                <th style="width: 20%;">Type</th>
+                                                <th style="width: 15%;">Date & Time</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for hash_info in info.seven_days_items %}
+                                                <tr>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.md5 }}</small>
+                                                    </th>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.sha256 }}</small>
+                                                    </th>
+                                                    <td>
+                                                        <small>{{ hash_info.size }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.positives }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.type }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.timestamp }}</small>
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <div class="container-fluid">
+                                            <div class="col-md-2">
+                                                <button type="button" class="btn btn-default on-focus-info"
+                                                        onclick="appendLines(this, {{ plugin.id }}, {{ info.last_timestamp_7 }}, 2)">
+                                                    Show more files
+                                                </button>
+                                            </div>
+                                            <div class="col-md-7"></div>
+                                            <div class="col-md-3">
+                                                <h4>
+                                                    <label>Total items shown: </label>
+                                                    <label class="show_display">{{ info.seven_days_count_shown }}</label>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                                <div class="container-fluid panel-collapse collapse"
+                                     id="collapse_thirty_{{ forloop.counter }}">
+                                    <hr>
+                                    <h3><label>Files downloaded in the last 30 days</label></h3>
+                                    {% if not info.last_timestamp_30 %}
+                                        <h4 class="styled-content-red">
+                                            <label>No files downloaded in the last 30 days!</label>
+                                        </h4>
+                                    {% else %}
+                                        <table class="table table-hover table-condensed table-bordered tablesorter">
+                                            <thead>
+                                            <tr>
+                                                <th style="width: 19%;">File MD5</th>
+                                                <th style="width: 30%;">File SHA256</th>
+                                                <th style="width: 8%;">Size</th>
+                                                <th style="width: 8%;">Positives</th>
+                                                <th style="width: 20%;">Type</th>
+                                                <th style="width: 15%;">Date & Time</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            {% for hash_info in info.thirty_days_items %}
+                                                <tr>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.md5 }}</small>
+                                                    </th>
+                                                    <th scope="row">
+                                                        <small>{{ hash_info.sha256 }}</small>
+                                                    </th>
+                                                    <td>
+                                                        <small>{{ hash_info.size }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.positives }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.type }}</small>
+                                                    </td>
+                                                    <td>
+                                                        <small>{{ hash_info.timestamp }}</small>
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <div class="container-fluid">
+                                            <div class="col-md-2">
+                                                <button type="button" class="btn btn-default on-focus-info"
+                                                        onclick="appendLines(this, {{ plugin.id }}, {{ info.last_timestamp_30 }}, 3)">
+                                                    Show more files
+                                                </button>
+                                            </div>
+                                            <div class="col-md-7"></div>
+                                            <div class="col-md-3">
+                                                <h4>
+                                                    <label>Total items shown: </label>
+                                                    <label class="show_display">{{ info.thirty_days_count_shown }}</label>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        {% if not plugins %}
+            <h3 class="styled-message-red">You have no plugins !</h3>
+        {% endif %}
+        <!-- End of plugins statistics accordion -->
+    </div>
+{% endblock %}
