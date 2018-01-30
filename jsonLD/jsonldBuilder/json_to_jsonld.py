@@ -8,10 +8,10 @@ attributes_mapping = {"author_list": ["author", {"@type":"Person"}],
 					  "cites_list": ["citation", {"@type":"CreativeWork"}],
 					  "publication": "name",
 					  "publication_id": "identifier",
-					  "cited_by": ["subjectOf", {"@type":"CreativeWork"}],
-					  "publication_date": ["datePublished", {"@type":"Date"}],
+					  "cited_by_list": ["subjectOf", {"@type":"CreativeWork"}],
+					  "publication_date_list": ["datePublished", {"@type":"Date"}],
 					  "date": "dateCreated",
-					  "published_in": ["isPartOf", {"@type":"CreativeWorkSeries"}],
+					  "published_in_list": ["isPartOf", {"@type":"CreativeWorkSeries"}],
 					  "journal": "name",
 					  "journal_id": "identifier",
 					  "language_list": ["inLanguage", {"@type":"Language"}],
@@ -22,10 +22,8 @@ attributes_mapping = {"author_list": ["author", {"@type":"Person"}],
 					  "main_subject_id": "identifier",
 					  "resource_list": ["associatedMedia", {"@type":"MediaObject"}],
 					  "resource": "contentUrl",
-					  "id_publication": "identifier",
-					  "name_publication": "name",
 					  "publication_list": ["publication", {"@type":"CreativeWork"}],
-					  "learningResourceType": "learningResourceType"
+					  "resource_type": "learningResourceType"
 					  }
 
 annotations_begin = {"@context": "http://schema.org",
@@ -70,7 +68,7 @@ def buildJSONLD(content):
 
 
 def main():
-	f = open("json_input", "r")
+	f = open("json_input3", "r")
 	content = dict()
 	content["results"] = list()
 	content["results"].append(json.loads(f.read()))		
