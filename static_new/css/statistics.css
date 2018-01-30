@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'm_1mregular';
+    src: url('../fonts/mplus-1m-regular-webfont.eot');
+    src: url('../fonts/mplus-1m-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mplus-1m-regular-webfont.woff') format('woff'),
+         url('../fonts/mplus-1m-regular-webfont.ttf') format('truetype'),
+         url('../fonts/mplus-1m-regular-webfont.svg#m_1mregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.styled-content-red {
+    color: #7c2117;
+}
+
+.downloads-pill a:hover {
+    color: #83b0e4;
+}
+
+.downloads-pill a {
+    text-decoration: none;
+    color: black;
+}
+
+.no-decoration-panel {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
+
+table {
+    font-family: 'm_1mregular';
+}
