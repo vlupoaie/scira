@@ -1,0 +1,105 @@
+{
+ "@context": "http://schema.org",
+ "@type": "CreativeWork",
+ "identifier": "http://www.wikidata.org/entity/Q413372112",
+ "name": "Nume"
+
+ "author": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+   				"@type": "Person",
+   				"givenName": "Claes Gustafsson",
+   				"identifier": "http://www.wikidata.org/entity/Q5777626"
+   			}
+  }],
+
+ "citation": [
+  {
+  	"@type": "ListItem",
+  	"item": {   	
+   				"@type": "CreativeWork",
+   				"name": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences.",
+   				"identifier": "http://www.wikidata.org/entity/Q41337873"
+   			}
+  },
+  {
+  	"@type": "ListItem",
+  	"item": {
+   				"@type": "CreativeWork",
+   				"name": "Quantitative sequence-activity models (QSAM)--tools for sequence design.",
+   				"identifier": "http://www.wikidata.org/entity/Q40405161"
+   			}
+  }
+ ],
+
+ "subjectOf": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+  				"@type": "CreativeWork",
+   				"name": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
+   				"identifier": "http://www.wikidata.org/entity/Q38287400"
+   			}
+  },
+  {
+  	"@type": "ListItem",
+  	"item": {  	
+  				"@type": "CreativeWork",
+  				"name": "Directed enzyme evolution: climbing fitness peaks one amino acid at a time.",
+   				"identifier": "http://www.wikidata.org/entity/Q37244268"
+   			}
+  }
+ ],
+
+ "datePublished": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+  				"@type": "Date",
+    			"dateCreated": "2007-01-01T00:00:00Z"
+    		}
+  }
+ ],
+
+ "isPartOf": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+  				"@type": "CreativeWorkSeries",
+    			"name": "BMC Biotechnology",
+    			"identifier": "http://www.wikidata.org/entity/Q15753225"
+    		}
+  }
+ ],
+ "inLanguage": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+  				"@type": "Language",
+   				"name": "English",
+   				"identifier": "http://www.wikidata.org/entity/Q1860"
+   			}
+  }
+ ],
+ "keywords": [
+  {
+  	"@type": "ListItem",
+  	"item": {
+  				"@type": "Text",
+   				"name": "machine learning",
+   				"identifier": "http://www.wikidata.org/entity/Q2539"
+   			}
+  }
+ ],
+ "associatedMedia":[
+ {
+ 	"@type": "ListItem",
+ 	"item": {
+ 				"@type": "MediaObject",
+ 				"contentUrl": "url"
+
+ 			}
+ }
+ ]
+}

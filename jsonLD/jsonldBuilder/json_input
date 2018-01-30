@@ -1,0 +1,60 @@
+{
+ "id_publication": "bla",
+ "name_publication": "bla2",
+ "author_list": [
+  {
+   "author": "Claes Gustafsson",
+   "author_id": "http://www.wikidata.org/entity/Q5777626"
+  }
+ ],
+ "cites_list": [
+  {
+   "publication": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences.",
+   "publication_id": "http://www.wikidata.org/entity/Q41337873"
+  },
+  {
+   "publication": "Quantitative sequence-activity models (QSAM)--tools for sequence design.",
+   "publication_id": "http://www.wikidata.org/entity/Q40405161"
+  }  
+ ],
+ "cited_by": [
+  {
+   "publication": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
+   "publication_id": "http://www.wikidata.org/entity/Q38287400"
+  },
+  {
+   "publication": "Directed enzyme evolution: climbing fitness peaks one amino acid at a time.",
+   "publication_id": "http://www.wikidata.org/entity/Q37244268"
+  }
+ ],
+ "publication_date": [
+  {
+   "date": "2007-01-01T00:00:00Z"
+  }
+ ],
+ "published_in": [
+  {
+   "journal": "BMC Biotechnology",
+   "journal_id": "http://www.wikidata.org/entity/Q15753225"
+  }
+ ],
+ "language_list": [
+  {
+   "language": "English",
+   "language_id": "http://www.wikidata.org/entity/Q1860"
+  }
+ ],
+ "main_subject_list": [
+  {
+   "main_subject": "machine learning",
+   "main_subject_id": "http://www.wikidata.org/entity/Q2539"
+  }
+ ],
+ "resource_list": [
+ {
+    "resource": "blabla"
+ },
+ {
+    "resource": "blabla2"
+ }]
+}

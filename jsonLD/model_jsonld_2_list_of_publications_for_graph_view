@@ -1,0 +1,22 @@
+{
+ "@context": "http://schema.org",
+ "@type": "CreativeWork",
+
+ "publication": [
+  {
+    "@type": "ListItem",
+    "item": {
+              "@type": "CreativeWork",
+              "name": "Differentiation of Phytophthora infestans sporangia from other airborne biological particles by flow cytometry.",
+              "identifier": "http://www.wikidata.org/entity/Q5777626"
+            }
+  },
+  {
+   "@type": "ListItem",
+    "item": {
+              "@type": "CreativeWork",
+              "name": "Absolute quantification of the glycolytic pathway in yeast: deployment of a complete QconCAT approach.",
+              "identifier": "http://www.wikidata.org/entity/Q5777626"
+            }
+  }]
+}
