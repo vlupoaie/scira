@@ -3,7 +3,7 @@ import os
 import sys
 
 attributes_mapping = {"author_list": ["author", {"@type":"Person"}], 
-					  "author": "givenName",
+					  "author": "name",
 					  "author_id": "identifier",
 					  "cites_list": ["citation", {"@type":"CreativeWork"}],
 					  "publication": "name",
