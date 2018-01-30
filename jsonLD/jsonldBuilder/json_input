@@ -9,16 +9,19 @@
  ],
  "cites_list": [
   {
+   "learningResourceType": "blabla",
    "publication": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences.",
    "publication_id": "http://www.wikidata.org/entity/Q41337873"
   },
   {
+   "learningResourceType": "blabla",
    "publication": "Quantitative sequence-activity models (QSAM)--tools for sequence design.",
    "publication_id": "http://www.wikidata.org/entity/Q40405161"
   }  
  ],
  "cited_by": [
   {
+   "learningResourceType": "blabla",
    "publication": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
    "publication_id": "http://www.wikidata.org/entity/Q38287400"
   },

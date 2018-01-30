@@ -1,107 +1,114 @@
 {
-    "citation": [
+    "results": [
         {
-            "@type": "ListItem",
-            "item": {
-                "@type": "CreativeWork",
-                "identifier": "http://www.wikidata.org/entity/Q41337873",
-                "name": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences."
-            }
-        },
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "CreativeWork",
-                "identifier": "http://www.wikidata.org/entity/Q40405161",
-                "name": "Quantitative sequence-activity models (QSAM)--tools for sequence design."
-            }
+            "@type": "CreativeWork",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "givenName": "Claes Gustafsson",
+                        "identifier": "http://www.wikidata.org/entity/Q5777626"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "learningResourceType": "blabla",
+                        "name": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
+                        "identifier": "http://www.wikidata.org/entity/Q38287400"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Directed enzyme evolution: climbing fitness peaks one amino acid at a time.",
+                        "identifier": "http://www.wikidata.org/entity/Q37244268"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "dateCreated": "2007-01-01T00:00:00Z",
+                        "@type": "Date"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "name": "bla2",
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "learningResourceType": "blabla",
+                        "name": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q41337873"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "learningResourceType": "blabla",
+                        "name": "Quantitative sequence-activity models (QSAM)--tools for sequence design.",
+                        "identifier": "http://www.wikidata.org/entity/Q40405161"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Biotechnology",
+                        "identifier": "http://www.wikidata.org/entity/Q15753225"
+                    }
+                }
+            ],
+            "associatedMedia": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "blabla"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "blabla2"
+                    }
+                }
+            ],
+            "@context": "http://schema.org",
+            "identifier": "bla"
         }
-    ],
-    "identifier": "bla",
-    "author": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "Person",
-                "identifier": "http://www.wikidata.org/entity/Q5777626",
-                "givenName": "Claes Gustafsson"
-            }
-        }
-    ],
-    "associatedMedia": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "MediaObject",
-                "contentUrl": "blabla"
-            }
-        },
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "MediaObject",
-                "contentUrl": "blabla2"
-            }
-        }
-    ],
-    "keywords": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "Text",
-                "identifier": "http://www.wikidata.org/entity/Q2539",
-                "name": "machine learning"
-            }
-        }
-    ],
-    "name": "bla2",
-    "isPartOf": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "CreativeWorkSeries",
-                "identifier": "http://www.wikidata.org/entity/Q15753225",
-                "name": "BMC Biotechnology"
-            }
-        }
-    ],
-    "inLanguage": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "Language",
-                "identifier": "http://www.wikidata.org/entity/Q1860",
-                "name": "English"
-            }
-        }
-    ],
-    "subjectOf": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "CreativeWork",
-                "identifier": "http://www.wikidata.org/entity/Q38287400",
-                "name": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently."
-            }
-        },
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "CreativeWork",
-                "identifier": "http://www.wikidata.org/entity/Q37244268",
-                "name": "Directed enzyme evolution: climbing fitness peaks one amino acid at a time."
-            }
-        }
-    ],
-    "datePublished": [
-        {
-            "@type": "ListItem",
-            "item": {
-                "@type": "Date",
-                "dateCreated": "2007-01-01T00:00:00Z"
-            }
-        }
-    ],
-    "@type": "CreativeWork",
-    "@context": "http://schema.org"
+    ]
 }
