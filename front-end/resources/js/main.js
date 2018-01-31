@@ -1,6 +1,6 @@
 $("#searchButton").click(function (e) {
-
-    var baseUrl = "file:///home/ronesim/Projects/scira-front/index.html";
+                                                 
+    var baseUrl = "file:///D:/Facultate-general/scira/scira/front-end/index.html";
 
     var simpleSearch = document.getElementById("simpleSearch").value;
     var author = document.getElementById("author").value;
