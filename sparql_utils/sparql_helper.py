@@ -1,10 +1,43 @@
 import os
+import time
 import pickle
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from functools import wraps
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 from config.settings import DEFAULT_ENDPOINT, DEFAULT_PREFIXES, DISCOVER_PROPERTY, PROPERTIES, REQUIRED_PAPER_INFO, \
-    PUBLICATION_TYPES, DISCOVER_PUBLICATION, RETURNS_PUBLICATIONS, CACHE_LOCATION, SIMPLE_SEARCH
+    PUBLICATION_TYPES, DISCOVER_PUBLICATION, RETURNS_PUBLICATIONS, CACHE_LOCATION, SIMPLE_SEARCH, ATTRIBUTE_MAPPING, \
+    ANNOTATIONS_BEGIN, ANNOTATIONS_ITEM_LIST
+
+
+def _annotate_json_ld(func):
+    @wraps(func)
+    def wrapper(self, *args, **kwargs):
+        start = time.time()
+        content = func(self, *args, **kwargs)
+        print('Query took: {:.3f} seconds'.format(time.time() - start))
+        json_ld_results = {"results": list()}
+        for json_to_convert in content["results"]:
+            json_ld = {"@context": ANNOTATIONS_BEGIN["@context"],
+                       "@type": ANNOTATIONS_BEGIN["@type"]}
+            for key in json_to_convert:
+                values = ATTRIBUTE_MAPPING[key]
+                if isinstance(values, list):
+                    name_key_json_ld = values[0]
+                    type_objects = values[1]["@type"]
+                    json_ld[name_key_json_ld] = list()
+                    list_json = json_to_convert[key]
+                    for elem in list_json:
+                        d = {"@type": ANNOTATIONS_ITEM_LIST["@type"],
+                             "item": {'@type': type_objects}}
+                        for kk in elem:
+                            d["item"][ATTRIBUTE_MAPPING[kk]] = elem[kk]
+                        json_ld[name_key_json_ld].append(d)
+                else:
+                    json_ld[values] = json_to_convert[key]
+            json_ld_results["results"].append(json_ld)
+        return json_ld_results
+    return wrapper
 
 
 class SparqlQuery:
@@ -115,6 +148,7 @@ class SparqlHelper:
             result = sparql_query.execute()[0]
             self._publication_cache[item] = result['publication']['value']
 
+    @_annotate_json_ld
     def publication_info(self, publication_id):
         # build and execute query
         sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
@@ -146,6 +180,7 @@ class SparqlHelper:
 
         parsed_results['publication'] = results[0]['this_label']['value']
         parsed_results['publication_id'] = publication_id
+        parsed_results['resource_type'] = results[0]['type_label']['value']
         parsed_results['author_list'] = []
         parsed_results['cites_list'] = []
         parsed_results['cited_by_list'] = []
@@ -212,6 +247,7 @@ class SparqlHelper:
                     parsed_results['resource_list'].append({'resource': value})
         return {'results': [parsed_results]}
 
+    @_annotate_json_ld
     def author_info(self, author_id):
         # build and execute query
         sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
@@ -240,6 +276,7 @@ class SparqlHelper:
         })
         return {'results': [parsed_results]}
 
+    @_annotate_json_ld
     def journal_info(self, journal_id):
         # build and execute query
         sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
