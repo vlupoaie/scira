@@ -6,6 +6,8 @@ from sparql_utils.sparql_helper_dblp import SparqlHelperDblp
 
 
 def publication_by_id(request, publication_id):
+    if not publication_id.startswith('http://') and publication_id.startswith('http:/'):
+        publication_id = publication_id.replace('http:/', 'http://')
     if request.META.get('X-Server-Choice') == 'dblp':
         helper = SparqlHelperDblp()
     else:
