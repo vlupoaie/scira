@@ -83,7 +83,6 @@ SUBJECT_SEARCH = r'''
 ?publication_subject rdfs:label ?subject_label .
 filter(regex(?subject_label, '{subjects}', 'i'))'''
 
-
 ##################
 # JSON-LD settings
 ##################
