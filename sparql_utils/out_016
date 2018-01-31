@@ -1,0 +1,3152 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Successful approaches to teaching introductory computer science courses with python",
+            "identifier": "http://www.wikidata.org/entity/Q29305220",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mark Guzdial"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bradley Miller"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "David Ranum"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "John Zelle"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "teaching",
+                        "identifier": "http://www.wikidata.org/entity/Q28545"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Structural flexibility of the intestine of Burmese python in response to feeding",
+            "identifier": "http://www.wikidata.org/entity/Q28141474",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "J M Starck"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "K Beese"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Small intestine histomorphometry of beef cattle with divergent feed efficiency.",
+                        "identifier": "http://www.wikidata.org/entity/Q36688350",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Morphological, biochemical, transcriptional and epigenetic responses to fasting and refeeding in intestine of Xenopus laevis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36485576",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Atmospheric oxygen level affects growth trajectory, cardiopulmonary allometry and metabolic rate in the American alligator (Alligator mississippiensis)",
+                        "identifier": "http://www.wikidata.org/entity/Q28751938",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2001-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "The Journal of Experimental Biology",
+                        "identifier": "http://www.wikidata.org/entity/Q1355917"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Supersize me: remains of three white-tailed deer (Odocoileus virginianus) in an invasive Burmese python (Python molurus bivittatus) in Florida",
+            "identifier": "http://www.wikidata.org/entity/Q27949610",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert Reed"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Carla Dove"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Teresa Hsu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ray Snow"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Scott Boback"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Suzanne Peurach"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2016-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Bioinvasions records",
+                        "identifier": "http://www.wikidata.org/entity/Q27724066"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "white-tailed deer",
+                        "identifier": "http://www.wikidata.org/entity/Q215887"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "invasive species",
+                        "identifier": "http://www.wikidata.org/entity/Q183368"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Burmese python",
+                        "identifier": "http://www.wikidata.org/entity/Q2716137"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A high level interface to SCOP and ASTRAL implemented in python.",
+            "identifier": "http://www.wikidata.org/entity/Q25255977",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "James A Casbon"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mansoor A S Saqi"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Gavin E Crooks"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assessing sequence comparison methods with reliable structurally identified distant evolutionary relationships.",
+                        "identifier": "http://www.wikidata.org/entity/Q37379451",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Bio* toolkits--a brief overview",
+                        "identifier": "http://www.wikidata.org/entity/Q28201729",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The ASTRAL compendium for protein structure and sequence analysis",
+                        "identifier": "http://www.wikidata.org/entity/Q28139937",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SCOP: a structural classification of proteins database for the investigation of sequences and structures",
+                        "identifier": "http://www.wikidata.org/entity/Q27860689",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis of superfamily specific profile-profile recognition accuracy",
+                        "identifier": "http://www.wikidata.org/entity/Q24798738",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "S4: structure-based sequence alignments of SCOP superfamilies",
+                        "identifier": "http://www.wikidata.org/entity/Q24794167",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-01-10T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Bioalerts: a python library for the derivation of structural alerts from bioactivity and toxicity data sets",
+            "identifier": "http://www.wikidata.org/entity/Q27902325",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Isidro Cortes-Ciriano"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Discovering structural alerts for mutagenicity using stable emerging molecular patterns.",
+                        "identifier": "http://www.wikidata.org/entity/Q41076068",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemical structure, Salmonella mutagenicity and extent of carcinogenicity as indicators of genotoxic carcinogenesis among 222 chemicals tested in rodents by the U.S. NCI/NTP.",
+                        "identifier": "http://www.wikidata.org/entity/Q39627692",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A review of the electrophilic reaction chemistry involved in covalent protein binding relevant to toxicity.",
+                        "identifier": "http://www.wikidata.org/entity/Q37910202",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mechanisms of chemical carcinogenicity and mutagenicity: a review with implications for predictive toxicology.",
+                        "identifier": "http://www.wikidata.org/entity/Q37832235",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structure alerts for carcinogenicity, and the Salmonella assay system: a novel insight through the chemical relational databases technology.",
+                        "identifier": "http://www.wikidata.org/entity/Q37214157",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The use of structure-activity relationship analysis in the food contact notification program.",
+                        "identifier": "http://www.wikidata.org/entity/Q36151354",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "How diverse are diversity assessment methods? A comparative analysis and benchmarking of molecular descriptor space.",
+                        "identifier": "http://www.wikidata.org/entity/Q35056633",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The structural basis of the mutagenicity of chemicals in Salmonella typhimurium: the Gene-Tox data base.",
+                        "identifier": "http://www.wikidata.org/entity/Q34992729",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemical substructures that enrich for biological activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q33368550",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Computational derivation of structural alerts from large toxicology data sets.",
+                        "identifier": "http://www.wikidata.org/entity/Q30856975",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis of large screening data sets via adaptively grown phylogenetic-like trees.",
+                        "identifier": "http://www.wikidata.org/entity/Q30738569",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Extended-connectivity fingerprints",
+                        "identifier": "http://www.wikidata.org/entity/Q29616639",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prediction of the potency of mammalian cyclooxygenase inhibitors with ensemble proteochemometric modeling.",
+                        "identifier": "http://www.wikidata.org/entity/Q27902278",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open source molecular modeling",
+                        "identifier": "http://www.wikidata.org/entity/Q28598346",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2016-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Cheminformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q6294930"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Claims of potential expansion throughout the U.S. by invasive python species are contradicted by ecological niche models",
+            "identifier": "http://www.wikidata.org/entity/Q21144266",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Frank T Burbrink"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R Alexander Pyron"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Timothy J Guiher"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Applications of ecological niche modeling for species delimitation: a review and empirical evaluation using day geckos (Phelsuma) from Madagascar.",
+                        "identifier": "http://www.wikidata.org/entity/Q31139340",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Antimicrobial peptides in reptiles",
+                        "identifier": "http://www.wikidata.org/entity/Q28656399",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Challenges in identifying sites climatically matched to the native ranges of animal invaders",
+                        "identifier": "http://www.wikidata.org/entity/Q27968148",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Annotated checklist of the recent and extinct pythons (Serpentes, Pythonidae), with notes on nomenclature, taxonomy, and distribution",
+                        "identifier": "http://www.wikidata.org/entity/Q14405740",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Molecular genetic evidence for parthenogenesis in the Burmese python, Python molurus bivittatus",
+            "identifier": "http://www.wikidata.org/entity/Q28182906",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "E Bruins"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "J A J Breeuwer"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "T V M Groot"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pet snakes illegally marketed in Brazil: Climatic viability and establishment risk.",
+                        "identifier": "http://www.wikidata.org/entity/Q38368140",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Virgin birth in a hammerhead shark",
+                        "identifier": "http://www.wikidata.org/entity/Q24652870",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evidence for viable, non-clonal but fatherless Boa constrictors",
+                        "identifier": "http://www.wikidata.org/entity/Q24633756",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Facultative parthenogenesis discovered in wild vertebrates",
+                        "identifier": "http://www.wikidata.org/entity/Q24613335",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A successful crayfish invader is capable of facultative parthenogenesis: a novel reproductive mode in decapod crustaceans",
+                        "identifier": "http://www.wikidata.org/entity/Q21091036",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2003-02-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Heredity",
+                        "identifier": "http://www.wikidata.org/entity/Q2261546"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Brian: a simulator for spiking neural networks in python",
+            "identifier": "http://www.wikidata.org/entity/Q21129073",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Romain Brette"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dan Goodman"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phenomenological models of synaptic plasticity based on spike timing.",
+                        "identifier": "http://www.wikidata.org/entity/Q37168294",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interoperability of neuroscience modeling software: current status and future directions.",
+                        "identifier": "http://www.wikidata.org/entity/Q36943359",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The neural code between neocortical pyramidal neurons depends on neurotransmitter release probability.",
+                        "identifier": "http://www.wikidata.org/entity/Q35961345",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Competitive Hebbian learning through spike-timing-dependent synaptic plasticity.",
+                        "identifier": "http://www.wikidata.org/entity/Q33916043",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Simulation of networks of spiking neurons: a review of tools and strategies.",
+                        "identifier": "http://www.wikidata.org/entity/Q30485903",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Towards NeuroML: model description methods for collaborative modelling in neuroscience.",
+                        "identifier": "http://www.wikidata.org/entity/Q24522359",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Limits to high-speed simulations of spiking neural networks using general-purpose computers.",
+                        "identifier": "http://www.wikidata.org/entity/Q42226407",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Habituation based synaptic plasticity and organismic learning in a quantum perovskite.",
+                        "identifier": "http://www.wikidata.org/entity/Q41388235",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Unsupervised learning of temporal features for word categorization in a spiking neural network model of the auditory brain.",
+                        "identifier": "http://www.wikidata.org/entity/Q41348859",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Software for Brain Network Simulations: A Comparative Study.",
+                        "identifier": "http://www.wikidata.org/entity/Q41063782",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Selective alteration of human value decisions with medial frontal tDCS is predicted by changes in attractor dynamics.",
+                        "identifier": "http://www.wikidata.org/entity/Q41020523",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A spiking neural network model of the midbrain superior colliculus that generates saccadic motor commands.",
+                        "identifier": "http://www.wikidata.org/entity/Q40987622",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Contextual Modulation is Related to Efficiency in a Spiking Network Model of Visual Cortex.",
+                        "identifier": "http://www.wikidata.org/entity/Q40033843",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Excitatory and inhibitory STDP jointly tune feedforward neural circuits to selectively propagate correlated spiking activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q39573756",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Spike-timing dependent plasticity and feed-forward input oscillations produce precise and invariant spike phase-locking.",
+                        "identifier": "http://www.wikidata.org/entity/Q39103502",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Benchmarking neuromorphic systems with Nengo.",
+                        "identifier": "http://www.wikidata.org/entity/Q38946068",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cortical Dynamics in Presence of Assemblies of Densely Connected Weight-Hub Neurons.",
+                        "identifier": "http://www.wikidata.org/entity/Q38687455",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An automated and reproducible workflow for running and analyzing neural simulations using Lancet and IPython Notebook.",
+                        "identifier": "http://www.wikidata.org/entity/Q38451087",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SpineCreator: a Graphical User Interface for the Creation of Layered Neural Models.",
+                        "identifier": "http://www.wikidata.org/entity/Q38407665",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Connecting Artificial Brains to Robots in a Comprehensive Simulation Framework: The Neurorobotics Platform.",
+                        "identifier": "http://www.wikidata.org/entity/Q38373397",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Linking microcircuit dysfunction to cognitive impairment: effects of disinhibition associated with schizophrenia in a cortical working memory model.",
+                        "identifier": "http://www.wikidata.org/entity/Q37628337",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Event-driven contrastive divergence for spiking neuromorphic systems.",
+                        "identifier": "http://www.wikidata.org/entity/Q37579640",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "N2A: a computational tool for modeling from neurons to algorithms.",
+                        "identifier": "http://www.wikidata.org/entity/Q37511864",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Brian simulator",
+                        "identifier": "http://www.wikidata.org/entity/Q27500449",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "NeuroML: a language for describing data driven models of neurons and networks with a high degree of biological detail",
+                        "identifier": "http://www.wikidata.org/entity/Q21145335",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Current practice in software development for computational neuroscience and how to improve it",
+                        "identifier": "http://www.wikidata.org/entity/Q21145300",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A dendritic disinhibitory circuit mechanism for pathway-specific gating.",
+                        "identifier": "http://www.wikidata.org/entity/Q37278105",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Synaptic input correlations leading to membrane potential decorrelation of spontaneous activity in cortex.",
+                        "identifier": "http://www.wikidata.org/entity/Q37179752",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Magnetic Tunnel Junction Based Long-Term Short-Term Stochastic Synapse for a Spiking Neural Network with On-Chip STDP Learning.",
+                        "identifier": "http://www.wikidata.org/entity/Q37089540",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ARACHNE: A neural-neuroglial network builder with remotely controlled parallel computing.",
+                        "identifier": "http://www.wikidata.org/entity/Q36330324",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Spatial separation of two different pathways accounting for the generation of calcium signals in astrocytes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36278392",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Limitations of short range Mexican hat connection for driving target selection in a 2D neural field: activity suppression and deviation from input stimuli.",
+                        "identifier": "http://www.wikidata.org/entity/Q36177772",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A circuit motif in the zebrafish hindbrain for a two alternative behavioral choice to turn left or right.",
+                        "identifier": "http://www.wikidata.org/entity/Q36098060",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PyRhO: A Multiscale Optogenetics Simulation Platform.",
+                        "identifier": "http://www.wikidata.org/entity/Q36009106",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PyNEST: A Convenient Interface to the NEST Simulator",
+                        "identifier": "http://www.wikidata.org/entity/Q21129072",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "On spike-timing-dependent-plasticity, memristive devices, and building a self-learning visual cortex.",
+                        "identifier": "http://www.wikidata.org/entity/Q28741705",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Python as a federation tool for GENESIS 3.0",
+                        "identifier": "http://www.wikidata.org/entity/Q28732679",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Virtual Brain: a simulator of primate brain network dynamics",
+                        "identifier": "http://www.wikidata.org/entity/Q28681611",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Meeting report from the fourth meeting of the Computational Modeling in Biology Network (COMBINE)",
+                        "identifier": "http://www.wikidata.org/entity/Q28656326",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PyNCS: a microkernel for high-level definition and configuration of neuromorphic electronic systems",
+                        "identifier": "http://www.wikidata.org/entity/Q28656038",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sound Source Localization through 8 MEMS Microphones Array Using a Sand-Scorpion-Inspired Spiking Neural Network.",
+                        "identifier": "http://www.wikidata.org/entity/Q28596898",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Frontiers in Neuroinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q25474550"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "biomedical engineering",
+                        "identifier": "http://www.wikidata.org/entity/Q327092"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "ETE: a python Environment for Tree Exploration",
+            "identifier": "http://www.wikidata.org/entity/Q21093654",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jaime Huerta-Cepas",
+                        "identifier": "http://www.wikidata.org/entity/Q30002490"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Joaqu\u00edn Dopazo"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Toni Gabald\u00f3n",
+                        "identifier": "http://www.wikidata.org/entity/Q27942012"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Large-scale assignment of orthology: back to phylogenetics?",
+                        "identifier": "http://www.wikidata.org/entity/Q37317242",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The human phylome.",
+                        "identifier": "http://www.wikidata.org/entity/Q36672352",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Treevolution: visual analysis of phylogenetic trees.",
+                        "identifier": "http://www.wikidata.org/entity/Q34983088",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The tree versus the forest: the fungal tree of life and the topological diversity within the yeast phylome.",
+                        "identifier": "http://www.wikidata.org/entity/Q33405245",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PhyloWidget: web-based visualizations for the tree of life.",
+                        "identifier": "http://www.wikidata.org/entity/Q33335626",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A primer on python for life science researchers.",
+                        "identifier": "http://www.wikidata.org/entity/Q33308249",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "GEPAS, a web-based tool for microarray data analysis and interpretation.",
+                        "identifier": "http://www.wikidata.org/entity/Q31156851",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ATV: display and manipulation of annotated phylogenetic trees.",
+                        "identifier": "http://www.wikidata.org/entity/Q30986224",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open source tools and toolkits for bioinformatics: significance, and where are we?",
+                        "identifier": "http://www.wikidata.org/entity/Q30821707",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Distinguishing homologous from analogous proteins",
+                        "identifier": "http://www.wikidata.org/entity/Q29617777",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MEGA: a biologist-centric software for evolutionary analysis of DNA and protein sequences",
+                        "identifier": "http://www.wikidata.org/entity/Q29617490",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Java Treeview--extensible visualization of microarray data",
+                        "identifier": "http://www.wikidata.org/entity/Q29547226",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interactive Tree Of Life (iTOL): an online tool for phylogenetic tree display and annotation",
+                        "identifier": "http://www.wikidata.org/entity/Q28269158",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "From gene to organismal phylogeny: reconciled trees and the gene tree/species tree problem",
+                        "identifier": "http://www.wikidata.org/entity/Q28236491",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "TreeView: an application to display phylogenetic trees on personal computers",
+                        "identifier": "http://www.wikidata.org/entity/Q27861074",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "TreeDyn: towards dynamic graphics and annotations for analyses of trees",
+                        "identifier": "http://www.wikidata.org/entity/Q27496507",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Bioperl toolkit: Perl modules for the life sciences",
+                        "identifier": "http://www.wikidata.org/entity/Q24682183",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PhylomeDB: a database for genome-wide collections of gene phylogenies",
+                        "identifier": "http://www.wikidata.org/entity/Q24650404",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cluster analysis and display of genome-wide expression patterns",
+                        "identifier": "http://www.wikidata.org/entity/Q24644463",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biopython: freely available Python tools for computational molecular biology and bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q24643426",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PyCogent: a toolkit for making sense from sequence.",
+                        "identifier": "http://www.wikidata.org/entity/Q21184113",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-wide identification, characterisation and expression profiles of calcium-dependent protein kinase genes in barley (Hordeum vulgare L.).",
+                        "identifier": "http://www.wikidata.org/entity/Q37592805",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Non-canonical Helitrons in Fusarium oxysporum.",
+                        "identifier": "http://www.wikidata.org/entity/Q37491160",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "InlP, a New Virulence Factor with Strong Placental Tropism.",
+                        "identifier": "http://www.wikidata.org/entity/Q37425026",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PGAdb-builder: A web service tool for creating pan-genome allele database for molecular fine typing.",
+                        "identifier": "http://www.wikidata.org/entity/Q37400248",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-Wide Analysis of Polyadenylation Events in Schmidtea mediterranea.",
+                        "identifier": "http://www.wikidata.org/entity/Q37347972",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Membrane Proteins Are Dramatically Less Conserved than Water-Soluble Proteins across the Tree of Life.",
+                        "identifier": "http://www.wikidata.org/entity/Q37335876",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SONAR: A High-Throughput Pipeline for Inferring Antibody Ontogenies from Longitudinal Sequencing of B Cell Transcripts.",
+                        "identifier": "http://www.wikidata.org/entity/Q37271866",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comprehensive Analysis of Mouse Bitter Taste Receptors Reveals Different Molecular Receptive Ranges for Orthologous Receptors in Mice and Humans.",
+                        "identifier": "http://www.wikidata.org/entity/Q37098969",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting protein interactions via parsimonious network history inference.",
+                        "identifier": "http://www.wikidata.org/entity/Q36960746",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "VIP: an integrated pipeline for metagenomics of virus identification and discovery.",
+                        "identifier": "http://www.wikidata.org/entity/Q36776841",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Experimental and Metabolic Modeling Evidence for a Folate-Cleaving Side-Activity of Ketopantoate Hydroxymethyltransferase (PanB).",
+                        "identifier": "http://www.wikidata.org/entity/Q36747194",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Extreme C-terminal sites are posttranslocationally glycosylated by the STT3B isoform of the OST.",
+                        "identifier": "http://www.wikidata.org/entity/Q36732745",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "StreptomeDB 2.0--an extended resource of natural products produced by streptomycetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36435022",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Deciphering Genome Content and Evolutionary Relationships of Isolates from the Fungus Magnaporthe oryzae Attacking Different Host Plants.",
+                        "identifier": "http://www.wikidata.org/entity/Q36386123",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Revisiting Recombination Signal in the Tick-Borne Encephalitis Virus: A Simulation Approach.",
+                        "identifier": "http://www.wikidata.org/entity/Q36167865",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Repeated replacement of an intrabacterial symbiont in the tripartite nested mealybug symbiosis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36116473",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolution of selenophosphate synthetases: emergence and relocation of function through independent duplications and recurrent subfunctionalization.",
+                        "identifier": "http://www.wikidata.org/entity/Q36032476",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dimerization and Transactivation Domains as Candidates for Functional Modulation and Diversity of Sox9.",
+                        "identifier": "http://www.wikidata.org/entity/Q36022698",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Efficient Coalescent Simulation and Genealogical Analysis for Large Sample Sizes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36008382",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative genomics and prediction of conditionally dispensable sequences in legume-infecting Fusarium oxysporum formae speciales facilitates identification of candidate effectors.",
+                        "identifier": "http://www.wikidata.org/entity/Q35946603",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ReproPhylo: An Environment for Reproducible Phylogenomics.",
+                        "identifier": "http://www.wikidata.org/entity/Q35763503",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prokaryotic ancestry and gene fusion of a dual localized peroxiredoxin in malaria parasites",
+                        "identifier": "http://www.wikidata.org/entity/Q30044268",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Standardized benchmarking in the quest for orthologs",
+                        "identifier": "http://www.wikidata.org/entity/Q30002371",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "eggNOG 4.5: a hierarchical orthology framework with improved functional annotations for eukaryotic, prokaryotic and viral sequences",
+                        "identifier": "http://www.wikidata.org/entity/Q30002335",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The floral transcriptomes of four bamboo species (Bambusoideae; Poaceae): support for common ancestry among woody bamboos",
+                        "identifier": "http://www.wikidata.org/entity/Q28833681",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic charting of ribosomally synthesized natural product chemical space facilitates targeted mining",
+                        "identifier": "http://www.wikidata.org/entity/Q28820976",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "HieranoiDB: a database of orthologs inferred by Hieranoid",
+                        "identifier": "http://www.wikidata.org/entity/Q28818095",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tracing ancestor rice of Suriname Maroons back to its African origin.",
+                        "identifier": "http://www.wikidata.org/entity/Q29353601",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylogenetic species delimitation for crayfishes of the genus Pacifastacus",
+                        "identifier": "http://www.wikidata.org/entity/Q28834422",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Siderophore-based microbial adaptations to iron scarcity across the eastern Pacific Ocean",
+                        "identifier": "http://www.wikidata.org/entity/Q28817115",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "2x genomes--depth does matter",
+                        "identifier": "http://www.wikidata.org/entity/Q28752080",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A comparative study of mammalian diversification pattern",
+                        "identifier": "http://www.wikidata.org/entity/Q28730898",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dynamics and adaptive benefits of protein domain emergence and arrangements during plant genome evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q28730773",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene expansion shapes genome architecture in the human pathogen Lichtheimia corymbifera: an evolutionary genomics analysis in the ancient terrestrial mucorales (Mucoromycotina)",
+                        "identifier": "http://www.wikidata.org/entity/Q28654542",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pogo-like transposases have been repeatedly domesticated into CENP-B-related proteins",
+                        "identifier": "http://www.wikidata.org/entity/Q28652203",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sexual selection and the adaptive evolution of PKDREJ protein in primates and rodents",
+                        "identifier": "http://www.wikidata.org/entity/Q28651162",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Three crocodilian genomes reveal ancestral patterns of evolution among archosaurs",
+                        "identifier": "http://www.wikidata.org/entity/Q28650295",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylogenetic analysis and evolutionary origins of DNA polymerase X-family members",
+                        "identifier": "http://www.wikidata.org/entity/Q28650159",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nuclear genomic signals of the 'microturbellarian' roots of platyhelminth evolutionary innovation",
+                        "identifier": "http://www.wikidata.org/entity/Q28649621",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Beyond the Whole-Genome Duplication: Phylogenetic Evidence for an Ancient Interspecies Hybridization in the Baker's Yeast Lineage",
+                        "identifier": "http://www.wikidata.org/entity/Q28633144",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Origin and evolution of metabolic sub-cellular compartmentalization in eukaryotes",
+                        "identifier": "http://www.wikidata.org/entity/Q28604238",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chromosomal-Level Assembly of the Asian Seabass Genome Using Long Sequence Reads and Multi-layered Scaffolding",
+                        "identifier": "http://www.wikidata.org/entity/Q28604174",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Enhancement of DNaseI Salt Tolerance by Mimicking the Domain Structure of DNase from an Extremely Halotolerant Bacterium Thioalkalivibrio sp. K90mix",
+                        "identifier": "http://www.wikidata.org/entity/Q28603337",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Horizontal acquisition of toxic alkaloid synthesis in a clade of plant associated fungi",
+                        "identifier": "http://www.wikidata.org/entity/Q28602596",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genus-Wide Comparative Genome Analyses of Colletotrichum Species Reveal Specific Gene Family Losses and Gains during Adaptation to Specific Infection Lifestyles",
+                        "identifier": "http://www.wikidata.org/entity/Q28601468",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Contrasting Patterns of Evolutionary Diversification in the Olfactory Repertoires of Reptile and Bird Genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q28601002",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolview v2: an online visualization and management tool for customized and annotated phylogenetic trees",
+                        "identifier": "http://www.wikidata.org/entity/Q28597766",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Lokiarchaeota Marks the Transition between the Archaeal and Eukaryotic Selenocysteine Encoding Systems",
+                        "identifier": "http://www.wikidata.org/entity/Q28597716",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Computational Evaluation of the Strict Master and Random Template Models of Endogenous Retrovirus Evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q28595482",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The evolution of silicon transporters in diatoms",
+                        "identifier": "http://www.wikidata.org/entity/Q28591428",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Widespread Inter- and Intra-Domain Horizontal Gene Transfer of d-Amino Acid Metabolism Enzymes in Eukaryotes",
+                        "identifier": "http://www.wikidata.org/entity/Q28585924",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bio.Phylo: A unified toolkit for processing, analyzing and visualizing phylogenetic trees in Biopython",
+                        "identifier": "http://www.wikidata.org/entity/Q27496491",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "BIO::Phylo-phyloinformatic analysis using perl",
+                        "identifier": "http://www.wikidata.org/entity/Q27496483",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chikungunya Virus in Febrile Humans and Aedes aegypti Mosquitoes, Yucatan, Mexico",
+                        "identifier": "http://www.wikidata.org/entity/Q27468598",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative genomic analysis of retrogene repertoire in two green algae Volvox carteri and Chlamydomonas reinhardtii.",
+                        "identifier": "http://www.wikidata.org/entity/Q27335503",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Culture Independent Genomic Comparisons Reveal Environmental Adaptations for Altiarchaeales.",
+                        "identifier": "http://www.wikidata.org/entity/Q27324178",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomics-enabled discovery of phosphonate natural products and their biosynthetic pathways",
+                        "identifier": "http://www.wikidata.org/entity/Q26864667",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Visualizing genome and systems biology: technologies, tools, implementation techniques and trends, past, present and future",
+                        "identifier": "http://www.wikidata.org/entity/Q26796849",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PhylomeDB v3.0: an expanding repository of genome-wide collections of trees, alignments and phylogeny-based orthology and paralogy predictions",
+                        "identifier": "http://www.wikidata.org/entity/Q24612855",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Spirodela polyrhiza genome reveals insights into its neotenous reduction fast growth and aquatic lifestyle",
+                        "identifier": "http://www.wikidata.org/entity/Q22122095",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome sequence of the necrotrophic fungus Penicillium digitatum, the main postharvest pathogen of citrus",
+                        "identifier": "http://www.wikidata.org/entity/Q22065321",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative transcriptomics of early dipteran development",
+                        "identifier": "http://www.wikidata.org/entity/Q22065320",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Whole-genome analyses resolve early branches in the tree of life of modern birds",
+                        "identifier": "http://www.wikidata.org/entity/Q21558572",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative genomics of emerging pathogens in the Candida glabrata clade",
+                        "identifier": "http://www.wikidata.org/entity/Q21266666",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Composition and evolution of the vertebrate and mammalian selenoproteomes",
+                        "identifier": "http://www.wikidata.org/entity/Q21090938",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genetic Drift, Not Life History or RNAi, Determine Long-Term Evolution of Transposable Elements.",
+                        "identifier": "http://www.wikidata.org/entity/Q42239689",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new Microviridae phage isolated from a failed biotechnological process driven by Escherichia coli.",
+                        "identifier": "http://www.wikidata.org/entity/Q42192586",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Elevated IgA Plasmablast Levels in Subjects at Risk of Developing Rheumatoid Arthritis.",
+                        "identifier": "http://www.wikidata.org/entity/Q41633169",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "New Genes and Functional Innovation in Mammals.",
+                        "identifier": "http://www.wikidata.org/entity/Q41369501",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Expression of segment polarity genes in brachiopods supports a non-segmental ancestral role of engrailed for bilaterians.",
+                        "identifier": "http://www.wikidata.org/entity/Q41108029",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A comprehensive set of transcript sequences of the heavy metal hyperaccumulator Noccaea caerulescens.",
+                        "identifier": "http://www.wikidata.org/entity/Q40921759",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative Transcriptome Analysis of the Cosmopolitan Marine Fungus Corollospora maritima Under Two Physiological Conditions.",
+                        "identifier": "http://www.wikidata.org/entity/Q40791887",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Domain organization of DNase from Thioalkalivibrio sp. provides insights into retention of activity in high salt environments.",
+                        "identifier": "http://www.wikidata.org/entity/Q40718981",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of internalin-A-like virulent proteins in Leishmania donovani.",
+                        "identifier": "http://www.wikidata.org/entity/Q40495564",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Orphan Crops Browser: a bridge between model and orphan crops.",
+                        "identifier": "http://www.wikidata.org/entity/Q40074782",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene Tree Affects Inference of Sites Under Selection by the Branch-Site Test of Positive Selection.",
+                        "identifier": "http://www.wikidata.org/entity/Q40050514",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees.",
+                        "identifier": "http://www.wikidata.org/entity/Q39838204",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative genomics of pathogenic lineages of Vibrio nigripulchritudo identifies virulence-associated traits.",
+                        "identifier": "http://www.wikidata.org/entity/Q38500264",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Plant Proteins Are Smaller Because They Are Encoded by Fewer Exons than Animal Proteins.",
+                        "identifier": "http://www.wikidata.org/entity/Q38438894",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Critical Review on the Use of Support Values in Tree Viewers and Bioinformatics Toolkits.",
+                        "identifier": "http://www.wikidata.org/entity/Q38378636",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Measuring guide-tree dependency of inferred gaps in progressive aligners.",
+                        "identifier": "http://www.wikidata.org/entity/Q39805999",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylogeny-aware identification and correction of taxonomically mislabeled sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q39776537",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interleukin-37 gene variants segregated anciently coexist during hominid evolution.",
+                        "identifier": "http://www.wikidata.org/entity/Q39642337",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High-throughput sequencing of natively paired antibody chains provides evidence for original antigenic sin shaping the antibody response to influenza vaccination.",
+                        "identifier": "http://www.wikidata.org/entity/Q39115372",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Late acquisition of mitochondria by a host with chimaeric prokaryotic ancestry.",
+                        "identifier": "http://www.wikidata.org/entity/Q38808159",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A First Phylogeny of the Genus Dimocarpus and Suggestions for Revision of Some Taxa Based on Molecular and Morphological Evidence.",
+                        "identifier": "http://www.wikidata.org/entity/Q38656420",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High variability of mitochondrial gene order among fungi.",
+                        "identifier": "http://www.wikidata.org/entity/Q37616502",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-wide signatures of complex introgression and adaptive evolution in the big cats.",
+                        "identifier": "http://www.wikidata.org/entity/Q38368515",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Deep vertebrate roots for mammalian zinc finger transcription factor subfamilies.",
+                        "identifier": "http://www.wikidata.org/entity/Q37677291",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Burmese python genome reveals the molecular basis for extreme adaptation in snakes",
+            "identifier": "http://www.wikidata.org/entity/Q22066274",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mark Yandell",
+                        "identifier": "http://www.wikidata.org/entity/Q30112423"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stephen P Mackessy"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Patrick Minx",
+                        "identifier": "http://www.wikidata.org/entity/Q30004023"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Aur\u00e9lie Kapusta",
+                        "identifier": "http://www.wikidata.org/entity/Q28805268"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "C\u00e9dric Feschotte",
+                        "identifier": "http://www.wikidata.org/entity/Q28805267"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Peter Uetz",
+                        "identifier": "http://www.wikidata.org/entity/Q13220218"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Qing Li"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wesley C Warren"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "David D Pollock"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "David A Ray"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Federico G Hoffmann"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Belinda S W Chang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wanjun Gu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jacobo Reyes-Velasco"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ryan K Schott"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Anne M Bronikowski"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Todd A Castoe"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Daren C Card"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Drew R Schield"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stephen M Secor"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Matthew K Fujita"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Samuel E Fox"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert Bogden"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Freek J Vonk"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "A P Jason de Koning"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jason Dobry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Alex W Poole"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Eric N Smith"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Anne M Bronikowsi"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christiaan V Henkel"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Daniel Polanco"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jack F Degner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jill M Castoe"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Juan M Daza"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Kathryn T Hall"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Kyle J Shaney"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael K Richardson"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael W Vandewege"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nicholas R Casewell"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert P Ruggiero"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Functional characterization of cancer-associated Gab1 mutations.",
+                        "identifier": "http://www.wikidata.org/entity/Q39321850",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dynamic evolution of venom proteins in squamate reptiles.",
+                        "identifier": "http://www.wikidata.org/entity/Q38933855",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Physiology: postprandial cardiac hypertrophy in pythons.",
+                        "identifier": "http://www.wikidata.org/entity/Q38489216",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Matched regulation of gastrointestinal performance in the Burmese python, Python molurus.",
+                        "identifier": "http://www.wikidata.org/entity/Q38477583",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The role of endothelin system in cardiovascular disease and the potential therapeutic perspectives of its inhibition.",
+                        "identifier": "http://www.wikidata.org/entity/Q38087413",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Targeting the renin-angiotensin-aldosterone system in heart failure.",
+                        "identifier": "http://www.wikidata.org/entity/Q38074092",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Fatty acids identified in the Burmese python promote beneficial cardiac growth.",
+                        "identifier": "http://www.wikidata.org/entity/Q36060351",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Mouse Genome Database (MGD): comprehensive resource for genetics and genomics of the laboratory mouse.",
+                        "identifier": "http://www.wikidata.org/entity/Q35630854",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evidence for an ancient adaptive episode of convergent molecular evolution.",
+                        "identifier": "http://www.wikidata.org/entity/Q37211393",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Control of segment number in vertebrate embryos.",
+                        "identifier": "http://www.wikidata.org/entity/Q34787227",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of repeat structure in large genomes using repeat probability clouds.",
+                        "identifier": "http://www.wikidata.org/entity/Q36871167",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Adaptive responses to feeding in Burmese pythons: pay before pumping.",
+                        "identifier": "http://www.wikidata.org/entity/Q36707755",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Digestive physiology of the Burmese python: broad regulation of integrated performance.",
+                        "identifier": "http://www.wikidata.org/entity/Q33388161",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative mitochondrial genomics of snakes: extraordinary substitution rate dynamics and functionality of the duplicate control region.",
+                        "identifier": "http://www.wikidata.org/entity/Q33291884",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A vertebrate model of extreme physiological regulation.",
+                        "identifier": "http://www.wikidata.org/entity/Q31991158",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MAKER: an easy-to-use annotation pipeline designed for emerging model organism genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q29615951",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Graph accordance of next-generation sequence assemblies.",
+                        "identifier": "http://www.wikidata.org/entity/Q34227250",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Anolis lizard genome: an amniote genome without isochores.",
+                        "identifier": "http://www.wikidata.org/entity/Q33973441",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Discovery of highly divergent repeat landscapes in snake genomes using high-throughput sequencing",
+                        "identifier": "http://www.wikidata.org/entity/Q28741325",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Resolving the phylogeny of lizards and snakes (Squamata) with extensive sampling of genes and species",
+                        "identifier": "http://www.wikidata.org/entity/Q28713231",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular evidence for a terrestrial origin of snakes",
+                        "identifier": "http://www.wikidata.org/entity/Q28763355",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylogenomics of nonavian reptiles and the structure of the ancestral amniote genome",
+                        "identifier": "http://www.wikidata.org/entity/Q28763269",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dynamic nucleotide mutation gradients and control region usage in squamate reptile mitochondrial genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q28752090",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "EnsemblCompara GeneTrees: Complete, duplication-aware phylogenetic trees in vertebrates",
+                        "identifier": "http://www.wikidata.org/entity/Q24644266",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome analysis and signature discovery for diving and sensory properties of the endangered Chinese alligator",
+                        "identifier": "http://www.wikidata.org/entity/Q28681251",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reptilian-transcriptome v1.0, a glimpse in the brain transcriptome of five divergent Sauropsida lineages and the phylogenetic position of turtles.",
+                        "identifier": "http://www.wikidata.org/entity/Q24635078",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ensembl 2013",
+                        "identifier": "http://www.wikidata.org/entity/Q28280494",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Repetitive elements may comprise over two-thirds of the human genome",
+                        "identifier": "http://www.wikidata.org/entity/Q28254709",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "De novo assembly of human genomes with massively parallel short read sequencing",
+                        "identifier": "http://www.wikidata.org/entity/Q24655711",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium",
+                        "identifier": "http://www.wikidata.org/entity/Q23781406",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Developmental basis of limblessness and axial patterning in snakes",
+                        "identifier": "http://www.wikidata.org/entity/Q22122434",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The western painted turtle genome, a model for the evolution of extreme physiological adaptations in a slowly evolving lineage.",
+                        "identifier": "http://www.wikidata.org/entity/Q22065285",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolution at two levels: on genes and form",
+                        "identifier": "http://www.wikidata.org/entity/Q21563630",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The genome of the green anole lizard and a comparative analysis with birds and mammals",
+                        "identifier": "http://www.wikidata.org/entity/Q22122168",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The king cobra genome reveals dynamic gene evolution and adaptation in the snake venom system",
+                        "identifier": "http://www.wikidata.org/entity/Q22066255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Adaptive evolution and functional redesign of core metabolic proteins in snakes",
+                        "identifier": "http://www.wikidata.org/entity/Q21144308",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene expression analysis of E. coli strains provides insights into the role of gene regulation in diversification.",
+                        "identifier": "http://www.wikidata.org/entity/Q39942477",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Similar Ratios of Introns to Intergenic Sequence across Animal Genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q38716994",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic evidence of bitter taste in snakes and phylogenetic analysis of bitter taste receptor genes in reptiles.",
+                        "identifier": "http://www.wikidata.org/entity/Q38614934",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolution and Diversity of Transposable Elements in Vertebrate Genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q37738607",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Targeted Capture of Complete Coding Regions across Divergent Species.",
+                        "identifier": "http://www.wikidata.org/entity/Q37738605",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Physiological and biochemical changes associated with acute experimental dehydration in the desert adapted mouse, Peromyscus eremicus.",
+                        "identifier": "http://www.wikidata.org/entity/Q37727430",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification and comparative analysis of the epidermal differentiation complex in snakes.",
+                        "identifier": "http://www.wikidata.org/entity/Q37721725",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Naked but not Hairless: the pitfalls of analyses of molecular adaptation based on few genome sequence comparisons.",
+                        "identifier": "http://www.wikidata.org/entity/Q37661346",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reorganisation of Hoxd regulatory landscapes during the evolution of a snake-like body plan.",
+                        "identifier": "http://www.wikidata.org/entity/Q37143360",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome of the leopard gecko, Eublepharis macularius.",
+                        "identifier": "http://www.wikidata.org/entity/Q36175395",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Widespread convergence in toxin resistance by predictable molecular evolution.",
+                        "identifier": "http://www.wikidata.org/entity/Q36102984",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Anchoring genome sequence to chromosomes of the central bearded dragon (Pogona vitticeps) enables reconstruction of ancestral squamate macrochromosomes and identifies sequence content of the Z chromosome.",
+                        "identifier": "http://www.wikidata.org/entity/Q36048755",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Leveraging Comparative Genomics to Identify and Functionally Characterize Genes Associated with Sperm Phenotypes in Python bivittatus (Burmese Python).",
+                        "identifier": "http://www.wikidata.org/entity/Q36023403",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Endogenous hepadnaviruses, bornaviruses and circoviruses in snakes",
+                        "identifier": "http://www.wikidata.org/entity/Q28654560",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Three crocodilian genomes reveal ancestral patterns of evolution among archosaurs",
+                        "identifier": "http://www.wikidata.org/entity/Q28650295",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Early mesozoic coexistence of amniotes and hepadnaviridae",
+                        "identifier": "http://www.wikidata.org/entity/Q28649958",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Shared Enhancer Activity in the Limbs and Phallus and Functional Divergence of a Limb-Genital cis-Regulatory Element in Snakes",
+                        "identifier": "http://www.wikidata.org/entity/Q28611433",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gekko japonicus genome reveals evolution of adhesive toe pads and tail regeneration",
+                        "identifier": "http://www.wikidata.org/entity/Q28606568",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Contrasting Patterns of Evolutionary Diversification in the Olfactory Repertoires of Reptile and Bird Genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q28601002",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolutionary trajectories of snake genes and genomes revealed by comparative analyses of five-pacer viper",
+                        "identifier": "http://www.wikidata.org/entity/Q28597729",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exploring the genetic basis of adaptation to high elevations in reptiles: a comparative transcriptome analysis of two toad-headed agamas (genus Phrynocephalus)",
+                        "identifier": "http://www.wikidata.org/entity/Q28544854",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Multiple rod-cone and cone-rod photoreceptor transmutations in snakes: evidence from visual opsin gene expression",
+                        "identifier": "http://www.wikidata.org/entity/Q28272623",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Snake Genome Sequencing: Results and Future Prospects",
+                        "identifier": "http://www.wikidata.org/entity/Q28066516",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A field guide to whole-genome sequencing, assembly and annotation",
+                        "identifier": "http://www.wikidata.org/entity/Q26860930",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tracing the evolution of amniote chromosomes",
+                        "identifier": "http://www.wikidata.org/entity/Q27015994",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Role of Chromosome Changes in Crocodylus Evolution and Diversity",
+                        "identifier": "http://www.wikidata.org/entity/Q26766669",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The king cobra genome reveals dynamic gene evolution and adaptation in the snake venom system",
+                        "identifier": "http://www.wikidata.org/entity/Q22066255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A genome draft of the legless anguid lizard, Ophisaurus gracilis",
+                        "identifier": "http://www.wikidata.org/entity/Q22065331",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Convergent evolution of cysteine-rich proteins in feathers and hair",
+                        "identifier": "http://www.wikidata.org/entity/Q21146725",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2013-12-17T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Proceedings of the National Academy of Sciences of the United States of America",
+                        "identifier": "http://www.wikidata.org/entity/Q1146531"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

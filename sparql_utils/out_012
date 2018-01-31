@@ -1,0 +1,2813 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Drug design by machine learning: the use of inductive logic programming to model the structure-activity relationships of trimethoprim analogues binding to dihydrofolate reductase",
+            "identifier": "http://www.wikidata.org/entity/Q24563094",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R A Lewis"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "M J Sternberg"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R D King"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "S Muggleton"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Three-dimensional structure-activity relationships.",
+                        "identifier": "http://www.wikidata.org/entity/Q39576349",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Correlation of trimethoprim and brodimoprim physicochemical and lipid membrane interaction properties with their accumulation in human neutrophils.",
+                        "identifier": "http://www.wikidata.org/entity/Q39783334",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Fast Modeling of Binding Affinities by Means of Superposing Significant Interaction Rules (SSIR) Method.",
+                        "identifier": "http://www.wikidata.org/entity/Q36033961",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1992-12-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Proceedings of the National Academy of Sciences of the United States of America",
+                        "identifier": "http://www.wikidata.org/entity/Q1146531"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "AHaH computing-from metastable switches to attractors to machine learning",
+            "identifier": "http://www.wikidata.org/entity/Q21132363",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Alexander Nugent"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Timothy Wesley Molter"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nanoelectronic programmable synapses based on phase change materials for brain-inspired computing.",
+                        "identifier": "http://www.wikidata.org/entity/Q39986876",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CAVIAR: a 45k neuron, 5M synapse, 12G connects/s AER hardware sensory-processing- learning-actuating system for high-speed visual object recognition and tracking.",
+                        "identifier": "http://www.wikidata.org/entity/Q39894620",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The ecological significance of plasticity.",
+                        "identifier": "http://www.wikidata.org/entity/Q39756387",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Integration of nanoscale memristor synapses in neuromorphic computing architectures.",
+                        "identifier": "http://www.wikidata.org/entity/Q38133712",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ultrafast synaptic events in a chalcogenide memristor.",
+                        "identifier": "http://www.wikidata.org/entity/Q36746986",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Arabidopsis plants perform arithmetic division to prevent starvation at night.",
+                        "identifier": "http://www.wikidata.org/entity/Q34353876",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A large-scale model of the functioning brain.",
+                        "identifier": "http://www.wikidata.org/entity/Q34314574",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex.",
+                        "identifier": "http://www.wikidata.org/entity/Q34277494",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The perceptron: a probabilistic model for information storage and organization in the brain.",
+                        "identifier": "http://www.wikidata.org/entity/Q34245162",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Quorum sensing in plant-pathogenic bacteria.",
+                        "identifier": "http://www.wikidata.org/entity/Q34194746",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A functional hybrid memristor crossbar-array/CMOS system for data storage and neuromorphic applications.",
+                        "identifier": "http://www.wikidata.org/entity/Q34091744",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Maze-solving by an amoeboid organism",
+                        "identifier": "http://www.wikidata.org/entity/Q28140926",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Neural networks and physical systems with emergent collective computational abilities",
+                        "identifier": "http://www.wikidata.org/entity/Q24632329",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The \"independent components\" of natural scenes are edge filters",
+                        "identifier": "http://www.wikidata.org/entity/Q24597136",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Summation and inhibition in the frog's retina",
+                        "identifier": "http://www.wikidata.org/entity/Q24544081",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Receptive fields of single neurones in the cat's striate cortex",
+                        "identifier": "http://www.wikidata.org/entity/Q24537738",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Contribution to the Energetics of Evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q22066205",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open source libraries and frameworks for biological data visualisation: a guide for developers.",
+                        "identifier": "http://www.wikidata.org/entity/Q27687756",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2014-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Building a protein name dictionary from full text: a machine learning term extraction approach",
+            "identifier": "http://www.wikidata.org/entity/Q24522601",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Fabien Campagne"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lei Shi"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Enhancing access to the Bibliome: the TREC Genomics Track.",
+                        "identifier": "http://www.wikidata.org/entity/Q40483801",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A method for finding communities of related genes.",
+                        "identifier": "http://www.wikidata.org/entity/Q37414497",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A literature network of human genes for high-throughput analysis of gene expression.",
+                        "identifier": "http://www.wikidata.org/entity/Q33944514",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "GeneWays: a system for extracting, analyzing, visualizing, and integrating molecular pathway data.",
+                        "identifier": "http://www.wikidata.org/entity/Q30912193",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Automated extraction of mutation data from the literature: application of MuteXt to G protein-coupled receptors and nuclear hormone receptors.",
+                        "identifier": "http://www.wikidata.org/entity/Q30909202",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evaluation of text data mining for database curation: lessons learned from the KDD Challenge Cup.",
+                        "identifier": "http://www.wikidata.org/entity/Q30811199",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Database resources of the National Center for Biotechnology Information: update",
+                        "identifier": "http://www.wikidata.org/entity/Q29615279",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biomedical term mapping databases",
+                        "identifier": "http://www.wikidata.org/entity/Q24797959",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Textpresso: an ontology-based information retrieval and extraction system for biological literature",
+                        "identifier": "http://www.wikidata.org/entity/Q24793009",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Critical evaluation of the JDO API for the persistence and portability requirements of complex biological databases",
+                        "identifier": "http://www.wikidata.org/entity/Q24791901",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Network integration and graph analysis in mammalian molecular systems biology",
+                        "identifier": "http://www.wikidata.org/entity/Q28751567",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Generalising semantic category disambiguation with large lexical resources for fun and profit",
+                        "identifier": "http://www.wikidata.org/entity/Q28655433",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2005-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Integrating machine learning and physician knowledge to improve the accuracy of breast biopsy",
+            "identifier": "http://www.wikidata.org/entity/Q24625322",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Y Wu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "E Burnside"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "D Page"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "H Nassif"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "I Dutra"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "J Shavlik"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "M E Elezaby"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R M Strigel"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Utility of 6-month follow-up imaging after a concordant benign breast biopsy result.",
+                        "identifier": "http://www.wikidata.org/entity/Q37809684",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Knowledge discovery from structured mammography reports using inductive logic programming.",
+                        "identifier": "http://www.wikidata.org/entity/Q35018989",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Breast cancer risk estimation with artificial neural networks revisited: discrimination and calibration.",
+                        "identifier": "http://www.wikidata.org/entity/Q34060566",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Centennial dissertation. Percutaneous imaging-guided core breast biopsy: state of the art at the millennium.",
+                        "identifier": "http://www.wikidata.org/entity/Q33903051",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Automated identification of protein-ligand interaction features using Inductive Logic Programming: a hexose binding case study",
+                        "identifier": "http://www.wikidata.org/entity/Q21093650",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "AMIA Annual Symposium proceedings",
+                        "identifier": "http://www.wikidata.org/entity/Q27720789"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "biopsy",
+                        "identifier": "http://www.wikidata.org/entity/Q179991"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "MUMAL: multivariate analysis in shotgun proteomics using machine learning techniques",
+            "identifier": "http://www.wikidata.org/entity/Q21266684",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Armin Graber"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christian Baumgartner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Humberto J O Ramos"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Fabio R Cerqueira"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Alcione P Oliveira"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Andreia P Gomes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Humberto JO Ramos"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ricardo S Ferreira"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "QIKS--Quantitative identification of kinase substrates.",
+                        "identifier": "http://www.wikidata.org/entity/Q39729724",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phosphoproteomics strategies for the functional analysis of signal transduction.",
+                        "identifier": "http://www.wikidata.org/entity/Q36515056",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SENP1 induces prostatic intraepithelial neoplasia through multiple mechanisms.",
+                        "identifier": "http://www.wikidata.org/entity/Q34056043",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prediction and diagnosis of bladder cancer recurrence based on urinary content of hTERT, SENP1, PPP1CA, and MCM5 transcripts.",
+                        "identifier": "http://www.wikidata.org/entity/Q33755486",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparison of novel decoy database designs for optimizing protein identification searches using ABRF sPRG2006 standard MS/MS data sets.",
+                        "identifier": "http://www.wikidata.org/entity/Q33497997",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Statistical learning of peptide retention behavior in chromatographic separations: a new kernel-based approach for computational proteomics.",
+                        "identifier": "http://www.wikidata.org/entity/Q33308294",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative evaluation of tandem MS search algorithms using a target-decoy search strategy.",
+                        "identifier": "http://www.wikidata.org/entity/Q33285992",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SeMoP: a new computational strategy for the unrestricted search for modified peptides using LC-MS/MS data.",
+                        "identifier": "http://www.wikidata.org/entity/Q31169956",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PhosTShunter: a fast and reliable tool to detect phosphorylated peptides in liquid chromatography Fourier transform tandem mass spectrometry data sets.",
+                        "identifier": "http://www.wikidata.org/entity/Q31033380",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interpretation of shotgun proteomic data: the protein inference problem.",
+                        "identifier": "http://www.wikidata.org/entity/Q30993883",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A uniform proteomics MS/MS analysis platform utilizing open XML file formats.",
+                        "identifier": "http://www.wikidata.org/entity/Q30478423",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evaluation of multidimensional chromatography coupled with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein analysis: the yeast proteome",
+                        "identifier": "http://www.wikidata.org/entity/Q29615379",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The International Protein Index: an integrated database for proteomics experiments",
+                        "identifier": "http://www.wikidata.org/entity/Q29614533",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry",
+                        "identifier": "http://www.wikidata.org/entity/Q29547311",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "How do shotgun proteomics algorithms identify proteins?",
+                        "identifier": "http://www.wikidata.org/entity/Q28235907",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Shotgun proteomics: tools for the analysis of complex biological systems",
+                        "identifier": "http://www.wikidata.org/entity/Q28215896",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search",
+                        "identifier": "http://www.wikidata.org/entity/Q28211385",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Large-scale analysis of the yeast proteome by multidimensional protein identification technology",
+                        "identifier": "http://www.wikidata.org/entity/Q28131778",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database",
+                        "identifier": "http://www.wikidata.org/entity/Q27861106",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Probability-based protein identification by searching sequence databases using mass spectrometry data",
+                        "identifier": "http://www.wikidata.org/entity/Q27860736",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis",
+                        "identifier": "http://www.wikidata.org/entity/Q24294864",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A probability-based approach for high-throughput protein phosphorylation analysis and site localization",
+                        "identifier": "http://www.wikidata.org/entity/Q21735934",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MUMAL2: Improving sensitivity in shotgun proteomics using cost sensitive artificial neural networks and a threshold selector algorithm.",
+                        "identifier": "http://www.wikidata.org/entity/Q36254939",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2012-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q15765854"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Classifying lower extremity muscle fatigue during walking using machine learning and inertial sensors",
+            "identifier": "http://www.wikidata.org/entity/Q23914854",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jian Zhang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rahul Soangra"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Thurmon E Lockhart"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Functional rehabilitation for the upper and lower extremity.",
+                        "identifier": "http://www.wikidata.org/entity/Q40443586",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The application of support vector machines for detecting recovery from knee replacement surgery using spatio-temporal gait parameters.",
+                        "identifier": "http://www.wikidata.org/entity/Q39315246",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A sensory role for the cruciate ligaments.",
+                        "identifier": "http://www.wikidata.org/entity/Q37770062",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of different levels of localized muscle fatigue on knee position sense.",
+                        "identifier": "http://www.wikidata.org/entity/Q37143248",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A triaxial accelerometer and portable data processing unit for the assessment of daily physical activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q36870067",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gait parameter adjustments for walking on a treadmill at preferred, slower, and faster speeds in older adults with down syndrome.",
+                        "identifier": "http://www.wikidata.org/entity/Q36014337",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Human locomotion.",
+                        "identifier": "http://www.wikidata.org/entity/Q35917752",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Changes in gait and fatigue from morning to afternoon in people with multiple sclerosis.",
+                        "identifier": "http://www.wikidata.org/entity/Q35465911",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of fatigue on knee proprioception: implications for dynamic stabilization.",
+                        "identifier": "http://www.wikidata.org/entity/Q34414706",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mechanical work in terrestrial locomotion: two basic mechanisms for minimizing energy expenditure.",
+                        "identifier": "http://www.wikidata.org/entity/Q34202202",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Local Dynamic Stability Assessment of Motion Impaired Elderly Using Electronic Textile Pants.",
+                        "identifier": "http://www.wikidata.org/entity/Q34196198",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Significance of load receptor input during locomotion: a review.",
+                        "identifier": "http://www.wikidata.org/entity/Q33971426",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Swing phase mechanics of healthy young and elderly men.",
+                        "identifier": "http://www.wikidata.org/entity/Q31032846",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A machine learning approach for automated recognition of movement patterns using basic, kinetic and kinematic gait data.",
+                        "identifier": "http://www.wikidata.org/entity/Q30980453",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gait analysis to classify external load conditions using linear discriminant analysis.",
+                        "identifier": "http://www.wikidata.org/entity/Q29248738",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effects of aging on the biomechanics of slips and falls",
+                        "identifier": "http://www.wikidata.org/entity/Q28396565",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effects of lower extremity muscle fatigue on the outcomes of slip-induced falls",
+                        "identifier": "http://www.wikidata.org/entity/Q28396426",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effects of age-related gait changes on the biomechanics of slips and falls",
+                        "identifier": "http://www.wikidata.org/entity/Q23922762",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effects of hemodialysis therapy on sit-to-walk characteristics in end stage renal disease patients",
+                        "identifier": "http://www.wikidata.org/entity/Q23919910",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Acute effects of localized muscle fatigue on postural control and patterns of recovery during upright stance: influence of fatigue location and age",
+                        "identifier": "http://www.wikidata.org/entity/Q23912134",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dual-Task Does Not Increase Slip and Fall Risk in Healthy Young and Older Adults during Walking",
+                        "identifier": "http://www.wikidata.org/entity/Q29248318",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "State of science: occupational slips, trips and falls on the same level",
+                        "identifier": "http://www.wikidata.org/entity/Q28392465",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assessing dietary quality of older Chinese people using the Chinese Diet Balance Index (DBI)",
+                        "identifier": "http://www.wikidata.org/entity/Q28390623",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2013-10-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Annals of Biomedical Engineering",
+                        "identifier": "http://www.wikidata.org/entity/Q15760783"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "biomedical engineering",
+                        "identifier": "http://www.wikidata.org/entity/Q327092"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "High-dimensional pattern regression using machine learning: from medical images to continuous clinical variables",
+            "identifier": "http://www.wikidata.org/entity/Q24628867",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christos Davatzikos",
+                        "identifier": "http://www.wikidata.org/entity/Q29348045"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ying Wang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Yong Fan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Priyanka Bhatt"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MRI and CSF biomarkers in normal, MCI, and AD subjects: predicting future clinical change.",
+                        "identifier": "http://www.wikidata.org/entity/Q37273569",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MRI and CSF biomarkers in normal, MCI, and AD subjects: diagnostic discrimination and cognitive correlations.",
+                        "identifier": "http://www.wikidata.org/entity/Q37273551",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Longitudinal progression of Alzheimer's-like patterns of atrophy in normal older adults: the SPARE-AD index.",
+                        "identifier": "http://www.wikidata.org/entity/Q37270612",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Automatic classification of MR scans in Alzheimer's disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36965246",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Individual patient diagnosis of AD and FTD via high-dimensional pattern classification of MRI.",
+                        "identifier": "http://www.wikidata.org/entity/Q36861179",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Detection of prodromal Alzheimer's disease via pattern classification of magnetic resonance imaging.",
+                        "identifier": "http://www.wikidata.org/entity/Q36571382",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predictors of conversion to dementia of probable Alzheimer type in patients with mild cognitive impairment.",
+                        "identifier": "http://www.wikidata.org/entity/Q36447010",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Practice parameter: early detection of dementia: mild cognitive impairment (an evidence-based review). Report of the Quality Standards Subcommittee of the American Academy of Neurology.",
+                        "identifier": "http://www.wikidata.org/entity/Q34244667",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A nonparametric method for automatic correction of intensity nonuniformity in MRI data.",
+                        "identifier": "http://www.wikidata.org/entity/Q32061718",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reliability in multi-site structural MRI studies: effects of gradient non-linearity correction on phantom and human data.",
+                        "identifier": "http://www.wikidata.org/entity/Q31019950",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Alzheimer's disease diagnosis in individual subjects using structural MR images: validation studies.",
+                        "identifier": "http://www.wikidata.org/entity/Q30481978",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A fast diffeomorphic image registration algorithm",
+                        "identifier": "http://www.wikidata.org/entity/Q28243996",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Voxel-based morphometry--the methods",
+                        "identifier": "http://www.wikidata.org/entity/Q28138780",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Alzheimer's Disease Neuroimaging Initiative (ADNI): MRI methods.",
+                        "identifier": "http://www.wikidata.org/entity/Q24647259",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Mini-Mental State Examination: A Comprehensive Review",
+                        "identifier": "http://www.wikidata.org/entity/Q22242356",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pattern Analysis in Neuroimaging: Beyond Two-Class Categorization.",
+                        "identifier": "http://www.wikidata.org/entity/Q42232619",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Applying tensor-based morphometry to parametric surfaces can improve MRI-based disease diagnosis.",
+                        "identifier": "http://www.wikidata.org/entity/Q40309602",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Combining Multiple Resting-State fMRI Features during Classification: Optimized Frameworks and Their Application to Nicotine Addiction.",
+                        "identifier": "http://www.wikidata.org/entity/Q38658936",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Longitudinal Analysis for Disease Progression via Simultaneous Multi-Relational Temporal-Fused Learning.",
+                        "identifier": "http://www.wikidata.org/entity/Q37678947",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Age estimation using cortical surface pattern combining thickness with curvatures.",
+                        "identifier": "http://www.wikidata.org/entity/Q37652849",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sparse Multi-Response Tensor Regression for Alzheimer's Disease Study With Multivariate Clinical Assessments.",
+                        "identifier": "http://www.wikidata.org/entity/Q37498861",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Longitudinal clinical score prediction in Alzheimer's disease with soft-split sparse regression based random forest.",
+                        "identifier": "http://www.wikidata.org/entity/Q37495065",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Decoding post-stroke motor function from structural brain imaging.",
+                        "identifier": "http://www.wikidata.org/entity/Q37199212",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Semi-supervised multimodal relevance vector regression improves cognitive performance estimation from imaging and biological biomarkers.",
+                        "identifier": "http://www.wikidata.org/entity/Q37137520",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Graph-guided joint prediction of class label and clinical scores for the Alzheimer's disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36805683",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The relevance voxel machine (RVoxM): a self-tuning Bayesian model for informative image-based prediction.",
+                        "identifier": "http://www.wikidata.org/entity/Q36758255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Machine learning algorithms to classify spinal muscular atrophy subtypes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36103868",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Generative embedding for model-based classification of fMRI data.",
+                        "identifier": "http://www.wikidata.org/entity/Q30000950",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A review of feature reduction techniques in neuroimaging",
+                        "identifier": "http://www.wikidata.org/entity/Q28658984",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Longitudinal imaging pattern analysis (SPARE-CD index) detects early structural and functional changes before cognitive decline in healthy older adults",
+                        "identifier": "http://www.wikidata.org/entity/Q28260610",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-05-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "NeuroImage",
+                        "identifier": "http://www.wikidata.org/entity/Q1981225"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Complex networks govern coiled-coil oligomerization--predicting and profiling by means of a machine learning approach",
+            "identifier": "http://www.wikidata.org/entity/Q24632790",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rudolf Volkmer-Engert",
+                        "identifier": "http://www.wikidata.org/entity/Q30158423"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ulrich Bodenhofer"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sepp Hochreiter",
+                        "identifier": "http://www.wikidata.org/entity/Q7451965"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Carsten C Mahrenholz"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ingrid G Abfalter"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The use of coiled-coil proteins in drug delivery systems.",
+                        "identifier": "http://www.wikidata.org/entity/Q37616295",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Preferred side-chain constellations at antiparallel coiled-coil interfaces.",
+                        "identifier": "http://www.wikidata.org/entity/Q36392905",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting oligomerization states of coiled coils.",
+                        "identifier": "http://www.wikidata.org/entity/Q36279334",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Probing the roles of residues at the e and g positions of the GCN4 leucine zipper by combinatorial mutagenesis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36278084",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A conserved trimerization motif controls the topology of short coiled coils.",
+                        "identifier": "http://www.wikidata.org/entity/Q34047976",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Is alpha-keratin a coiled coil?",
+                        "identifier": "http://www.wikidata.org/entity/Q33968421",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Covalent stabilization of coiled coils of the HIV gp41 N region yields extremely potent and broad inhibitors of viral infection.",
+                        "identifier": "http://www.wikidata.org/entity/Q33943822",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The long coming of computational structural biology.",
+                        "identifier": "http://www.wikidata.org/entity/Q30368805",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Socket: a program for identifying and analysing coiled-coil motifs within protein structures.",
+                        "identifier": "http://www.wikidata.org/entity/Q30328097",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MultiCoil: a program for predicting two- and three-stranded coiled coils",
+                        "identifier": "http://www.wikidata.org/entity/Q29619769",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting coiled coils by use of pairwise residue correlations",
+                        "identifier": "http://www.wikidata.org/entity/Q29616472",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Coiled coils: a highly versatile protein folding motif",
+                        "identifier": "http://www.wikidata.org/entity/Q29616419",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting coiled coils from protein sequences",
+                        "identifier": "http://www.wikidata.org/entity/Q27861097",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Protein Data Bank: a computer-based archival file for macromolecular structures",
+                        "identifier": "http://www.wikidata.org/entity/Q27860989",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A switch between two-, three-, and four-stranded coiled coils in GCN4 leucine zipper mutants",
+                        "identifier": "http://www.wikidata.org/entity/Q27731470",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Human mannose-binding protein carbohydrate recognition domain trimerizes through a triple alpha-helical coiled-coil",
+                        "identifier": "http://www.wikidata.org/entity/Q27729805",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular basis of coiled-coil oligomerization-state specificity",
+                        "identifier": "http://www.wikidata.org/entity/Q27665557",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The structure of the C-terminal actin-binding domain of talin.",
+                        "identifier": "http://www.wikidata.org/entity/Q27649413",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Basic local alignment search tool",
+                        "identifier": "http://www.wikidata.org/entity/Q25938991",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting specificity in bZIP coiled-coil protein interactions",
+                        "identifier": "http://www.wikidata.org/entity/Q24807107",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structure of influenza hemagglutinin in complex with an inhibitor of membrane fusion",
+                        "identifier": "http://www.wikidata.org/entity/Q24656213",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Amino acid substitution matrices from protein blocks",
+                        "identifier": "http://www.wikidata.org/entity/Q24563220",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Electron Microscopy Structural Insights into CPAP Oligomeric Behavior: A Plausible Assembly Process of a Supramolecular Scaffold of the Centrosome.",
+                        "identifier": "http://www.wikidata.org/entity/Q38843383",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MEDI1873, a potent, stabilized hexameric agonist of human GITR with regulatory T-cell targeting potential.",
+                        "identifier": "http://www.wikidata.org/entity/Q37741582",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ACCORD: an assessment tool to determine the orientation of homodimeric coiled-coils.",
+                        "identifier": "http://www.wikidata.org/entity/Q37683819",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "STRIPAK complexes: structure, biological function, and involvement in human diseases.",
+                        "identifier": "http://www.wikidata.org/entity/Q37590616",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nuclear Speckle-related Protein 70 Binds to Serine/Arginine-rich Splicing Factors 1 and 2 via an Arginine/Serine-like Region and Counteracts Their Alternative Splicing Activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q36744833",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The \u03b1-helical regions of KERP1 are important in Entamoeba histolytica adherence to human cells.",
+                        "identifier": "http://www.wikidata.org/entity/Q36572911",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Self-sorting heterodimeric coiled coil peptides with defined and tuneable self-assembly properties.",
+                        "identifier": "http://www.wikidata.org/entity/Q36060559",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mutations in CERS3 cause autosomal recessive congenital ichthyosis in humans",
+                        "identifier": "http://www.wikidata.org/entity/Q24294868",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-wide chromatin remodeling identified at GC-rich long nucleosome-free regions",
+                        "identifier": "http://www.wikidata.org/entity/Q21133925",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-05-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Molecular & Cellular Proteomics",
+                        "identifier": "http://www.wikidata.org/entity/Q6895932"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Engineering proteinase K using machine learning and synthetic genes",
+            "identifier": "http://www.wikidata.org/entity/Q21256657",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Claes Gustafsson",
+                        "identifier": "http://www.wikidata.org/entity/Q5777626"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jeremy Minshull"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jon E Ness"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sridhar Govindarajan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jun Liao"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Manfred K Warmuth"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rebecca P Wang"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A simple, rapid, high-fidelity and cost-effective PCR-based two-step DNA synthesis method for long gene sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q41337873",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Quantitative sequence-activity models (QSAM)--tools for sequence design.",
+                        "identifier": "http://www.wikidata.org/entity/Q40405161",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Substrate specificity of human pancreatic elastase 2.",
+                        "identifier": "http://www.wikidata.org/entity/Q39757481",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Construction of synthetic genes using PCR after automated DNA synthesis of their entire top and bottom strands.",
+                        "identifier": "http://www.wikidata.org/entity/Q35790732",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Sanger/pyrosequencing hybrid approach for the generation of high-quality draft assemblies of marine microbial genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q34983920",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Important structural features of 15-residue lactoferricin derivatives and methods for improvement of antimicrobial activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q34573840",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting enzyme function from protein sequence.",
+                        "identifier": "http://www.wikidata.org/entity/Q34409063",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Total synthesis of long DNA sequences: synthesis of a contiguous 32-kb polyketide synthase gene cluster.",
+                        "identifier": "http://www.wikidata.org/entity/Q34360747",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A method to predict functional residues in proteins.",
+                        "identifier": "http://www.wikidata.org/entity/Q34310572",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Protein engineering of subtilisin.",
+                        "identifier": "http://www.wikidata.org/entity/Q34126196",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Total synthesis and cloning of a gene coding for the ribonuclease S protein.",
+                        "identifier": "http://www.wikidata.org/entity/Q34055340",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Directed evolution: the 'rational' basis for 'irrational' design.",
+                        "identifier": "http://www.wikidata.org/entity/Q34029169",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Codon bias and heterologous protein expression.",
+                        "identifier": "http://www.wikidata.org/entity/Q33979754",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemical synthesis of poliovirus cDNA: generation of infectious virus in the absence of natural template.",
+                        "identifier": "http://www.wikidata.org/entity/Q33960127",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparison of methods based on diversity and similarity for molecule selection and the analysis of drug discovery data.",
+                        "identifier": "http://www.wikidata.org/entity/Q33202898",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Support vector machines in HTS data mining: Type I MetAPs inhibition study.",
+                        "identifier": "http://www.wikidata.org/entity/Q31029936",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Synthetic shuffling expands functional protein diversity by allowing amino acids to recombine independently.",
+                        "identifier": "http://www.wikidata.org/entity/Q30869909",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Recent progress in biomolecular engineering.",
+                        "identifier": "http://www.wikidata.org/entity/Q30836981",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Key substrate recognition residues in the active site of a plant cytochrome P450, CYP73A1. Homology guided site-directed mutagenesis.",
+                        "identifier": "http://www.wikidata.org/entity/Q30333364",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Accurate multiplex gene synthesis from programmable DNA microchips",
+                        "identifier": "http://www.wikidata.org/entity/Q28299798",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA shuffling of a family of genes from diverse species accelerates directed evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q28259708",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Surveying a local fitness landscape of a protein with epistatic sites for the study of directed evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q28215989",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Totally in vitro protein selection using mRNA-protein fusions and ribosome display",
+                        "identifier": "http://www.wikidata.org/entity/Q28198930",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Environmental genome shotgun sequencing of the Sargasso Sea",
+                        "identifier": "http://www.wikidata.org/entity/Q27860605",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structural basis of thermostability. Analysis of stabilizing mutations in subtilisin BPN'",
+                        "identifier": "http://www.wikidata.org/entity/Q27638987",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Two-step total gene synthesis method",
+                        "identifier": "http://www.wikidata.org/entity/Q24563570",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA shuffling by random fragmentation and reassembly: in vitro recombination for molecular evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q24562755",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice",
+                        "identifier": "http://www.wikidata.org/entity/Q24286950",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Synthetic biology for the directed evolution of protein biocatalysts: navigating sequence space intelligently.",
+                        "identifier": "http://www.wikidata.org/entity/Q38287400",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Directed enzyme evolution: climbing fitness peaks one amino acid at a time.",
+                        "identifier": "http://www.wikidata.org/entity/Q37244268",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Constructing de novo biosynthetic pathways for chemical synthesis inside living cells.",
+                        "identifier": "http://www.wikidata.org/entity/Q37158874",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Navigating the protein fitness landscape with Gaussian processes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36545654",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Kinetic Characterization of 100 Glycoside Hydrolase Mutants Enables the Discovery of Structural Features Correlated with Kinetic Constants",
+                        "identifier": "http://www.wikidata.org/entity/Q28552915",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Protein engineering of improved prolyl endopeptidases for celiac sprue therapy",
+                        "identifier": "http://www.wikidata.org/entity/Q24657645",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reconstructed evolutionary adaptive paths give polymerases accepting reversible terminators for sequencing and SNP detection",
+                        "identifier": "http://www.wikidata.org/entity/Q24647949",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A family of thermostable fungal cellulases created by structure-guided recombination",
+                        "identifier": "http://www.wikidata.org/entity/Q24645364",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exploiting models of molecular evolution to efficiently direct protein engineering",
+                        "identifier": "http://www.wikidata.org/entity/Q24635353",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Beyond directed evolution--semi-rational protein engineering and design",
+                        "identifier": "http://www.wikidata.org/entity/Q24604225",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Design parameters to control synthetic gene expression in Escherichia coli",
+                        "identifier": "http://www.wikidata.org/entity/Q21090049",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2007-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Biotechnology",
+                        "identifier": "http://www.wikidata.org/entity/Q15753225"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Improving the Caenorhabditis elegans genome annotation using machine learning",
+            "identifier": "http://www.wikidata.org/entity/Q21145670",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Klaus-Robert M\u00fcller",
+                        "identifier": "http://www.wikidata.org/entity/Q26709023"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Gunnar R\u00e4tsch"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bernhard Sch\u00f6lkopf",
+                        "identifier": "http://www.wikidata.org/entity/Q4894234"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Hanh Witte"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "S\u00f6ren Sonnenburg"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jagan Srinivasan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ralf-J Sommer"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Machine learning for science: state of the art and future prospects.",
+                        "identifier": "http://www.wikidata.org/entity/Q40686414",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genie--gene finding in Drosophila melanogaster.",
+                        "identifier": "http://www.wikidata.org/entity/Q40414130",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Limited microsynteny between the genomes of Pristionchus pacificus and Caenorhabditis elegans.",
+                        "identifier": "http://www.wikidata.org/entity/Q39756255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene recognition via spliced sequence alignment.",
+                        "identifier": "http://www.wikidata.org/entity/Q37384263",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis of the constancy of DNA sequences during development and evolution of the nematode Caenorhabditis elegans.",
+                        "identifier": "http://www.wikidata.org/entity/Q37321090",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "WormBase: new content and better access.",
+                        "identifier": "http://www.wikidata.org/entity/Q34581089",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of new human cadherin genes using a combination of protein motif search and gene finding methods.",
+                        "identifier": "http://www.wikidata.org/entity/Q34303450",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "WormBase: a multi-species resource for nematode biology and genomics.",
+                        "identifier": "http://www.wikidata.org/entity/Q34284591",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Learning interpretable SVMs for biological sequence classification.",
+                        "identifier": "http://www.wikidata.org/entity/Q33244587",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "dbEST--database for \"expressed sequence tags\"",
+                        "identifier": "http://www.wikidata.org/entity/Q29547785",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative analysis identifies exonic splicing regulatory sequences--The complex definition of enhancers and silencers",
+                        "identifier": "http://www.wikidata.org/entity/Q28247879",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Knowledge-based analysis of microarray gene expression data by using support vector machines.",
+                        "identifier": "http://www.wikidata.org/entity/Q27939386",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Primer3 on the WWW for general users and for biologist programmers",
+                        "identifier": "http://www.wikidata.org/entity/Q27861030",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prediction of complete gene structures in human genomic DNA",
+                        "identifier": "http://www.wikidata.org/entity/Q27860780",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome sequence of the nematode C. elegans: a platform for investigating biology",
+                        "identifier": "http://www.wikidata.org/entity/Q27860527",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "WormBase: better software, richer content.",
+                        "identifier": "http://www.wikidata.org/entity/Q25257908",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "BLAT--the BLAST-like alignment tool",
+                        "identifier": "http://www.wikidata.org/entity/Q24682492",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sequence information for the splicing of human pre-mRNA identified by support vector machine classification",
+                        "identifier": "http://www.wikidata.org/entity/Q24561544",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "GeneMark.hmm: new solutions for gene finding",
+                        "identifier": "http://www.wikidata.org/entity/Q24546288",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gene finding in novel genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q21284285",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The genome sequence of Caenorhabditis briggsae: a platform for comparative genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q21092840",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "LEARNING PARSIMONIOUS ENSEMBLES FOR UNBALANCED COMPUTATIONAL GENOMICS PROBLEMS.",
+                        "identifier": "http://www.wikidata.org/entity/Q39146143",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Detecting polymorphic regions in Arabidopsis thaliana with resequencing microarrays.",
+                        "identifier": "http://www.wikidata.org/entity/Q38847407",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A thermodynamic approach to PCR primer design.",
+                        "identifier": "http://www.wikidata.org/entity/Q37273679",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ML2Motif-Reliable extraction of discriminative sequence motifs from learning machines.",
+                        "identifier": "http://www.wikidata.org/entity/Q36323822",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Rapid Prediction of Bacterial Heterotrophic Fluxomics Using Machine Learning and Constraint Programming",
+                        "identifier": "http://www.wikidata.org/entity/Q28834535",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "mGene.web: a web service for accurate computational gene finding",
+                        "identifier": "http://www.wikidata.org/entity/Q24655379",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2007-02-23T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS Computational Biology",
+                        "identifier": "http://www.wikidata.org/entity/Q2635829"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Caenorhabditis elegans",
+                        "identifier": "http://www.wikidata.org/entity/Q91703"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "machine learning",
+                        "identifier": "http://www.wikidata.org/entity/Q2539"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        }
+    ]
+}

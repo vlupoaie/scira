@@ -1,0 +1,3609 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A revision of the purse-web spider genus Calommata Lucas, 1837 (Araneae, Atypidae) in the Afrotropical Region",
+            "identifier": "http://www.wikidata.org/entity/Q21127873",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Charles R Haddad",
+                        "identifier": "http://www.wikidata.org/entity/Q30349086"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ren\u00e9 Fourie"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rudy Jocqu\u00e9",
+                        "identifier": "http://www.wikidata.org/entity/Q3446797"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular phylogenetics of the spider infraorder Mygalomorphae using nuclear rRNA genes (18S and 28S): conflict and agreement with the current system of classification.",
+                        "identifier": "http://www.wikidata.org/entity/Q34543692",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A reconsideration of the classification of the spider infraorder Mygalomorphae (Arachnida: Araneae) based on three nuclear genes and morphology",
+                        "identifier": "http://www.wikidata.org/entity/Q21134530",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-05-04T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "ZooKeys",
+                        "identifier": "http://www.wikidata.org/entity/Q219980"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A Taxonomic Search Engine: federating taxonomic databases using web services",
+            "identifier": "http://www.wikidata.org/entity/Q21093645",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Roderic D. M. Page",
+                        "identifier": "http://www.wikidata.org/entity/Q7356570"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Future-proofing biological nomenclature.",
+                        "identifier": "http://www.wikidata.org/entity/Q40578160",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Globally distributed object identification for biological knowledgebases.",
+                        "identifier": "http://www.wikidata.org/entity/Q38422019",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Integrating biological databases.",
+                        "identifier": "http://www.wikidata.org/entity/Q35120173",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Environmental genome shotgun sequencing of the Sargasso Sea",
+                        "identifier": "http://www.wikidata.org/entity/Q27860605",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "TBMap: a taxonomic perspective on the phylogenetic database TreeBASE",
+                        "identifier": "http://www.wikidata.org/entity/Q28757632",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylotastic! Making tree-of-life knowledge accessible, reusable and convenient",
+                        "identifier": "http://www.wikidata.org/entity/Q28683167",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PhyloExplorer: a web server to validate, explore and query phylogenetic trees",
+                        "identifier": "http://www.wikidata.org/entity/Q27496576",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2005-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The lethal toxin from Australian funnel-web spiders is encoded by an intronless gene",
+            "identifier": "http://www.wikidata.org/entity/Q21134077",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Glenn F King",
+                        "identifier": "http://www.wikidata.org/entity/Q37372762"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "David Wilson"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "John S Mattick",
+                        "identifier": "http://www.wikidata.org/entity/Q30513858"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sandy Steffany Pineda"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Clinical consequences of spider bites: recent advances in our understanding.",
+                        "identifier": "http://www.wikidata.org/entity/Q34311291",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Receptor-targeting mechanisms of pain-causing toxins: How ow?",
+                        "identifier": "http://www.wikidata.org/entity/Q34271170",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An overview of toxins and genes from the venom of the Asian scorpion Buthus martensi Karsch.",
+                        "identifier": "http://www.wikidata.org/entity/Q34148718",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pharmacology and biochemistry of spider venoms.",
+                        "identifier": "http://www.wikidata.org/entity/Q34102067",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Speciation of cone snails and interspecific hyperdivergence of their venom peptides. Potential evolutionary significance of introns.",
+                        "identifier": "http://www.wikidata.org/entity/Q33692316",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Venomics of the spider Ornithoctonus huwena based on transcriptomic versus proteomic analysis.",
+                        "identifier": "http://www.wikidata.org/entity/Q33559395",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Venom landscapes: mining the complexity of spider venoms via a combined cDNA and mass spectrometric approach.",
+                        "identifier": "http://www.wikidata.org/entity/Q33238076",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Brazilian scorpion Tityus costatus Karsch: genes, peptides and function.",
+                        "identifier": "http://www.wikidata.org/entity/Q31145061",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Were arachnids the first to use combinatorial peptide libraries?",
+                        "identifier": "http://www.wikidata.org/entity/Q31138298",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete hemocyanin subunit sequences of the hunting spider Cupiennius salei: recent hemocyanin remodeling in entelegyne spiders.",
+                        "identifier": "http://www.wikidata.org/entity/Q31038568",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular evolution and diversification of snake toxin genes, revealed by analysis of intron sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q30980307",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structure and pharmacology of spider venom neurotoxins.",
+                        "identifier": "http://www.wikidata.org/entity/Q30966298",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Loss of introns along the evolutionary diversification pathway of snake venom disintegrins evidenced by sequence analysis of genomic DNA from Macrovipera lebetina transmediterranea and Echis ocellatus.",
+                        "identifier": "http://www.wikidata.org/entity/Q30358850",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Multiple sequence alignment using ClustalW and ClustalX",
+                        "identifier": "http://www.wikidata.org/entity/Q29547698",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular diversification of peptide toxins from the tarantula Haplopelma hainanum (Ornithoctonus hainana) venom based on transcriptomic, peptidomic, and genomic analyses",
+                        "identifier": "http://www.wikidata.org/entity/Q28274590",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Solution structure of robustoxin, the lethal neurotoxin from the funnel-web spider Atrax robustus",
+                        "identifier": "http://www.wikidata.org/entity/Q27748780",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The structure of versutoxin (delta-atracotoxin-Hv1) provides insights into the binding of site 3 neurotoxins to the voltage-gated sodium channel",
+                        "identifier": "http://www.wikidata.org/entity/Q27748197",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Discovery and structure of a potent and highly specific blocker of insect calcium channels",
+                        "identifier": "http://www.wikidata.org/entity/Q27634381",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ArachnoServer 2.0, an updated online resource for spider toxin sequences and structures",
+                        "identifier": "http://www.wikidata.org/entity/Q24615380",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "THE EVOLUTION OF ADAPTIVE IMMUNITY",
+                        "identifier": "http://www.wikidata.org/entity/Q22255631",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome sizes of spiders.",
+                        "identifier": "http://www.wikidata.org/entity/Q40568291",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Discovery of an MIT-like atracotoxin family: spider venom peptides that share sequence homology but not pharmacological properties with AVIT family proteins.",
+                        "identifier": "http://www.wikidata.org/entity/Q40404718",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Spider-venom peptides that target voltage-gated sodium channels: pharmacological tools and potential therapeutic leads.",
+                        "identifier": "http://www.wikidata.org/entity/Q38006317",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An evolutionary view of the mechanism for immune and genome diversity.",
+                        "identifier": "http://www.wikidata.org/entity/Q38001656",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Venoms as a platform for human drugs: translating toxins into therapeutics.",
+                        "identifier": "http://www.wikidata.org/entity/Q37937049",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular diversity of spider venom.",
+                        "identifier": "http://www.wikidata.org/entity/Q37704430",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "NMR-spectroscopic screening of spider venom reveals sulfated nucleosides as major components for the brown recluse and related species.",
+                        "identifier": "http://www.wikidata.org/entity/Q36936303",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intron-rich ancestors.",
+                        "identifier": "http://www.wikidata.org/entity/Q36542186",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genetic mechanisms of scorpion venom peptide diversification.",
+                        "identifier": "http://www.wikidata.org/entity/Q36357555",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Australian funnel-web spiders: master insecticide chemists.",
+                        "identifier": "http://www.wikidata.org/entity/Q35739176",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structure and function of delta-atracotoxins: lethal neurotoxins targeting the voltage-gated sodium channel.",
+                        "identifier": "http://www.wikidata.org/entity/Q35739174",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Snake postsynaptic neurotoxins: gene structure, phylogeny and applications in research and therapy.",
+                        "identifier": "http://www.wikidata.org/entity/Q35689097",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Spider-venom peptides as therapeutics.",
+                        "identifier": "http://www.wikidata.org/entity/Q35155666",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Spider peptide toxins as leads for drug development.",
+                        "identifier": "http://www.wikidata.org/entity/Q34620046",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The connection between transcription and genomic instability.",
+                        "identifier": "http://www.wikidata.org/entity/Q34514282",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Poisonous Spiders: Bites, Symptoms, and Treatment; an Educational Review.",
+                        "identifier": "http://www.wikidata.org/entity/Q27690823",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2012-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "ENZO: a web tool for derivation and evaluation of kinetic models of enzyme catalyzed reactions",
+            "identifier": "http://www.wikidata.org/entity/Q21091016",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Janez Konc"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Milan Hodo\u0161\u010dek"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jure Stojan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Matej Praprotnik"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Matej Penca"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sta\u0161 Bevc"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Du\u0161anka Jane\u017ei\u010d"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new and rapid colorimetric determination of acetylcholinesterase activity",
+                        "identifier": "http://www.wikidata.org/entity/Q29547373",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis of enzyme progress curves by nonlinear regression",
+                        "identifier": "http://www.wikidata.org/entity/Q28303905",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "How to measure and predict the molar absorption coefficient of a protein",
+                        "identifier": "http://www.wikidata.org/entity/Q27860551",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structural insights into substrate traffic and inhibition in acetylcholinesterase.",
+                        "identifier": "http://www.wikidata.org/entity/Q41444745",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Autocatalytic processing of procathepsin B is triggered by proenzyme activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q36001094",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Fitting enzyme kinetic data with KinTek Global Kinetic Explorer.",
+                        "identifier": "http://www.wikidata.org/entity/Q33515510",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insights into subtle conformational differences in the substrate-binding loop of fungal 17\u03b2-hydroxysteroid dehydrogenase: a combined structural and kinetic approach",
+                        "identifier": "http://www.wikidata.org/entity/Q27674193",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification and characterization of the novel reversible and selective cathepsin X inhibitors.",
+                        "identifier": "http://www.wikidata.org/entity/Q41126114",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Kinetic modelling: an integrated approach to analyze enzyme activity assays.",
+                        "identifier": "http://www.wikidata.org/entity/Q38601404",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Development of an in-vivo active reversible butyrylcholinesterase inhibitor.",
+                        "identifier": "http://www.wikidata.org/entity/Q37522451",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Kinetics of Torpedo californica acetylcholinesterase inhibition by bisnorcymserine and crystal structure of the complex with its leaving group",
+                        "identifier": "http://www.wikidata.org/entity/Q27677846",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "TreeVector: scalable, interactive, phylogenetic trees for the web",
+            "identifier": "http://www.wikidata.org/entity/Q21091151",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Julian Gough",
+                        "identifier": "http://www.wikidata.org/entity/Q19718519"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Gary Barker"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ralph Pethica"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Kovacs"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "T-REX: reconstructing and visualizing phylogenetic trees and reticulation networks.",
+                        "identifier": "http://www.wikidata.org/entity/Q34083715",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PHY.FI: fast and easy online creation and manipulation of phylogeny color figures.",
+                        "identifier": "http://www.wikidata.org/entity/Q33247612",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ATV: display and manipulation of annotated phylogenetic trees.",
+                        "identifier": "http://www.wikidata.org/entity/Q30986224",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Redundancy based detection of sequence polymorphisms in expressed sequence tag data using autoSNP.",
+                        "identifier": "http://www.wikidata.org/entity/Q30769047",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assignment of homology to genome sequences using a library of hidden Markov models that represent all proteins of known structure",
+                        "identifier": "http://www.wikidata.org/entity/Q29547343",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interactive Tree Of Life (iTOL): an online tool for phylogenetic tree display and annotation",
+                        "identifier": "http://www.wikidata.org/entity/Q28269158",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "TreeView: an application to display phylogenetic trees on personal computers",
+                        "identifier": "http://www.wikidata.org/entity/Q27861074",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Taxonomic colouring of phylogenetic trees of protein sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q25257079",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular evolution of troponin I and a role of its N-terminal extension in nematode locomotion.",
+                        "identifier": "http://www.wikidata.org/entity/Q36839397",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "BacWGSTdb, a database for genotyping and source tracking bacterial pathogens.",
+                        "identifier": "http://www.wikidata.org/entity/Q36434539",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Role of Aspergillus niger acrA in arsenic resistance and its use as the basis for an arsenic biosensor.",
+                        "identifier": "http://www.wikidata.org/entity/Q35940907",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolview v2: an online visualization and management tool for customized and annotated phylogenetic trees",
+                        "identifier": "http://www.wikidata.org/entity/Q28597766",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Web-based visual analysis for high-throughput genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q28292552",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Visualizing genome and systems biology: technologies, tools, implementation techniques and trends, past, present and future",
+                        "identifier": "http://www.wikidata.org/entity/Q26796849",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "jsPhyloSVG: a javascript library for visualizing interactive and vector-based phylogenetic trees on the web",
+                        "identifier": "http://www.wikidata.org/entity/Q21562172",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolutionarily consistent families in SCOP: sequence, structure and function",
+                        "identifier": "http://www.wikidata.org/entity/Q21256436",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "ZooKeys, unlocking Earth\u2019s incredible biodiversity and building a sustainable bridge into the public domain: From \u201cprint-based\u201d to \u201cweb-based\u201d taxonomy, systematics, and natural history. ZooKeys Editorial Opening Paper",
+            "identifier": "http://www.wikidata.org/entity/Q21128505",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sergei Golovatch",
+                        "identifier": "http://www.wikidata.org/entity/Q21388146"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wilson Lourenco"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stefano Taiti",
+                        "identifier": "http://www.wikidata.org/entity/Q21342019"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Richard L. Pyle",
+                        "identifier": "http://www.wikidata.org/entity/Q21340682"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Donat Agosti",
+                        "identifier": "http://www.wikidata.org/entity/Q20650434"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jeremy Miller",
+                        "identifier": "http://www.wikidata.org/entity/Q3807964"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Terry Erwin",
+                        "identifier": "http://www.wikidata.org/entity/Q3518898"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Thorsten Assmann",
+                        "identifier": "http://www.wikidata.org/entity/Q2429050"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael S. Engel",
+                        "identifier": "http://www.wikidata.org/entity/Q2348034"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Hans-Dieter Sues",
+                        "identifier": "http://www.wikidata.org/entity/Q329237"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lyubomir Penev",
+                        "identifier": "http://www.wikidata.org/entity/Q21781591"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Miguel Alonso-Zarazaga"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Achille Casale"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "F. Christian Thompson"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Thomas Henry"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Hans-Peter Fagerholm"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Erik van Nieukerken"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Ivie"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Natalia Ananjeva"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Strategies and guidelines for scholarly publishing of biodiversity data",
+                        "identifier": "http://www.wikidata.org/entity/Q28913566",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Symbiota - A virtual platform for creating voucher-based biodiversity information communities",
+                        "identifier": "http://www.wikidata.org/entity/Q28655838",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Celebrating with the 'beetle' man: Terry Erwin's 75(th) birthday",
+                        "identifier": "http://www.wikidata.org/entity/Q22675365",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A common registration-to-publication automated pipeline for nomenclatural acts for higher plants (International Plant Names Index, IPNI), fungi (Index Fungorum, MycoBank) and animals (ZooBank)",
+                        "identifier": "http://www.wikidata.org/entity/Q22117527",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008-07-04T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "ZooKeys",
+                        "identifier": "http://www.wikidata.org/entity/Q219980"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "biodiversity",
+                        "identifier": "http://www.wikidata.org/entity/Q47041"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Do altmetrics work? Twitter and ten other social web services",
+            "identifier": "http://www.wikidata.org/entity/Q21133507",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Vincent Larivi\u00e8re",
+                        "identifier": "http://www.wikidata.org/entity/Q29647472"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stefanie Haustein"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Cassidy R. Sugimoto",
+                        "identifier": "http://www.wikidata.org/entity/Q29647448"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mike Thelwall",
+                        "identifier": "http://www.wikidata.org/entity/Q1446808"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "How the scientific community reacts to newly submitted preprints: article downloads, Twitter mentions, and citations.",
+                        "identifier": "http://www.wikidata.org/entity/Q34469537",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The spread of scientific information: insights from the web usage statistics in PLoS article-level metrics.",
+                        "identifier": "http://www.wikidata.org/entity/Q33908468",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Research blogs and the discussion of scholarly information",
+                        "identifier": "http://www.wikidata.org/entity/Q28730020",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tweeting the meeting: an in-depth analysis of Twitter activity at Kidney Week 2011",
+                        "identifier": "http://www.wikidata.org/entity/Q28727521",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Can tweets predict citations? Metrics of social impact based on Twitter and correlation with traditional metrics of scientific impact",
+                        "identifier": "http://www.wikidata.org/entity/Q24632853",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The altmetrics collection",
+                        "identifier": "http://www.wikidata.org/entity/Q21560746",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Article-level metrics and the evolution of scientific impact",
+                        "identifier": "http://www.wikidata.org/entity/Q21092728",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Can conference papers have information value through Wikipedia? An investigation of four engineering fields",
+                        "identifier": "http://www.wikidata.org/entity/Q46007852",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The social media index: measuring the impact of emergency medicine and critical care websites.",
+                        "identifier": "http://www.wikidata.org/entity/Q41123488",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Altmetrics - A Collated Adjunct Beyond Citations for Scholarly Impact: A Systematic Review.",
+                        "identifier": "http://www.wikidata.org/entity/Q38648787",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysing researchers' outreach efforts and the association with publication metrics: A case study of Kudos.",
+                        "identifier": "http://www.wikidata.org/entity/Q38619896",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Online distribution channel increases article usage on Mendeley: a randomized controlled trial.",
+                        "identifier": "http://www.wikidata.org/entity/Q38429251",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ten tips to improve the visibility and dissemination of research for policy makers and practitioners.",
+                        "identifier": "http://www.wikidata.org/entity/Q38372574",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Recent trends in biomedical informatics: a study based on JAMIA articles.",
+                        "identifier": "http://www.wikidata.org/entity/Q37389474",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Randomized Controlled Trial of Social Media: Effect of Increased Intensity of the Intervention.",
+                        "identifier": "http://www.wikidata.org/entity/Q36956719",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Media Reporting of Practice-Changing Clinical Trials in Oncology: A North American Perspective.",
+                        "identifier": "http://www.wikidata.org/entity/Q36673522",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Measuring scientific impact beyond academia: An assessment of existing impact metrics and proposed improvements.",
+                        "identifier": "http://www.wikidata.org/entity/Q36302598",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Altmetrics: an analysis of the state-of-the-art in measuring research impact on social media",
+                        "identifier": "http://www.wikidata.org/entity/Q30504858",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The distorted mirror of Wikipedia: a quantitative analysis of Wikipedia coverage of academics",
+                        "identifier": "http://www.wikidata.org/entity/Q30090192",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open-access mega-journals",
+                        "identifier": "http://www.wikidata.org/entity/Q29958791",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The emerging role of social media in urology",
+                        "identifier": "http://www.wikidata.org/entity/Q28654806",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "I Like, I Cite? Do Facebook Likes Predict the Impact of Scientific Work?",
+                        "identifier": "http://www.wikidata.org/entity/Q28645050",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Social Media and the Practicing Hematologist: Twitter 101 for the Busy Healthcare Provider",
+                        "identifier": "http://www.wikidata.org/entity/Q28081808",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Circulation of Scientific Articles in the Sphere of Web-Based Media: Citation Practices, Communities of Interests and Local Ties",
+                        "identifier": "http://www.wikidata.org/entity/Q27335757",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Alternative perspectives on impact: the potential of ALMs and altmetrics to inform funders about research impact",
+                        "identifier": "http://www.wikidata.org/entity/Q26285161",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Expert failure: re-evaluating research assessment",
+                        "identifier": "http://www.wikidata.org/entity/Q21563534",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Research data explored: an extended analysis of citations and altmetrics",
+                        "identifier": "http://www.wikidata.org/entity/Q28604164",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bibliographic Analysis of Nature Based on Twitter and Facebook Altmetrics Data",
+                        "identifier": "http://www.wikidata.org/entity/Q28590850",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2013-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS ONE",
+                        "identifier": "http://www.wikidata.org/entity/Q564954"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "MIMOX: a web tool for phage display based epitope mapping",
+            "identifier": "http://www.wikidata.org/entity/Q21093641",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Alex Gutteridge",
+                        "identifier": "http://www.wikidata.org/entity/Q43099966"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jian Huang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Minoru Kanehisa",
+                        "identifier": "http://www.wikidata.org/entity/Q39758239"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wataru Honda"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Vaccination with cetuximab mimotopes and biological properties of induced anti-epidermal growth factor receptor antibodies.",
+                        "identifier": "http://www.wikidata.org/entity/Q40351380",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SiteLight: binding-site prediction using phage display libraries.",
+                        "identifier": "http://www.wikidata.org/entity/Q36572145",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Searching for peptide ligands with an epitope library.",
+                        "identifier": "http://www.wikidata.org/entity/Q33256793",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mimotope vaccination for epitope-specific induction of anti-CD20 antibodies.",
+                        "identifier": "http://www.wikidata.org/entity/Q33248515",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mapping a neutralizing epitope on the SARS coronavirus spike protein: computational prediction based on affinity-selected peptides.",
+                        "identifier": "http://www.wikidata.org/entity/Q33240696",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Matching of trastuzumab (Herceptin) epitope mimics onto the surface of Her-2/neu--a new method of epitope definition.",
+                        "identifier": "http://www.wikidata.org/entity/Q33214024",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The mapping and reconstitution of a conformational discontinuous B-cell epitope of HIV-1.",
+                        "identifier": "http://www.wikidata.org/entity/Q33194522",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "3D-Epitope-Explorer (3DEX): localization of conformational epitopes within three-dimensional structures of proteins.",
+                        "identifier": "http://www.wikidata.org/entity/Q31160409",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Epitope identification and discovery using phage display libraries: applications in vaccine development and diagnostics.",
+                        "identifier": "http://www.wikidata.org/entity/Q31037277",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Allergen mimotopes for 3-dimensional epitope search and induction of antibodies inhibiting human IgE.",
+                        "identifier": "http://www.wikidata.org/entity/Q30951730",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Peptide decoys selected by phage display block in vitro and in vivo activity of a human anti-FVIII inhibitor.",
+                        "identifier": "http://www.wikidata.org/entity/Q30912156",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Actin surface structure revealed by antibody imprints: evaluation of phage-display analysis of anti-actin antibodies.",
+                        "identifier": "http://www.wikidata.org/entity/Q30672300",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new method for mapping discontinuous antibody epitopes to reveal structural features of proteins.",
+                        "identifier": "http://www.wikidata.org/entity/Q30333330",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Themes in RNA-protein recognition.",
+                        "identifier": "http://www.wikidata.org/entity/Q30323241",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Filamentous fusion phage: novel expression vectors that display cloned antigens on the virion surface",
+                        "identifier": "http://www.wikidata.org/entity/Q29616401",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phage Display",
+                        "identifier": "http://www.wikidata.org/entity/Q28201864",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A combined experimental and computational strategy to define protein interaction networks for peptide recognition modules.",
+                        "identifier": "http://www.wikidata.org/entity/Q27930492",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Jalview Java alignment editor",
+                        "identifier": "http://www.wikidata.org/entity/Q27861026",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Bioperl toolkit: Perl modules for the life sciences",
+                        "identifier": "http://www.wikidata.org/entity/Q24682183",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Probing a protein-protein interaction by in vitro evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q24546265",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice",
+                        "identifier": "http://www.wikidata.org/entity/Q24286950",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CED: a conformational epitope database",
+                        "identifier": "http://www.wikidata.org/entity/Q21263133",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An Introduction to B-Cell Epitope Mapping and In Silico Epitope Prediction.",
+                        "identifier": "http://www.wikidata.org/entity/Q38996234",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Peptide-based vaccinology: experimental and computational approaches to target hypervariable viruses through the fine characterization of protective epitopes recognized by monoclonal antibodies and the identification of T-cell-activating peptides.",
+                        "identifier": "http://www.wikidata.org/entity/Q38123488",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bioinformatics resources and tools for conformational B-cell epitope prediction.",
+                        "identifier": "http://www.wikidata.org/entity/Q37077919",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Antigen-antibody interface properties: composition, residue interactions, and features of 53 non-redundant structures.",
+                        "identifier": "http://www.wikidata.org/entity/Q36238794",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MimoDB 2.0: a mimotope database and beyond",
+                        "identifier": "http://www.wikidata.org/entity/Q24618988",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of conformational B-cell Epitopes in an antigen from its primary sequence",
+                        "identifier": "http://www.wikidata.org/entity/Q24613680",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SAROTUP: scanner and reporter of target-unrelated peptides",
+                        "identifier": "http://www.wikidata.org/entity/Q21328696",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mimotope vaccination--from allergy to cancer",
+                        "identifier": "http://www.wikidata.org/entity/Q24608624",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Defrosting the digital library: bibliographic tools for the next generation web.",
+            "identifier": "http://www.wikidata.org/entity/Q21092568",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Duncan Hull",
+                        "identifier": "http://www.wikidata.org/entity/Q47012855"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Steve Pettifer",
+                        "identifier": "http://www.wikidata.org/entity/Q15429595"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Douglas Kell",
+                        "identifier": "http://www.wikidata.org/entity/Q5301676"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Communication. Science and the semantic web.",
+                        "identifier": "http://www.wikidata.org/entity/Q38430279",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Globally distributed object identification for biological knowledgebases.",
+                        "identifier": "http://www.wikidata.org/entity/Q38422019",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cyberinfrastructure: empowering a \"third way\" in biomedical research.",
+                        "identifier": "http://www.wikidata.org/entity/Q38415503",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Babel's tower revisited: a universal resource for cross-referencing across annotation databases.",
+                        "identifier": "http://www.wikidata.org/entity/Q38402748",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Alzforum and SWAN: the present and future of scientific web communities.",
+                        "identifier": "http://www.wikidata.org/entity/Q38397219",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A text-mining perspective on the requirements for electronically annotated abstracts.",
+                        "identifier": "http://www.wikidata.org/entity/Q37105255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Text mining and its potential applications in systems biology.",
+                        "identifier": "http://www.wikidata.org/entity/Q36625511",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolution of web services in bioinformatics.",
+                        "identifier": "http://www.wikidata.org/entity/Q36173300",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Web services in the life sciences.",
+                        "identifier": "http://www.wikidata.org/entity/Q36170002",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Towards a cyberinfrastructure for the biological sciences: progress, visions and challenges.",
+                        "identifier": "http://www.wikidata.org/entity/Q34810712",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparison of PubMed, Scopus, Web of Science, and Google Scholar: strengths and weaknesses.",
+                        "identifier": "http://www.wikidata.org/entity/Q34691513",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Scientists enter the blogosphere.",
+                        "identifier": "http://www.wikidata.org/entity/Q34625776",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The increasing dominance of teams in production of knowledge.",
+                        "identifier": "http://www.wikidata.org/entity/Q34618686",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Service-oriented science.",
+                        "identifier": "http://www.wikidata.org/entity/Q34416782",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Information science. Going, going, gone: lost Internet references.",
+                        "identifier": "http://www.wikidata.org/entity/Q34273719",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identity and search in social networks.",
+                        "identifier": "http://www.wikidata.org/entity/Q34129024",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "LSID Tester, a tool for testing Life Science Identifier resolution services.",
+                        "identifier": "http://www.wikidata.org/entity/Q33320226",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Molecular Biology Database Collection: 2008 update.",
+                        "identifier": "http://www.wikidata.org/entity/Q33306322",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Literature mining for the biologist: from information retrieval to biological discovery",
+                        "identifier": "http://www.wikidata.org/entity/Q30002370",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Here is the evidence, now what is the hypothesis? The complementary roles of inductive and hypothesis-driven science in the post-genomic era",
+                        "identifier": "http://www.wikidata.org/entity/Q29398873",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A perspective of publicly accessible/open-access chemistry databases",
+                        "identifier": "http://www.wikidata.org/entity/Q28842764",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A wiki for the life sciences where authorship matters",
+                        "identifier": "http://www.wikidata.org/entity/Q28842736",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome re-annotation: a wiki solution?",
+                        "identifier": "http://www.wikidata.org/entity/Q28763015",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "iHOP web services",
+                        "identifier": "http://www.wikidata.org/entity/Q28757280",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemistry for everyone",
+                        "identifier": "http://www.wikidata.org/entity/Q28745987",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structured digital abstract makes text mining easy",
+                        "identifier": "http://www.wikidata.org/entity/Q28301852",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "From XML to RDF: how semantic web technologies will change the design of 'omic' standards",
+                        "identifier": "http://www.wikidata.org/entity/Q28271403",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "D\u00e9j\u00e0 vu--a study of duplicate citations in Medline",
+                        "identifier": "http://www.wikidata.org/entity/Q28259750",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open access: implications for scholarly publishing and medical libraries",
+                        "identifier": "http://www.wikidata.org/entity/Q28255893",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Taverna: a tool for building and running workflows of services",
+                        "identifier": "http://www.wikidata.org/entity/Q28252371",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Text mining for metabolic pathways, signaling cascades, and protein networks",
+                        "identifier": "http://www.wikidata.org/entity/Q28249847",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cyberinfrastructure for e-Science",
+                        "identifier": "http://www.wikidata.org/entity/Q28249106",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Publishing on the semantic web",
+                        "identifier": "http://www.wikidata.org/entity/Q28185770",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Advancing translational research with the Semantic Web",
+                        "identifier": "http://www.wikidata.org/entity/Q27990958",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Growth control of the eukaryote cell: a systems biology study in yeast",
+                        "identifier": "http://www.wikidata.org/entity/Q27499776",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open access to the scientific journal literature.",
+                        "identifier": "http://www.wikidata.org/entity/Q24797526",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Database resources of the National Center for Biotechnology Information",
+                        "identifier": "http://www.wikidata.org/entity/Q24683601",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "HubMed: a web-based biomedical literature search interface",
+                        "identifier": "http://www.wikidata.org/entity/Q24680225",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biomedical language processing: what's beyond PubMed?",
+                        "identifier": "http://www.wikidata.org/entity/Q24670193",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "UniProt: the Universal Protein knowledgebase",
+                        "identifier": "http://www.wikidata.org/entity/Q24598826",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An index to quantify an individual's scientific research output.",
+                        "identifier": "http://www.wikidata.org/entity/Q24537699",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PLoS Biology in action",
+                        "identifier": "http://www.wikidata.org/entity/Q21563647",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open access increases citation rate",
+                        "identifier": "http://www.wikidata.org/entity/Q21563613",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "When is open access not open access?",
+                        "identifier": "http://www.wikidata.org/entity/Q21563566",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Open access: taking full advantage of the content",
+                        "identifier": "http://www.wikidata.org/entity/Q21563503",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Publishing perishing? Towards tomorrow's information architecture",
+                        "identifier": "http://www.wikidata.org/entity/Q21284236",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Collaborative development of the Arrowsmith two node search interface designed for laboratory investigators",
+                        "identifier": "http://www.wikidata.org/entity/Q21203541",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Calling on a million minds for community annotation in WikiProteins",
+                        "identifier": "http://www.wikidata.org/entity/Q21183907",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Getting started in text mining",
+                        "identifier": "http://www.wikidata.org/entity/Q21145382",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Scopus database: a review.",
+                        "identifier": "http://www.wikidata.org/entity/Q21093223",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Three options for citation tracking: Google Scholar, Scopus and Web of Science",
+                        "identifier": "http://www.wikidata.org/entity/Q21093221",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The what and whys of DOIs",
+                        "identifier": "http://www.wikidata.org/entity/Q21092838",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Will a biological database be different from a biological journal?",
+                        "identifier": "http://www.wikidata.org/entity/Q21092584",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Citation advantage of open access articles",
+                        "identifier": "http://www.wikidata.org/entity/Q21030653",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Scholia, Scientometrics and Wikidata",
+                        "identifier": "http://www.wikidata.org/entity/Q41799194",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The past, present and future of Scientific discourse.",
+                        "identifier": "http://www.wikidata.org/entity/Q38948065",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Zotero: A bibliographic assistant to researcher.",
+                        "identifier": "http://www.wikidata.org/entity/Q38781373",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Network-based statistical comparison of citation topology of bibliographic databases.",
+                        "identifier": "http://www.wikidata.org/entity/Q38389985",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Teaching computers to read the pharmacogenomics literature ... so you don't have to.",
+                        "identifier": "http://www.wikidata.org/entity/Q36340395",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Writing references and using citation management software.",
+                        "identifier": "http://www.wikidata.org/entity/Q35993839",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Scholia and scientometrics with Wikidata",
+                        "identifier": "http://www.wikidata.org/entity/Q28942417",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Breeding crop plants with deep roots: their role in sustainable carbon, nutrient and water sequestration",
+                        "identifier": "http://www.wikidata.org/entity/Q28741243",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reliance of scientific publication on citation management software: the new generation",
+                        "identifier": "http://www.wikidata.org/entity/Q28710214",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Wikis and collaborative writing applications in health care: a scoping review protocol",
+                        "identifier": "http://www.wikidata.org/entity/Q28709063",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Iron behaving badly: inappropriate iron chelation as a major contributor to the aetiology of vascular and other progressive inflammatory and degenerative diseases",
+                        "identifier": "http://www.wikidata.org/entity/Q28388335",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Calling International Rescue: knowledge lost in literature and data landslide!",
+                        "identifier": "http://www.wikidata.org/entity/Q28265361",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bibliometrics: tracking research impact by selecting the appropriate metrics",
+                        "identifier": "http://www.wikidata.org/entity/Q28072600",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "TogoDoc server/client system: smart recommendation and efficient management of life science literature",
+                        "identifier": "http://www.wikidata.org/entity/Q27975981",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Differential nutrient limitation of soil microbial biomass and metabolic quotients (qCO2): is there a biological stoichiometry of soil microbes?",
+                        "identifier": "http://www.wikidata.org/entity/Q26827449",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Event-based text mining for biology and functional genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q26823739",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Towards a unifying, systems biology understanding of large-scale cellular death and destruction caused by poorly liganded iron: Parkinson's, Huntington's, Alzheimer's, prions, bactericides, chemical toxicology and others as examples",
+                        "identifier": "http://www.wikidata.org/entity/Q24289511",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008-10-31T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "PLOS Computational Biology",
+                        "identifier": "http://www.wikidata.org/entity/Q2635829"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "digital library",
+                        "identifier": "http://www.wikidata.org/entity/Q212805"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "WebMGA: a customizable web server for fast metagenomic sequence analysis",
+            "identifier": "http://www.wikidata.org/entity/Q21093386",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Weizhong Li",
+                        "identifier": "http://www.wikidata.org/entity/Q30303443"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sitao Wu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Zhengwei Zhu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Beifang Niu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Liming Fu"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "FragGeneScan: predicting genes in short and error-prone reads.",
+                        "identifier": "http://www.wikidata.org/entity/Q34298246",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Clustering of highly homologous sequences to reduce the size of large protein databases.",
+                        "identifier": "http://www.wikidata.org/entity/Q33941836",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SolexaQA: At-a-glance quality assessment of Illumina second-generation sequencing data.",
+                        "identifier": "http://www.wikidata.org/entity/Q33704542",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CD-HIT Suite: a web server for clustering and comparing biological sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q33686347",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Artificial and natural duplicates in pyrosequencing reads of metagenomic data.",
+                        "identifier": "http://www.wikidata.org/entity/Q33553912",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis and comparison of very large metagenomes with fast clustering and functional annotation.",
+                        "identifier": "http://www.wikidata.org/entity/Q33513330",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ESPRIT: estimating species richness using large collections of 16S rRNA pyrosequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q33439384",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Probing metagenomics by rapid cluster analysis of very large datasets.",
+                        "identifier": "http://www.wikidata.org/entity/Q33375049",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A statistical toolbox for metagenomics: assessing functional diversity in microbial communities.",
+                        "identifier": "http://www.wikidata.org/entity/Q33316205",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Use of simulated data sets to evaluate the fidelity of metagenomic processing methods.",
+                        "identifier": "http://www.wikidata.org/entity/Q33283189",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An application of statistics to comparative metagenomics.",
+                        "identifier": "http://www.wikidata.org/entity/Q33237080",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Functional metagenomic profiling of nine biomes",
+                        "identifier": "http://www.wikidata.org/entity/Q30014835",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "tRNAscan-SE: A Program for Improved Detection of Transfer RNA Genes in Genomic Sequence",
+                        "identifier": "http://www.wikidata.org/entity/Q29661461",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new generation of homology search tools based on probabilistic inference",
+                        "identifier": "http://www.wikidata.org/entity/Q29616170",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative metagenomics of microbial communities",
+                        "identifier": "http://www.wikidata.org/entity/Q29555844",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy",
+                        "identifier": "http://www.wikidata.org/entity/Q29547619",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Next-generation DNA sequencing",
+                        "identifier": "http://www.wikidata.org/entity/Q29547447",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences",
+                        "identifier": "http://www.wikidata.org/entity/Q29547172",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylogenetic classification of short environmental DNA fragments",
+                        "identifier": "http://www.wikidata.org/entity/Q28754706",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Basic local alignment search tool",
+                        "identifier": "http://www.wikidata.org/entity/Q25938991",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB",
+                        "identifier": "http://www.wikidata.org/entity/Q24685829",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MEGAN analysis of metagenomic data",
+                        "identifier": "http://www.wikidata.org/entity/Q24673516",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "De novo assembly of human genomes with massively parallel short read sequencing",
+                        "identifier": "http://www.wikidata.org/entity/Q24655711",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A core gut microbiome in obese and lean twins",
+                        "identifier": "http://www.wikidata.org/entity/Q24649648",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities",
+                        "identifier": "http://www.wikidata.org/entity/Q24647611",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metagenomic analysis of the human distal gut microbiome",
+                        "identifier": "http://www.wikidata.org/entity/Q24633486",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "QIIME allows analysis of high-throughput community sequencing data",
+                        "identifier": "http://www.wikidata.org/entity/Q24616873",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The European ribosomal RNA database",
+                        "identifier": "http://www.wikidata.org/entity/Q24600334",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "5S Ribosomal RNA Database",
+                        "identifier": "http://www.wikidata.org/entity/Q24548424",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MetaGene: prokaryotic gene finding from environmental genome shotgun sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q39118049",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "FR-HIT, a very fast program to recruit metagenomic reads to homologous reference genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q35019692",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Accurate phylogenetic classification of variable-length DNA fragments.",
+                        "identifier": "http://www.wikidata.org/entity/Q34593023",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence",
+                        "identifier": "http://www.wikidata.org/entity/Q24544402",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The RAST Server: rapid annotations using subsystems technology",
+                        "identifier": "http://www.wikidata.org/entity/Q21263157",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+                        "identifier": "http://www.wikidata.org/entity/Q21183894",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CAMERA: a community resource for metagenomics",
+                        "identifier": "http://www.wikidata.org/entity/Q21145892",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Sorcerer II Global Ocean Sampling expedition: northwest Atlantic through eastern tropical Pacific",
+                        "identifier": "http://www.wikidata.org/entity/Q21092763",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Sorcerer II Global Ocean Sampling expedition: expanding the universe of protein families",
+                        "identifier": "http://www.wikidata.org/entity/Q21089567",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Desulfoplanes formicivorans Pf12BT, a sulfate-reducing bacterium of the family Desulfomicrobiaceae.",
+                        "identifier": "http://www.wikidata.org/entity/Q42219683",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-Guided Insights into the Plant Growth Promotion Capabilities of the Physiologically Versatile Bacillus aryabhattai Strain AB211.",
+                        "identifier": "http://www.wikidata.org/entity/Q42184369",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Whole-Genome Sequence of the Anaerobic Isosaccharinic Acid Degrading Isolate, Macellibacteroides fermentans Strain HH-ZS.",
+                        "identifier": "http://www.wikidata.org/entity/Q41450373",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A draft genome sequence of Pseudomonas veronii R4: a grapevine (Vitis vinifera L.) root-associated strain with high biocontrol potential.",
+                        "identifier": "http://www.wikidata.org/entity/Q41393699",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete Genome Sequence of the Sourdough Isolate Lactobacillus zymae ACA-DC 3411.",
+                        "identifier": "http://www.wikidata.org/entity/Q41163963",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft Genome Sequence of the Heavy-Metal-Tolerant Marine Yeast Debaryomyces hansenii J6.",
+                        "identifier": "http://www.wikidata.org/entity/Q41111343",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Enterococcus faecium strain LMG 8148.",
+                        "identifier": "http://www.wikidata.org/entity/Q41040675",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Whole-Genome Sequencing of Two Bartonella bacilliformis Strains.",
+                        "identifier": "http://www.wikidata.org/entity/Q40621720",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Acinetobacter baumannii strain NCTC 13423, a multidrug-resistant clinical isolate.",
+                        "identifier": "http://www.wikidata.org/entity/Q40551945",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insights from the Genome Sequence of Acidovorax citrulli M6, a Group I Strain of the Causal Agent of Bacterial Fruit Blotch of Cucurbits.",
+                        "identifier": "http://www.wikidata.org/entity/Q39894234",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft Genome Sequence of Microvirga vignae Strain BR 3299T, a Novel Symbiotic Nitrogen-Fixing Alphaproteobacterium Isolated from a Brazilian Semiarid Region.",
+                        "identifier": "http://www.wikidata.org/entity/Q39632155",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metabolic modelling reveals the specialization of secondary replicons for niche adaptation in Sinorhizobium meliloti.",
+                        "identifier": "http://www.wikidata.org/entity/Q39570494",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft Whole-Genome Sequence of Urease-Producing Sporosarcina koreensis.",
+                        "identifier": "http://www.wikidata.org/entity/Q39107867",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome of Leisingera aquaemixtae CECT 8399(T), a member of the Roseobacter clade isolated from a junction of fresh and ocean water in Jeju Island, South Korea.",
+                        "identifier": "http://www.wikidata.org/entity/Q38783955",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Survey of the Gene Repertoire of Gigaspora rosea Unravels Conserved Features among Glomeromycota for Obligate Biotrophy.",
+                        "identifier": "http://www.wikidata.org/entity/Q38684396",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metabolic Reconstruction and Modeling Microbial Electrosynthesis.",
+                        "identifier": "http://www.wikidata.org/entity/Q38639066",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete Genome Analysis of Thermus parvatiensis and Comparative Genomics of Thermus spp. Provide Insights into Genetic Variability and Evolution of Natural Competence as Strategic Survival Attributes.",
+                        "identifier": "http://www.wikidata.org/entity/Q38629487",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "From virus isolation to metagenome generation for investigating viral diversity in deep-sea sediments.",
+                        "identifier": "http://www.wikidata.org/entity/Q38615256",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Protein-coding genes in B chromosomes of the grasshopper Eyprepocnemis plorans.",
+                        "identifier": "http://www.wikidata.org/entity/Q37734530",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft Genome Sequence of Trueperella pyogenes, Isolated from the Infected Uterus of a Postpartum Cow with Metritis.",
+                        "identifier": "http://www.wikidata.org/entity/Q37723010",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Transcriptomic evaluation of the nicotinic acetylcholine receptor pathway in levamisole-resistant and -sensitive Oesophagostomum dentatum.",
+                        "identifier": "http://www.wikidata.org/entity/Q37712241",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft Genome Sequence of \"Candidatus Synechococcus spongiarum\" m9, Binned from a Metagenome of South China Sea Sponge Theonella swinhoei.",
+                        "identifier": "http://www.wikidata.org/entity/Q37673050",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The complete genome sequence of the yogurt isolate Streptococcus thermophilus ACA-DC 2.",
+                        "identifier": "http://www.wikidata.org/entity/Q37615755",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete genome sequence of the heavy metal resistant bacterium Agromyces aureus AR33T and comparison with related Actinobacteria.",
+                        "identifier": "http://www.wikidata.org/entity/Q37566567",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Lactobacillus plantarum strains E2C2 and E2C5 isolated from human stool culture.",
+                        "identifier": "http://www.wikidata.org/entity/Q37615627",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete genome of Vibrio parahaemolyticus FORC014 isolated from the toothfish.",
+                        "identifier": "http://www.wikidata.org/entity/Q37422183",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete Genome Sequence of the Dairy Isolate Lactobacillus acidipiscis ACA-DC 1533.",
+                        "identifier": "http://www.wikidata.org/entity/Q37610248",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Survey of Genes Involved in Biosynthesis, Transport, and Signaling of Phytohormones with Focus on Solanum lycopersicum.",
+                        "identifier": "http://www.wikidata.org/entity/Q37288744",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Lampropedia cohaerens strain CT6(T) isolated from arsenic rich microbial mats of a Himalayan hot water spring.",
+                        "identifier": "http://www.wikidata.org/entity/Q37240237",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genomic sequence of a chromate- and sulfate-reducing Alishewanella strain with the ability to bioremediate Cr and Cd contamination.",
+                        "identifier": "http://www.wikidata.org/entity/Q37154158",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ultrafast clustering algorithms for metagenomic sequence analysis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36419104",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Stage-specific Proteomes from Onchocerca ochengi, Sister Species of the Human River Blindness Parasite, Uncover Adaptations to a Nodular Lifestyle.",
+                        "identifier": "http://www.wikidata.org/entity/Q37153483",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Physiological and genomic features of a novel violacein-producing bacterium isolated from surface seawater.",
+                        "identifier": "http://www.wikidata.org/entity/Q36412601",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of constraints influencing the bacterial genomes evolution in the PVC super-phylum.",
+                        "identifier": "http://www.wikidata.org/entity/Q36301164",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metagenome reveals potential microbial degradation of hydrocarbon coupled with sulfate reduction in an oil-immersed chimney from Guaymas Basin.",
+                        "identifier": "http://www.wikidata.org/entity/Q36927857",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genome sequence of Cellulomonas carbonis T26(T) and comparative analysis of six Cellulomonas genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36298425",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete genome sequence of Bacillus cereus FORC_005, a food-borne pathogen from the soy sauce braised fish-cake with quail-egg.",
+                        "identifier": "http://www.wikidata.org/entity/Q36274274",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intraspecies Transfer of the Chromosomal Acinetobacter baumannii blaNDM-1 Carbapenemase Gene.",
+                        "identifier": "http://www.wikidata.org/entity/Q36887836",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High quality draft genome sequence of the moderately halophilic bacterium Pontibacillus yanchengensis Y32(T) and comparison among Pontibacillus genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36270415",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pangenome and immuno-proteomics analysis of Acinetobacter baumannii strains revealed the core peptide vaccine targets.",
+                        "identifier": "http://www.wikidata.org/entity/Q36135237",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High-rate, High Temperature Acetotrophic Methanogenesis Governed by a Three Population Consortium in Anaerobic Bioreactors.",
+                        "identifier": "http://www.wikidata.org/entity/Q36094783",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "De Novo Assembly and Developmental Transcriptome Analysis of the Small White Butterfly Pieris rapae.",
+                        "identifier": "http://www.wikidata.org/entity/Q36080141",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comprehensive analysis of draft genomes of two closely related pseudomonas syringae phylogroup 2b strains infecting mono- and dicotyledon host plants.",
+                        "identifier": "http://www.wikidata.org/entity/Q36255056",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High quality draft genomic sequence of Flavihumibacter solisilvae 3-3(T).",
+                        "identifier": "http://www.wikidata.org/entity/Q36073853",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic information of the arsenic-resistant bacterium Lysobacter arseniciresistens type strain ZS79(T) and comparison of Lysobacter draft genomes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36220450",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome sequences of Knoxdaviesia capensis and K. proteae (Fungi: Ascomycota) from Protea trees in South Africa.",
+                        "identifier": "http://www.wikidata.org/entity/Q36634595",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evaluating techniques for metagenome annotation using simulated sequence data.",
+                        "identifier": "http://www.wikidata.org/entity/Q36012943",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intestinal Microbiota and Microbial Metabolites Are Changed in a Pig Model Fed a High-Fat/Low-Fiber or a Low-Fat/High-Fiber Diet.",
+                        "identifier": "http://www.wikidata.org/entity/Q35995715",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Taxonomic and functional characteristics of microbial communities and their correlation with physicochemical properties of four geothermal springs in Odisha, India.",
+                        "identifier": "http://www.wikidata.org/entity/Q36205097",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Draft genomic sequence of Nereida ignava CECT 5292(T), a marine bacterium of the family Rhodobacteraceae.",
+                        "identifier": "http://www.wikidata.org/entity/Q36629177",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Whole-genome assembly of Akkermansia muciniphila sequenced directly from human stool.",
+                        "identifier": "http://www.wikidata.org/entity/Q28260735",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A highly diverse, desert-like microbial biocenosis on solar panels in a Mediterranean city",
+                        "identifier": "http://www.wikidata.org/entity/Q28596807",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Variations of Phosphorous Accessibility Causing Changes in Microbiome Functions in the Gastrointestinal Tract of Chickens.",
+                        "identifier": "http://www.wikidata.org/entity/Q36167764",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complete genome sequence of Vibrio vulnificus FORC_017 isolated from a patient with a hemorrhagic rash after consuming raw dotted gizzard shad",
+                        "identifier": "http://www.wikidata.org/entity/Q27324777",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Composition and Functional Characterization of Microbiome Associated with Mucus of the Coral Fungia echinata Collected from Andaman Sea",
+                        "identifier": "http://www.wikidata.org/entity/Q28830159",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An introduction to the analysis of shotgun metagenomic data",
+                        "identifier": "http://www.wikidata.org/entity/Q27028042",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic investigation reveals evolution and lifestyle adaptation of endophytic Staphylococcus epidermidis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36463191",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic characterization of Ensifer aridi, a proposed new species of nitrogen-fixing rhizobium recovered from Asian, African and American deserts.",
+                        "identifier": "http://www.wikidata.org/entity/Q28817262",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metagenomic analysis: the challenge of the data bonanza",
+                        "identifier": "http://www.wikidata.org/entity/Q26823389",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metagenomic surveys of gut microbiota",
+                        "identifier": "http://www.wikidata.org/entity/Q26799820",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The microbial community in the feces of the white rhinoceros (Ceratotherium simum) as determined by barcoded pyrosequencing analysis",
+                        "identifier": "http://www.wikidata.org/entity/Q28672989",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pan-genomic analysis to redefine species and subspecies based on quantum discontinuous variation: the Klebsiella paradigm",
+                        "identifier": "http://www.wikidata.org/entity/Q28607081",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Divergences in gene repertoire among the reference Prevotella genomes derived from distinct body sites of human",
+                        "identifier": "http://www.wikidata.org/entity/Q21146718",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q15765854"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

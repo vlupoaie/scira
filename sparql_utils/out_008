@@ -1,0 +1,960 @@
+{
+    "results": [
+        {
+            "publication": "An improved computer vision method for white blood cells detection",
+            "publication_id": "http://www.wikidata.org/entity/Q28682018",
+            "author_list": [
+                {
+                    "author": "Daniel Zaldivar"
+                },
+                {
+                    "author": "Miguel Manzanares"
+                },
+                {
+                    "author": "Margarita D\u00edaz"
+                },
+                {
+                    "author": "Erik Cuevas"
+                },
+                {
+                    "author": "Marco Perez-Cisneros"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography",
+                    "publication_id": "http://www.wikidata.org/entity/Q29541353",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [],
+            "publication_date_list": [
+                {
+                    "date": "2013-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Computational and Mathematical Methods in Medicine",
+                    "journal_id": "http://www.wikidata.org/entity/Q15754930"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "A computer vision based technique for 3-D sequence-independent structural comparison of proteins",
+            "publication_id": "http://www.wikidata.org/entity/Q21045411",
+            "author_list": [
+                {
+                    "author": "Ruth Nussinov",
+                    "author_id": "http://www.wikidata.org/entity/Q7383152"
+                },
+                {
+                    "author": "Daniel Fischer"
+                },
+                {
+                    "author": "Haim Wolfson"
+                },
+                {
+                    "author": "Orly Bachar"
+                }
+            ],
+            "cites_list": [],
+            "cited_by_list": [
+                {
+                    "publication": "Crystal structure of human cytomegalovirus IL-10 bound to soluble human IL-10R1.",
+                    "publication_id": "http://www.wikidata.org/entity/Q27639316",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "1993-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Protein Engineering Design and Selection",
+                    "journal_id": "http://www.wikidata.org/entity/Q15762396"
+                }
+            ],
+            "language_list": [],
+            "main_subject_list": [
+                {
+                    "main_subject": "bioengineering",
+                    "main_subject_id": "http://www.wikidata.org/entity/Q580689"
+                }
+            ],
+            "resource_list": []
+        },
+        {
+            "publication": "Identifying local structural states in atomic imaging by computer vision",
+            "publication_id": "http://www.wikidata.org/entity/Q28822300",
+            "author_list": [
+                {
+                    "author": "Maxim Ziatdinov"
+                },
+                {
+                    "author": "Nouamane Laanait"
+                },
+                {
+                    "author": "Qian He"
+                },
+                {
+                    "author": "Albina Borisevich"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "scikit-image: image processing in Python",
+                    "publication_id": "http://www.wikidata.org/entity/Q22442806",
+                    "resource_type": "academic journal article"
+                },
+                {
+                    "publication": "A performance evaluation of local descriptors",
+                    "publication_id": "http://www.wikidata.org/entity/Q27461536",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Atomic-Resolution Imaging with a Sub-50-pm Electron Probe",
+                    "publication_id": "http://www.wikidata.org/entity/Q27336295",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [
+                {
+                    "publication": "Atomap: a new software tool for the automated analysis of atomic resolution images using two-dimensional Gaussian fitting.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38934545",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2017-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Advanced structural and chemical imaging",
+                    "journal_id": "http://www.wikidata.org/entity/Q27727552"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "Qualitative classification of milled rice grains using computer vision and metaheuristic techniques.",
+            "publication_id": "http://www.wikidata.org/entity/Q30366850",
+            "author_list": [
+                {
+                    "author": "Ahmad Banakar"
+                },
+                {
+                    "author": "Hemad Zareiforoush"
+                },
+                {
+                    "author": "Mohammad Reza Alizadeh"
+                },
+                {
+                    "author": "Saeid Minaei"
+                }
+            ],
+            "cites_list": [],
+            "cited_by_list": [],
+            "publication_date_list": [
+                {
+                    "date": "2015-10-14T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Journal of Food Science and Technology",
+                    "journal_id": "http://www.wikidata.org/entity/Q15750183"
+                }
+            ],
+            "language_list": [],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "Application of the SP theory of intelligence to the understanding of natural vision and the development of computer vision",
+            "publication_id": "http://www.wikidata.org/entity/Q28654370",
+            "author_list": [
+                {
+                    "author": "J Gerard Wolff"
+                }
+            ],
+            "cites_list": [],
+            "cited_by_list": [
+                {
+                    "publication": "Information Compression, Multiple Alignment, and the Representation and Processing of Knowledge in the Brain",
+                    "publication_id": "http://www.wikidata.org/entity/Q28596591",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2014-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "SpringerPlus",
+                    "journal_id": "http://www.wikidata.org/entity/Q24055190"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "Visual Turing test for computer vision systems.",
+            "publication_id": "http://www.wikidata.org/entity/Q28651081",
+            "author_list": [
+                {
+                    "author": "Donald Geman"
+                },
+                {
+                    "author": "Stuart Geman"
+                },
+                {
+                    "author": "Laurent Younes"
+                },
+                {
+                    "author": "Neil Hallonquist"
+                }
+            ],
+            "cites_list": [],
+            "cited_by_list": [],
+            "publication_date_list": [
+                {
+                    "date": "2015-03-09T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+                    "journal_id": "http://www.wikidata.org/entity/Q1146531"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "Objective definition of rosette shape variation using a combined computer vision and data mining approach",
+            "publication_id": "http://www.wikidata.org/entity/Q30000681",
+            "author_list": [
+                {
+                    "author": "Alan P Gay"
+                },
+                {
+                    "author": "John H Doonan"
+                },
+                {
+                    "author": "Konstantinos Vlachonasios"
+                },
+                {
+                    "author": "Anyela Camargo"
+                },
+                {
+                    "author": "Dimitra Papadopoulou"
+                },
+                {
+                    "author": "Zoi Spyropoulou"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "Ten simple rules for reproducible computational research.",
+                    "publication_id": "http://www.wikidata.org/entity/Q28974699",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Probing the reproducibility of leaf growth and molecular phenotypes: a comparison of three Arabidopsis accessions cultivated in ten laboratories",
+                    "publication_id": "http://www.wikidata.org/entity/Q28748176",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "The development of Arabidopsis as a model plant",
+                    "publication_id": "http://www.wikidata.org/entity/Q28280336",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "NIH Image to ImageJ: 25 years of image analysis",
+                    "publication_id": "http://www.wikidata.org/entity/Q23319322",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [
+                {
+                    "publication": "A Comprehensive Approach to Assess Arabidopsis Survival Phenotype in Water-Limited Condition Using a Non-invasive High-Throughput Phenomics Platform.",
+                    "publication_id": "http://www.wikidata.org/entity/Q39556458",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Non-destructive Phenotyping to Identify Brachiaria Hybrids Tolerant to Waterlogging Stress under Field Conditions.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37637458",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Genome-wide association mapping of growth dynamics detects time-specific and general quantitative trait loci.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36098554",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Advanced phenotyping and phenotype data analysis for the study of plant growth and development",
+                    "publication_id": "http://www.wikidata.org/entity/Q26795891",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2014-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "PLOS ONE",
+                    "journal_id": "http://www.wikidata.org/entity/Q564954"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [
+                {
+                    "main_subject": "data mining",
+                    "main_subject_id": "http://www.wikidata.org/entity/Q172491"
+                }
+            ],
+            "resource_list": []
+        },
+        {
+            "publication": "High-throughput computer vision introduces the time axis to a quantitative trait map of a plant growth response.",
+            "publication_id": "http://www.wikidata.org/entity/Q28661930",
+            "author_list": [
+                {
+                    "author": "Candace R Moore"
+                },
+                {
+                    "author": "Logan S Johnson"
+                },
+                {
+                    "author": "Karl W Broman"
+                },
+                {
+                    "author": "Miron Livny"
+                },
+                {
+                    "author": "Edgar P Spalding"
+                },
+                {
+                    "author": "Il-Youp Kwak"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "Empirical threshold values for quantitative trait mapping",
+                    "publication_id": "http://www.wikidata.org/entity/Q29615044",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Genetic architecture of a morphological shape difference between two Drosophila species",
+                    "publication_id": "http://www.wikidata.org/entity/Q28769091",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Multidrug resistance-like genes of Arabidopsis required for auxin transport and auxin-mediated development",
+                    "publication_id": "http://www.wikidata.org/entity/Q28363618",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "R/qtl: QTL mapping in experimental crosses",
+                    "publication_id": "http://www.wikidata.org/entity/Q29616825",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Mechanism of higher plant gravity sensing",
+                    "publication_id": "http://www.wikidata.org/entity/Q26995356",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [
+                {
+                    "publication": "Advanced imaging techniques for the study of plant growth and development",
+                    "publication_id": "http://www.wikidata.org/entity/Q26823399",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Time dependent genetic analysis links field and controlled environment phenotypes in the model C4 grass Setaria.",
+                    "publication_id": "http://www.wikidata.org/entity/Q40995253",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Phenomics for photosynthesis, growth and reflectance in Arabidopsis thaliana reveals circadian and long-term fluctuations in heritability.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38487610",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Mapping Quantitative Trait Loci Underlying Function-Valued Traits Using Functional Principal Component Analysis and Multi-Trait Mapping.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36440430",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Genome-wide association mapping of growth dynamics detects time-specific and general quantitative trait loci.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36098554",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Fourteen Years of R/qtl: Just Barely Sustainable",
+                    "publication_id": "http://www.wikidata.org/entity/Q28654281",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Integrating Image-Based Phenomics and Association Analysis to Dissect the Genetic Architecture of Temporal Salinity Responses in Rice",
+                    "publication_id": "http://www.wikidata.org/entity/Q28635560",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2013-08-26T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "Genetics",
+                    "journal_id": "http://www.wikidata.org/entity/Q3100575"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [],
+            "resource_list": []
+        },
+        {
+            "publication": "CeleST: computer vision software for quantitative analysis of C. elegans swim behavior reveals novel features of locomotion",
+            "publication_id": "http://www.wikidata.org/entity/Q27321628",
+            "author_list": [
+                {
+                    "author": "Monica Driscoll"
+                },
+                {
+                    "author": "Dimitris Metaxas"
+                },
+                {
+                    "author": "Carolina Ib\u00e1\u00f1ez-Ventoso"
+                },
+                {
+                    "author": "Christophe Restif"
+                },
+                {
+                    "author": "Mehul M Vora"
+                },
+                {
+                    "author": "Suzhen Guo"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "Comparing mutants, selective breeding, and transgenics in the dissection of aging processes of Caenorhabditis elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q40723863",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "From the connectome to brain function.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38122469",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Frailty and sarcopenia: definitions and outcome parameters.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37980022",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Sarcopenia in the elderly: diagnosis, physiopathology and treatment.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37966239",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Genetic variation in insulin/IGF-1 signaling pathways and longevity.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37792225",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Temporal analysis of stochastic turning behavior of swimming C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37298822",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Strategies for automated analysis of C. elegans locomotion.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37238402",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "The measurement and analysis of age-related changes in Caenorhabditis elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37125503",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Sarcopenia in the Caenorhabditis elegans pharynx correlates with muscle contraction rate over lifespan.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36908578",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Neuronal substrates of complex behaviors in C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36196559",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Neurite sprouting and synapse deterioration in the aging Caenorhabditis elegans nervous system.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36189451",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Biomechanical profiling of Caenorhabditis elegans motility.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36076855",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Locomotion control of Caenorhabditis elegans through confinement.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36045503",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Caenorhabditis elegans selects distinct crawling and swimming gaits via dopamine and serotonin.",
+                    "publication_id": "http://www.wikidata.org/entity/Q35409422",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Behavioral plasticity in C. elegans: paradigms, circuits, genes.",
+                    "publication_id": "http://www.wikidata.org/entity/Q35027445",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Shared Strategies for Behavioral Switching: Understanding How Locomotor Patterns are Turned on and Off.",
+                    "publication_id": "http://www.wikidata.org/entity/Q34071012",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Calcineurin and protein kinase G regulate C. elegans behavioral quiescence during locomotion in liquid.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33526851",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "An imaging system for standardized quantitative analysis of C. elegans behavior.",
+                    "publication_id": "http://www.wikidata.org/entity/Q24793344",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "A mutation in the age-1 gene in Caenorhabditis elegans lengthens life and reduces hermaphrodite fertility.",
+                    "publication_id": "http://www.wikidata.org/entity/Q24532227",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Fast, automated measurement of nematode swimming (thrashing) without morphometry.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33484359",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Quantitative image analysis reveals distinct structural transitions during aging in Caenorhabditis elegans tissues.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33355988",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Dimensionality and dynamics in the behavior of C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33326986",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Mechanosensation and mechanical load modulate the locomotory gait of swimming C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33288019",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "A dictionary of behavioral motifs reveals clusters of genes affecting Caenorhabditis elegans locomotion.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30532357",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Gait Modulation in C. elegans: An Integrated Neuromechanical Model.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30506498",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "High-throughput behavioral analysis in C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30501986",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Biomechanical analysis of gait adaptation in the nematode Caenorhabditis elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30497567",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Genetic analysis of crawling and swimming locomotory patterns in C. elegans.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30485789",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "A phosphatidylinositol-3-OH kinase family member regulating longevity and diapause in Caenorhabditis elegans",
+                    "publication_id": "http://www.wikidata.org/entity/Q29617059",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "daf-16: An HNF-3/forkhead family member that can function to double the life-span of Caenorhabditis elegans",
+                    "publication_id": "http://www.wikidata.org/entity/Q28611332",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "The Fork head transcription factor DAF-16 transduces insulin-like metabolic and longevity signals in C. elegans",
+                    "publication_id": "http://www.wikidata.org/entity/Q28131830",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Manipulation of behavioral decline in Caenorhabditis elegans with the Rag GTPase raga-1",
+                    "publication_id": "http://www.wikidata.org/entity/Q27347278",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "The Parallel Worm Tracker: a platform for measuring average speed and drug-induced paralysis in nematodes",
+                    "publication_id": "http://www.wikidata.org/entity/Q27301328",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Keeping track of worm trackers",
+                    "publication_id": "http://www.wikidata.org/entity/Q27012579",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "An automated system for measuring parameters of nematode sinusoidal movement",
+                    "publication_id": "http://www.wikidata.org/entity/Q24793351",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [
+                {
+                    "publication": "Automated Analysis of C. elegans Swim Behavior Using CeleST Software.",
+                    "publication_id": "http://www.wikidata.org/entity/Q39036054",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Analyzing the locomotory gaitprint of Caenorhabditis elegans on the basis of empirical mode decomposition.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38662569",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Automated, high-throughput, motility analysis in Caenorhabditis elegans and parasitic nematodes: Applications in the search for new anthelmintics.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38291530",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Single swim sessions in C. elegans induce key features of mammalian exercise.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36342458",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Advanced Behavioral Analyses Show that the Presence of Food Causes Subtle Changes in C. elegans Movement.",
+                    "publication_id": "http://www.wikidata.org/entity/Q27321218",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "C. elegans maximum velocity correlates with healthspan and is maintained in worms with an insulin receptor mutation.",
+                    "publication_id": "http://www.wikidata.org/entity/Q27317960",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2014-07-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "PLOS Computational Biology",
+                    "journal_id": "http://www.wikidata.org/entity/Q2635829"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [
+                {
+                    "main_subject": "Caenorhabditis elegans",
+                    "main_subject_id": "http://www.wikidata.org/entity/Q91703"
+                }
+            ],
+            "resource_list": []
+        },
+        {
+            "publication": "On-chip imaging of Schistosoma haematobium eggs in urine for diagnosis by computer vision",
+            "publication_id": "http://www.wikidata.org/entity/Q27305007",
+            "author_list": [
+                {
+                    "author": "Anne Grote"
+                },
+                {
+                    "author": "Ewert Linder"
+                },
+                {
+                    "author": "Jari Hannuksela"
+                },
+                {
+                    "author": "Johan Lundin"
+                },
+                {
+                    "author": "Marianne Lebbad"
+                },
+                {
+                    "author": "Mikael Lundin"
+                },
+                {
+                    "author": "Nina Linder"
+                },
+                {
+                    "author": "Sami Varjo"
+                },
+                {
+                    "author": "Vinod Diwan"
+                }
+            ],
+            "cites_list": [
+                {
+                    "publication": "Schistosomiasis in Swedish travellers to sub-Saharan Africa: Can we rely on serology?",
+                    "publication_id": "http://www.wikidata.org/entity/Q39523185",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "From morbidity control to transmission control: time to change tactics against helminths on Unguja Island, Zanzibar.",
+                    "publication_id": "http://www.wikidata.org/entity/Q39142060",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Malaria misdiagnosis: effects on the poor and vulnerable.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38872797",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Treatment of urinary schistosomiasis: methodological issues and research needs identified through a Cochrane systematic review.",
+                    "publication_id": "http://www.wikidata.org/entity/Q37506661",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Transmission control for schistosomiasis - why it matters now.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36618424",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Laboratory medicine in Africa: a barrier to effective health care.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36360150",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Imaging without lenses: achievements and remaining challenges of wide-field on-chip microscopy.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36336814",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Diagnosis and management of schistosomiasis.",
+                    "publication_id": "http://www.wikidata.org/entity/Q35590947",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Determining soil-transmitted helminth infection status and physical fitness of school-aged children.",
+                    "publication_id": "http://www.wikidata.org/entity/Q34297757",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Unleashing \"civilian power\": a new American diplomacy through neglected tropical disease control, elimination, research, and development.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33955401",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Sub-pixel resolving optofluidic microscope for on-chip cell imaging.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33705347",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Parasites and poverty: the case of schistosomiasis.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33615662",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "A European network for virtual microscopy--design, implementation and evaluation of performance.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33417327",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Can the power of mobile phones be used to improve tuberculosis diagnosis in developing countries?",
+                    "publication_id": "http://www.wikidata.org/entity/Q33387485",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Web-based virtual microscopy for parasitology: a novel tool for education and quality assurance.",
+                    "publication_id": "http://www.wikidata.org/entity/Q33378449",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Cell-phone-based platform for biomedical device development and education applications.",
+                    "publication_id": "http://www.wikidata.org/entity/Q31002987",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Improving microscope quality is a good investment for under-resourced laboratories.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30640641",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Crowd-sourced BioGames: managing the big data problem for next-generation lab-on-a-chip platforms.",
+                    "publication_id": "http://www.wikidata.org/entity/Q30558960",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Prevention and control of schistosomiasis and soil-transmitted helminthiasis",
+                    "publication_id": "http://www.wikidata.org/entity/Q29619082",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Towards improved diagnosis of zoonotic trematode infections in Southeast Asia",
+                    "publication_id": "http://www.wikidata.org/entity/Q28287833",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Neglected tropical diseases of the Middle East and North Africa: review of their prevalence, distribution, and opportunities for control",
+                    "publication_id": "http://www.wikidata.org/entity/Q26991767",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Toward giga-pixel nanoscopy on a chip: a computational wide-field look at the nano-scale without the use of lenses",
+                    "publication_id": "http://www.wikidata.org/entity/Q26825691",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Malaria diagnosis and treatment: one size does not fit all",
+                    "publication_id": "http://www.wikidata.org/entity/Q24813758",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Medical decision making: the family-doctor-patient triad",
+                    "publication_id": "http://www.wikidata.org/entity/Q24813715",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Rescuing the bottom billion through control of neglected tropical diseases",
+                    "publication_id": "http://www.wikidata.org/entity/Q24290723",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Optical imaging techniques for point-of-care diagnostics",
+                    "publication_id": "http://www.wikidata.org/entity/Q24289297",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Mobile Phone Microscopy for the Diagnosis of Soil-Transmitted Helminth Infections: A Proof-of-Concept Study",
+                    "publication_id": "http://www.wikidata.org/entity/Q24273291",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "An in-depth analysis of a piece of shit: distribution of Schistosoma mansoni and hookworm eggs in human stool",
+                    "publication_id": "http://www.wikidata.org/entity/Q21092276",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "cited_by_list": [
+                {
+                    "publication": "Mobile-phone and handheld microscopy for neglected tropical diseases.",
+                    "publication_id": "http://www.wikidata.org/entity/Q39379685",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Diagnosis of Schistosoma haematobium infection with a mobile phone-mounted Foldscope and a reversed-lens CellScope in Ghana.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38994313",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Review of Telemicrobiology.",
+                    "publication_id": "http://www.wikidata.org/entity/Q38575818",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Disposable optics for microscopy diagnostics.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36301201",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Accuracy of Mobile Phone and Handheld Light Microscopy for the Diagnosis of Schistosomiasis and Intestinal Protozoa Infections in C\u00f4te d'Ivoire.",
+                    "publication_id": "http://www.wikidata.org/entity/Q36062501",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Low-cost motility tracking system (LOCOMOTIS) for time-lapse microscopy applications and cell visualisation",
+                    "publication_id": "http://www.wikidata.org/entity/Q27317014",
+                    "resource_type": "scientific article"
+                },
+                {
+                    "publication": "Fabricating low cost and high performance elastomer lenses using hanging droplets",
+                    "publication_id": "http://www.wikidata.org/entity/Q24288803",
+                    "resource_type": "scientific article"
+                }
+            ],
+            "publication_date_list": [
+                {
+                    "date": "2013-01-01T00:00:00Z"
+                }
+            ],
+            "published_in_list": [
+                {
+                    "journal": "PLOS Neglected Tropical Diseases",
+                    "journal_id": "http://www.wikidata.org/entity/Q3359737"
+                }
+            ],
+            "language_list": [
+                {
+                    "language": "English",
+                    "language_id": "http://www.wikidata.org/entity/Q1860"
+                }
+            ],
+            "main_subject_list": [
+                {
+                    "main_subject": "infectious disease",
+                    "main_subject_id": "http://www.wikidata.org/entity/Q18123741"
+                }
+            ],
+            "resource_list": []
+        }
+    ]
+}

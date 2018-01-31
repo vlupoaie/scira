@@ -1,0 +1,24 @@
+{
+    "publication_list": [
+        {
+            "publication": "Design parameters to control synthetic gene expression in Escherichia coli",
+            "publication_id": "http://www.wikidata.org/entity/Q21090049",
+            "resource_type": "scientific article"
+        },
+        {
+            "publication": "Engineering proteinase K using machine learning and synthetic genes",
+            "publication_id": "http://www.wikidata.org/entity/Q21256657",
+            "resource_type": "scientific article"
+        },
+        {
+            "publication": "Gene Designer: a synthetic biology tool for constructing artificial DNA segments",
+            "publication_id": "http://www.wikidata.org/entity/Q21284253",
+            "resource_type": "scientific article"
+        },
+        {
+            "publication": "Loss of the Mediator subunit Med20 affects transcription of tRNA and other non-coding RNA genes in fission yeast.",
+            "publication_id": "http://www.wikidata.org/entity/Q34503127",
+            "resource_type": "scientific article"
+        }
+    ]
+}
