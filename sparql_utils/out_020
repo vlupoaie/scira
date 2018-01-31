@@ -1,0 +1,1752 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Forms of Relativistic Dynamics",
+            "identifier": "http://www.wikidata.org/entity/Q21709766",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Dirac",
+                        "identifier": "http://www.wikidata.org/entity/Q47480"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "P. A. M. Dirac"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1949-07-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Reviews of Modern Physics",
+                        "identifier": "http://www.wikidata.org/entity/Q26572"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Atomic Radii and Interatomic Distances in Metals",
+            "identifier": "http://www.wikidata.org/entity/Q26253936",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Molecular Structure of Cyclobutane",
+                        "identifier": "http://www.wikidata.org/entity/Q29396073",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1947-03-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of the American Chemical Society",
+                        "identifier": "http://www.wikidata.org/entity/Q898902"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "catalysis",
+                        "identifier": "http://www.wikidata.org/entity/Q82264"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Connection Between Spin and Statistics",
+            "identifier": "http://www.wikidata.org/entity/Q21709306",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wolfgang Pauli",
+                        "identifier": "http://www.wikidata.org/entity/Q65989"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "W. Pauli"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1940-10-01T00:00:00Z"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1940-10-15T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Physical Review",
+                        "identifier": "http://www.wikidata.org/entity/Q869847"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "So-called icosahedral and decagonal quasicrystals are twins of an 820-atom cubic crystal",
+            "identifier": "http://www.wikidata.org/entity/Q27450345",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Magneto-Adaptive Surfactants Showing Anti-Curie Behavior and Tunable Surface Tension as Porogens for Mesoporous Particles with 12-Fold Symmetry.",
+                        "identifier": "http://www.wikidata.org/entity/Q38731332",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1987-01-26T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Physical Review Letters",
+                        "identifier": "http://www.wikidata.org/entity/Q2018386"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Electromagnetic traps for charged and neutral particles",
+            "identifier": "http://www.wikidata.org/entity/Q21698175",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wolfgang Paul",
+                        "identifier": "http://www.wikidata.org/entity/Q57227"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1990-07-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Reviews of Modern Physics",
+                        "identifier": "http://www.wikidata.org/entity/Q26572"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Die Berechnung optischer und elektrostatischer Gitterpotentiale",
+            "identifier": "http://www.wikidata.org/entity/Q29012957",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Peter Ewald",
+                        "identifier": "http://www.wikidata.org/entity/Q65204"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Development of an improved four-site water model for biomolecular simulations: TIP4P-Ew",
+                        "identifier": "http://www.wikidata.org/entity/Q29396077",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Scandium and Titanium Containing Single-Walled Carbon Nanotubes for Hydrogen Storage: a Thermodynamic and First Principle Calculation",
+                        "identifier": "http://www.wikidata.org/entity/Q28601241",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1921-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Annalen der Physik",
+                        "identifier": "http://www.wikidata.org/entity/Q275655"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "THE NATURE OF THE CHEMICAL BOND. IV. THE ENERGY OF SINGLE BONDS AND THE RELATIVE ELECTRONEGATIVITY OF ATOMS",
+            "identifier": "http://www.wikidata.org/entity/Q22061917",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Accelerated search for materials with targeted properties by adaptive design",
+                        "identifier": "http://www.wikidata.org/entity/Q28834589",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1932-09-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of the American Chemical Society",
+                        "identifier": "http://www.wikidata.org/entity/Q898902"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "catalysis",
+                        "identifier": "http://www.wikidata.org/entity/Q82264"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Nature of the Interatomic Forces in Metals",
+            "identifier": "http://www.wikidata.org/entity/Q27339540",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Icosahedral clusters, icosaheral order and stability of quasicrystals-a view of metallurgy",
+                        "identifier": "http://www.wikidata.org/entity/Q28821915",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1938-12-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Physical Review",
+                        "identifier": "http://www.wikidata.org/entity/Q869847"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Oxygen Equilibrium of Hemoglobin and Its Structural Interpretation",
+            "identifier": "http://www.wikidata.org/entity/Q21045437",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Kinetics of protein modification reactions.",
+                        "identifier": "http://www.wikidata.org/entity/Q40169910",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Some observations on the kinetics of haemoglobin in solution and in the haemoglobin in solution and in the red blood corpuscle.",
+                        "identifier": "http://www.wikidata.org/entity/Q39436446",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Using the MWC model to describe heterotropic interactions in hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q38632051",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Allosteric activation via kinetic control: potassium accelerates a conformational change in IMP dehydrogenase.",
+                        "identifier": "http://www.wikidata.org/entity/Q38618632",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Conformational selection or induced fit? 50 years of debate resolved.",
+                        "identifier": "http://www.wikidata.org/entity/Q38363774",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Distinctions between the two-state and sequential models for cooperative ligand binding.",
+                        "identifier": "http://www.wikidata.org/entity/Q37598347",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "New insights into allosteric mechanisms from trapping unstable protein conformations in silica gels.",
+                        "identifier": "http://www.wikidata.org/entity/Q37569387",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Thresholds and ultrasensitivity from negative cooperativity.",
+                        "identifier": "http://www.wikidata.org/entity/Q37532481",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cooperative properties of cytochromes P450.",
+                        "identifier": "http://www.wikidata.org/entity/Q37366156",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Promiscuity of Allosteric Regulation of Nuclear Receptors by Retinoid X Receptor.",
+                        "identifier": "http://www.wikidata.org/entity/Q37211543",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mapping allostery through computational glycine scanning and correlation analysis of residue-residue contacts.",
+                        "identifier": "http://www.wikidata.org/entity/Q37211411",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SPACER: Server for predicting allosteric communication and effects of regulation.",
+                        "identifier": "http://www.wikidata.org/entity/Q36953906",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Symmetry conditions for binding processes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36918343",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The possibility of direct interaction between the hemes in hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q36475968",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Allosteric gating of a large conductance Ca-activated K+ channel.",
+                        "identifier": "http://www.wikidata.org/entity/Q36435872",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Allostery: An Overview of Its History, Concepts, Methods, and Applications",
+                        "identifier": "http://www.wikidata.org/entity/Q28552596",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Rigid Residue Scan Simulations Systematically Reveal Residue Entropic Roles in Protein Allostery",
+                        "identifier": "http://www.wikidata.org/entity/Q28551601",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tertiary and Quaternary Allostery in Tetrameric Hemoglobin from Scapharca inaequivalvis",
+                        "identifier": "http://www.wikidata.org/entity/Q27676689",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Oxygen binding by \u03b1(Fe2+)2\u03b2(Ni2+)2 hemoglobin crystals",
+                        "identifier": "http://www.wikidata.org/entity/Q27622357",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular mechanisms of prolactin and its receptor",
+                        "identifier": "http://www.wikidata.org/entity/Q27008904",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exploring the role of receptor flexibility in structure-based drug discovery",
+                        "identifier": "http://www.wikidata.org/entity/Q27001129",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The concept of allosteric interaction and its consequences for the chemistry of the brain",
+                        "identifier": "http://www.wikidata.org/entity/Q26827321",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structural and energetic basis of allostery",
+                        "identifier": "http://www.wikidata.org/entity/Q26825355",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dynamic dissociating homo-oligomers and the control of protein function",
+                        "identifier": "http://www.wikidata.org/entity/Q24619847",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cooperative binding",
+                        "identifier": "http://www.wikidata.org/entity/Q21045427",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1935-04-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Proceedings of the National Academy of Sciences of the United States of America",
+                        "identifier": "http://www.wikidata.org/entity/Q1146531"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Sickle cell anemia a molecular disease",
+            "identifier": "http://www.wikidata.org/entity/Q7507635",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Harvey Itano",
+                        "identifier": "http://www.wikidata.org/entity/Q3128036"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ibert C. Wells"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Linus Pauling",
+                        "identifier": "http://www.wikidata.org/entity/Q48983"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Seymour Jonathan Singer",
+                        "identifier": "http://www.wikidata.org/entity/Q15995468"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Predicting the morphology of sickle red blood cells using coarse-grained models of intracellular aligned hemoglobin polymers.",
+                        "identifier": "http://www.wikidata.org/entity/Q37355448",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Applications of high-throughput DNA sequencing to benign hematology.",
+                        "identifier": "http://www.wikidata.org/entity/Q37334703",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Regulation of iron absorption in hemoglobinopathies.",
+                        "identifier": "http://www.wikidata.org/entity/Q37320318",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Morbidity pattern of sickle cell disease in India: a single centre perspective.",
+                        "identifier": "http://www.wikidata.org/entity/Q37282699",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Liver stiffness increases acutely during sickle cell vaso-occlusive crisis.",
+                        "identifier": "http://www.wikidata.org/entity/Q37255704",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Correction of murine sickle cell disease using gamma-globin lentiviral vectors to mediate high-level expression of fetal hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q37162080",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Probing the Twisted Structure of Sickle Hemoglobin Fibers via Particle Simulations.",
+                        "identifier": "http://www.wikidata.org/entity/Q37085263",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identifying Darwinian selection acting on different human APOL1 variants among diverse African populations.",
+                        "identifier": "http://www.wikidata.org/entity/Q37010357",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hemoglobin research and the origins of molecular medicine.",
+                        "identifier": "http://www.wikidata.org/entity/Q36969792",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genetic complexity in sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36954607",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sickle-cell disease in pregnant immigrants.",
+                        "identifier": "http://www.wikidata.org/entity/Q36770907",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Allogeneic hematopoietic stem-cell transplantation for sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36769277",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Transgenic knockout mice exclusively expressing human hemoglobin S after transfer of a 240-kb betas-globin yeast artificial chromosome: A mouse model of sickle cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q36757616",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Challenging Return to Play Decisions: Heat Stroke, Exertional Rhabdomyolysis, and Exertional Collapse Associated With Sickle Cell Trait.",
+                        "identifier": "http://www.wikidata.org/entity/Q36682499",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Treatment of sickle cell anemia with bone marrow transplantation-pros and cons.",
+                        "identifier": "http://www.wikidata.org/entity/Q36647055",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Synthesis of amodel system for the primary energy conversion reactions in photosynthesis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36450363",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Framing the research agenda for sickle cell trait: building on the current understanding of clinical events and their potential implications.",
+                        "identifier": "http://www.wikidata.org/entity/Q36441680",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nonmyeloablative HLA-matched sibling allogeneic hematopoietic stem cell transplantation for severe sickle cell phenotype.",
+                        "identifier": "http://www.wikidata.org/entity/Q36423553",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Traditional herbal management of sickle cell anemia: lessons from Nigeria.",
+                        "identifier": "http://www.wikidata.org/entity/Q36413385",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mast Cell-Mediated Mechanisms of Nociception.",
+                        "identifier": "http://www.wikidata.org/entity/Q36404141",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Infrared imaging of nitric oxide-mediated blood flow in human sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36354572",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hydroxyurea with AKT2 inhibition decreases vaso-occlusive events in sickle cell disease mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q36322782",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The clinical significance of hemoglobinopathies.",
+                        "identifier": "http://www.wikidata.org/entity/Q36299380",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The effects of sickling on ion transport.  I.  Effect of sickling on potassium transport.",
+                        "identifier": "http://www.wikidata.org/entity/Q36286962",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The entry of genetics into medicine.",
+                        "identifier": "http://www.wikidata.org/entity/Q36274732",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Redox-dependent impairment of vascular function in sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36274222",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of chain chirality on the self-assembly of sickle hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q36246470",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "HMGA2 Moderately Increases Fetal Hemoglobin Expression in Human Adult Erythroblasts.",
+                        "identifier": "http://www.wikidata.org/entity/Q36197405",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Plasma BDNF and PDGF-AA levels are associated with high TCD velocity and stroke in children with sickle cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q36195042",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genetic polymorphism of APOB is associated with diabetes mellitus in sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36165340",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Optical characterization of red blood cells from individuals with sickle cell trait and disease in Tanzania using quantitative phase imaging.",
+                        "identifier": "http://www.wikidata.org/entity/Q36108613",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Recombinant human sickle hemoglobin expressed in yeast.",
+                        "identifier": "http://www.wikidata.org/entity/Q36081432",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Haemoglobin 'Barts'--a rare abnormality in the newborn.",
+                        "identifier": "http://www.wikidata.org/entity/Q36049912",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Zebrafish globin switching occurs in two developmental stages and is controlled by the LCR.",
+                        "identifier": "http://www.wikidata.org/entity/Q36043069",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hematopoietic Stem Cell Transplantation in Adult Sickle Cell Disease: Problems and Solutions.",
+                        "identifier": "http://www.wikidata.org/entity/Q36038875",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic biomarkers in predictive medicine: an interim analysis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36038772",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Partially oxygenated sickled cells: sickle-shaped red cells found in circulating blood of patients with sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q35993305",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The mucopolysaccharidoses (a review).",
+                        "identifier": "http://www.wikidata.org/entity/Q35986296",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The solubilization of deoxyhemoglobin S.",
+                        "identifier": "http://www.wikidata.org/entity/Q35967067",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chronic transfusion therapy improves but does not normalize systemic and pulmonary vasculopathy in sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q35925616",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Hemoglobins, with a Report on Hemoglobins in Four African Tribes.",
+                        "identifier": "http://www.wikidata.org/entity/Q35923276",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of Chronic Blood Transfusion on Biomarkers of Coagulation Activation and Thrombin Generation in Sickle Cell Patients at Risk for Stroke.",
+                        "identifier": "http://www.wikidata.org/entity/Q35754765",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Therapeutic hemoglobin levels after gene transfer in \u03b2-thalassemia mice and in hematopoietic cells of \u03b2-thalassemia and sickle cells disease patients",
+                        "identifier": "http://www.wikidata.org/entity/Q28730903",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interaction-based evolution: how natural selection and nonrandom mutation work together",
+                        "identifier": "http://www.wikidata.org/entity/Q28652237",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of SNPs on creatine kinase structure and function: identifying potential molecular mechanisms for possible creatine kinase deficiency diseases",
+                        "identifier": "http://www.wikidata.org/entity/Q28483997",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Grand challenges in cellular biochemistry: the \"next-gen\" biochemistry",
+                        "identifier": "http://www.wikidata.org/entity/Q28385256",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Rational methods for the selection of diverse screening compounds",
+                        "identifier": "http://www.wikidata.org/entity/Q28303907",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "2003 William Allan Award address. The Thalassemias: the role of molecular genetics in an evolving global health problem.",
+                        "identifier": "http://www.wikidata.org/entity/Q28253597",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Advances in sickle cell therapies in the hydroxyurea era",
+                        "identifier": "http://www.wikidata.org/entity/Q28088552",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Animal models of \u03b2-hemoglobinopathies: utility and limitations",
+                        "identifier": "http://www.wikidata.org/entity/Q28067142",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dynamic deformability of sickle red blood cells in microphysiological flow.",
+                        "identifier": "http://www.wikidata.org/entity/Q27316518",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sickle cell disease biochip: a functional red blood cell adhesion assay for monitoring sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q27303155",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Is there a relationship between mean blood glucose and glycated hemoglobin?",
+                        "identifier": "http://www.wikidata.org/entity/Q27027047",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Online biomedical resources for malaria-related red cell disorders",
+                        "identifier": "http://www.wikidata.org/entity/Q27024694",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Human genetic basis of interindividual variability in the course of infection",
+                        "identifier": "http://www.wikidata.org/entity/Q26775894",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Musculoskeletal Manifestations of Sickle Cell Disease: A Review",
+                        "identifier": "http://www.wikidata.org/entity/Q26775662",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolutionary conservation and selection of human disease gene orthologs in the rat and mouse genomes",
+                        "identifier": "http://www.wikidata.org/entity/Q24805194",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of sickle-cell trait on resistance to malaria",
+                        "identifier": "http://www.wikidata.org/entity/Q24684342",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metastable mesoscopic clusters in solutions of sickle-cell hemoglobin",
+                        "identifier": "http://www.wikidata.org/entity/Q24673168",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Protection afforded by sickle-cell trait against subtertian malareal infection",
+                        "identifier": "http://www.wikidata.org/entity/Q24671995",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Peculiar elongated and sickle-shaped red blood corpuscles in a case of severe anemia. 1910",
+                        "identifier": "http://www.wikidata.org/entity/Q24653188",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Distribution of the sickle cell gene : A new light on the origin of the East Africans",
+                        "identifier": "http://www.wikidata.org/entity/Q24615478",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sickle cell anaemia and malaria",
+                        "identifier": "http://www.wikidata.org/entity/Q24611287",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hemoglobin interaction in sickle cell fibers. I: Theoretical approaches to the molecular contacts",
+                        "identifier": "http://www.wikidata.org/entity/Q24564585",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sickle-cell anemia hemoglobin: the molecular biology of the first \"molecular disease\"--the crucial importance of serendipity",
+                        "identifier": "http://www.wikidata.org/entity/Q24545678",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The first sequence. Fred Sanger and insulin",
+                        "identifier": "http://www.wikidata.org/entity/Q24542888",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Folate supplementation in people with sickle cell disease",
+                        "identifier": "http://www.wikidata.org/entity/Q24186134",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "STUDIES OF TYROSINASE PRODUCTION BY A HETEROCARYON OF NEUROSPORA.",
+                        "identifier": "http://www.wikidata.org/entity/Q37616099",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SOME PHYSICAL CHEMICAL EXPERIMENTS WITH HEMOGLOBINS FROM NORMAL AND GENETICALLY ANEMIC MICE.",
+                        "identifier": "http://www.wikidata.org/entity/Q37613454",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Detection of sickle cell beta S-globin allele by hybridization with synthetic oligonucleotides.",
+                        "identifier": "http://www.wikidata.org/entity/Q37601020",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Erythrocytic mechanism of sickle cell resistance to malaria.",
+                        "identifier": "http://www.wikidata.org/entity/Q37584713",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hb Long Island: a hemoglobin variant with a methionyl extension at the NH2 terminus and a prolyl substitution for the normal histidyl residue 2 of the beta chain.",
+                        "identifier": "http://www.wikidata.org/entity/Q37523127",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ocular complications in sickle-cell haemoglobin C disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q37472866",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemical modifications that inhibit gelation of sickle hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q37440693",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A review of the challenge in measuring hemoglobin A1c.",
+                        "identifier": "http://www.wikidata.org/entity/Q37404407",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Malnutrition in Sickle Cell Anemia: Implications for Infection, Growth, and Maturation.",
+                        "identifier": "http://www.wikidata.org/entity/Q37359292",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "S. Jonathan Singer: A man who loved ideas and detested walls.",
+                        "identifier": "http://www.wikidata.org/entity/Q42291848",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Quercetin reduces hydroxyurea induced cytotoxicity in immortalized mouse aortic endothelial cells.",
+                        "identifier": "http://www.wikidata.org/entity/Q42228456",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Is Increased Intracellular Calcium in Red Blood Cells a Common Component in the Molecular Mechanism Causing Anemia?",
+                        "identifier": "http://www.wikidata.org/entity/Q41439220",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Visualizing red blood cell sickling and the effects of inhibition of sphingosine kinase 1 using soft X-ray tomography.",
+                        "identifier": "http://www.wikidata.org/entity/Q41285267",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Crystal structure of carbonmonoxy sickle hemoglobin in R-state conformation.",
+                        "identifier": "http://www.wikidata.org/entity/Q41131938",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Measuring sickle cell morphology during blood flow.",
+                        "identifier": "http://www.wikidata.org/entity/Q41068644",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Potassium and sodium of red blood cells in sickle cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q40981224",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Electrophoretic studies of the plasma and serum proteins in sickle cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q40979923",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structural basis for the antipolymer activity of Hb \u03b62\u03b2(s)2 trapped in a tense conformation.",
+                        "identifier": "http://www.wikidata.org/entity/Q40700900",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genomic views of distant-acting enhancers",
+                        "identifier": "http://www.wikidata.org/entity/Q22122210",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "In the light of directed evolution: pathways of adaptive protein evolution",
+                        "identifier": "http://www.wikidata.org/entity/Q22066327",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Population genetics of malaria resistance in humans",
+                        "identifier": "http://www.wikidata.org/entity/Q21032506",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "How malaria has affected the human genome and what human genetics can teach us about malaria",
+                        "identifier": "http://www.wikidata.org/entity/Q21032480",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Selection-free genome editing of the sickle mutation in human adult hematopoietic stem/progenitor cells.",
+                        "identifier": "http://www.wikidata.org/entity/Q40412263",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tuberculous spondylodiscitis in a patient with a sickle-cell disease: CT findings.",
+                        "identifier": "http://www.wikidata.org/entity/Q40280385",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structure-function relations of human hemoglobins.",
+                        "identifier": "http://www.wikidata.org/entity/Q40248915",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sickle-cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q40228914",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The SH-group content of human foetal and sickle-cell haemoglobins.",
+                        "identifier": "http://www.wikidata.org/entity/Q39126519",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biomechanics and biorheology of red blood cells in sickle cell anemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q39017039",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Mapping polymerization and allostery of hemoglobin S using point mutations.",
+                        "identifier": "http://www.wikidata.org/entity/Q38591796",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Recombinant expression of rat glycine N-methyltransferase and evidence for contribution of N-terminal acetylation to co-operative binding of S-adenosylmethionine.",
+                        "identifier": "http://www.wikidata.org/entity/Q38341893",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The bone changes in sickle cell anaemia.",
+                        "identifier": "http://www.wikidata.org/entity/Q38328573",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Reawakening fetal hemoglobin: prospects for new therapies for the \u03b2-globin disorders.",
+                        "identifier": "http://www.wikidata.org/entity/Q38035829",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Adenosine signaling in normal and sickle erythrocytes and beyond.",
+                        "identifier": "http://www.wikidata.org/entity/Q38013492",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Orthopaedic manifestations of sickle-cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q37990280",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Abnormal haemoglobins: detection & characterization.",
+                        "identifier": "http://www.wikidata.org/entity/Q37956961",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pathophysiological insights in sickle cell disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q37956958",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Splenic complications of sickle cell anemia and the role of splenectomy.",
+                        "identifier": "http://www.wikidata.org/entity/Q37956321",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Heterologous protein-DNA interactions lead to biased allelic expression of circadian clock genes in interspecific hybrids.",
+                        "identifier": "http://www.wikidata.org/entity/Q37721556",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Hemoglobin Philly (beta 35 tyrosine phenylalanine): studies in the molecular pathology of hemoglobin.",
+                        "identifier": "http://www.wikidata.org/entity/Q37710066",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "AKAP-dependent modulation of BCAM/Lu adhesion on normal and sickle cell disease RBCs revealed by force nanoscopy.",
+                        "identifier": "http://www.wikidata.org/entity/Q37700189",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DIFFERENTIAL TITRATION BY MEANS OF PAPER ELECTROPHORESIS AND THE STRUCTURE OF HUMAN HEMOGLOBINS.",
+                        "identifier": "http://www.wikidata.org/entity/Q37686736",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "ON DISSOCIATION AND RECOMBINATION OF HUMAN ADULT HEMOGLOBINS A, S, AND C.",
+                        "identifier": "http://www.wikidata.org/entity/Q37617884",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1949-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Science",
+                        "identifier": "http://www.wikidata.org/entity/Q192864"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "sickle-cell disease",
+                        "identifier": "http://www.wikidata.org/entity/Q185034"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        }
+    ]
+}

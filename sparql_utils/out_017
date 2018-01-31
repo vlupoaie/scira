@@ -1,0 +1,970 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A new species of the genus coreomyces (laboulbeniales ascomycotina) collected from the island of java, indonesia.",
+            "identifier": "http://www.wikidata.org/entity/Q30663758",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Yong-Bo Lee"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Young-Hee Na"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2009-12-31T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Mycobiology",
+                        "identifier": "http://www.wikidata.org/entity/Q26853810"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A freeware java tool for spatial point analysis of neuronal structures.",
+            "identifier": "http://www.wikidata.org/entity/Q30445800",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Barry G Condron"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identifying neuronal lineages of Drosophila by sequence analysis of axon tracts",
+                        "identifier": "http://www.wikidata.org/entity/Q24607407",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008-03-19T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Neuroinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q15708881"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Spilling the beans on java 3D: a tool for the virtual anatomist.",
+            "identifier": "http://www.wikidata.org/entity/Q30697541",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Guttmann GD"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1999-04-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "The Anatomical Record Part A: Discoveries in Molecular, Cellular, and Evolutionary Biology",
+                        "identifier": "http://www.wikidata.org/entity/Q24056056"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "[Clinical significance of Salmonella java and its differentiation from Salmonella paratyphi B.]",
+            "identifier": "http://www.wikidata.org/entity/Q30799933",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "BECKER-MEYER M"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1956-06-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Das Deutsche Gesundheitswesen",
+                        "identifier": "http://www.wikidata.org/entity/Q27710732"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "jqcML: an open-source java API for mass spectrometry quality control data in the qcML format.",
+            "identifier": "http://www.wikidata.org/entity/Q30829531",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lennart Martens"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dirk Valkenborg"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Kris Laukens"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Pieter Kelchtermans"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wout Bittremieux"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2014-06-17T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Proteome Research",
+                        "identifier": "http://www.wikidata.org/entity/Q3186939"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Outbreak of Salmonella paratyphi B var java due to contaminated alfalfa sprouts in Alberta, British Columbia and Saskatchewan.",
+            "identifier": "http://www.wikidata.org/entity/Q30704458",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Clark C"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ashton E"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stratton J"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ahmed R"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ellis A"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rodgers F"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Werker DH"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jensen B"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Chui L"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Grimsrud K"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Blewett E"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stefaniw L"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Trottier L"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Human infections attributable to the D-tartrate-fermenting variant of Salmonella enterica serovar Paratyphi B in Germany originate in reptiles and, on rare occasions, poultry.",
+                        "identifier": "http://www.wikidata.org/entity/Q36276030",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Infection Dynamics and Antimicrobial Resistance Profile of Salmonella Paratyphi B d-tartrate Positive (Java) in a Persistently Infected Broiler Barn.",
+                        "identifier": "http://www.wikidata.org/entity/Q36258547",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2001-08-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Canada communicable disease report",
+                        "identifier": "http://www.wikidata.org/entity/Q27710032"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Nutritional status and linear growth of Indonesian infants in west java are determined more by prenatal environment than by postnatal factors.",
+            "identifier": "http://www.wikidata.org/entity/Q30841072",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Clive E West"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Marjanka K Schmidt"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Siti Muslimatun"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rainer Gross"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Joseph G A J Hautvast"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Werner Schultink"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Dietary intake and anthropometric status differ for anaemic and non-anaemic rural South African infants aged 6-12 months.",
+                        "identifier": "http://www.wikidata.org/entity/Q37367512",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Risk of childhood undernutrition related to small-for-gestational age and preterm birth in low- and middle-income countries.",
+                        "identifier": "http://www.wikidata.org/entity/Q37276273",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Childhood stunting: a global perspective.",
+                        "identifier": "http://www.wikidata.org/entity/Q28068317",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2002-08-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Nutrition",
+                        "identifier": "http://www.wikidata.org/entity/Q3186931"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "[Differential diagnosis and pathogenicity of Salmonella java and Salmonella paratyphi B.]",
+            "identifier": "http://www.wikidata.org/entity/Q30790880",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "KAUFFMANN F"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular properties of Salmonella enterica serotype paratyphi B distinguish between its systemic and its enteric pathovars.",
+                        "identifier": "http://www.wikidata.org/entity/Q39887156",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative analysis of Salmonella genomes identifies a metabolic network for escalating growth in the inflamed gut.",
+                        "identifier": "http://www.wikidata.org/entity/Q37667983",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Human infections attributable to the D-tartrate-fermenting variant of Salmonella enterica serovar Paratyphi B in Germany originate in reptiles and, on rare occasions, poultry.",
+                        "identifier": "http://www.wikidata.org/entity/Q36276030",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The XbaI-BlnI-CeuI genomic cleavage map of Salmonella paratyphi B.",
+                        "identifier": "http://www.wikidata.org/entity/Q36105298",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Salmonella bongori provides insights into the evolution of the Salmonellae",
+                        "identifier": "http://www.wikidata.org/entity/Q21131414",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1955-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Zeitschrift fur Hygiene und Infektionskrankheiten; medizinische Mikrobiologie, Immunologie und Virologie",
+                        "identifier": "http://www.wikidata.org/entity/Q27713902"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "JLIN: a java based linkage disequilibrium plotter.",
+            "identifier": "http://www.wikidata.org/entity/Q25257097",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lyle J Palmer",
+                        "identifier": "http://www.wikidata.org/entity/Q30512610"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Kim W Carter"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Pamela A McCaskie"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A comparison of linkage disequilibrium measures for fine-scale mapping.",
+                        "identifier": "http://www.wikidata.org/entity/Q34385088",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Gametic disequilibrium measures: proceed with caution.",
+                        "identifier": "http://www.wikidata.org/entity/Q33953446",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "LDA--a java-based linkage disequilibrium analyzer.",
+                        "identifier": "http://www.wikidata.org/entity/Q31021580",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Maximum-likelihood estimation of molecular haplotype frequencies in a diploid population",
+                        "identifier": "http://www.wikidata.org/entity/Q29614401",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Haploview: analysis and visualization of LD and haplotype maps",
+                        "identifier": "http://www.wikidata.org/entity/Q27860955",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Testing for linkage disequilibrium in genotypic data using the Expectation-Maximization algorithm.",
+                        "identifier": "http://www.wikidata.org/entity/Q36798490",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Haplotype blocks and linkage disequilibrium in the human genome.",
+                        "identifier": "http://www.wikidata.org/entity/Q35191477",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Variants of the FADS1 FADS2 gene cluster, blood levels of polyunsaturated fatty acids and eczema in children within the first 2 years of life",
+                        "identifier": "http://www.wikidata.org/entity/Q21562165",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Polymorphisms within the novel type 2 diabetes risk locus MTNR1B determine beta-cell function",
+                        "identifier": "http://www.wikidata.org/entity/Q21092163",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SNPTransformer: a lightweight toolkit for genome-wide association studies.",
+                        "identifier": "http://www.wikidata.org/entity/Q41358277",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Common variants of ZNF750, RPTOR and TRAF3IP2 genes and psoriasis risk.",
+                        "identifier": "http://www.wikidata.org/entity/Q37638886",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Variation in the perilipin gene (PLIN) affects glucose and lipid metabolism in non-Hispanic white women with and without polycystic ovary syndrome.",
+                        "identifier": "http://www.wikidata.org/entity/Q37478028",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Common polymorphic variation in the genetically diverse African insulin gene and its association with size at birth.",
+                        "identifier": "http://www.wikidata.org/entity/Q37385113",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Maternal single nucleotide polymorphisms in the fatty acid desaturase 1 and 2 coding regions modify the impact of prenatal supplementation with DHA on birth weight.",
+                        "identifier": "http://www.wikidata.org/entity/Q36728637",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of a role for the ARHGEF3 gene in postmenopausal osteoporosis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36719026",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-02-09T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "BMC Bioinformatics",
+                        "identifier": "http://www.wikidata.org/entity/Q4835939"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "jmzTab: a java interface to the mzTab data standard",
+            "identifier": "http://www.wikidata.org/entity/Q28652291",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Johannes Griss",
+                        "identifier": "http://www.wikidata.org/entity/Q29998980"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rui Wang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Juan Antonio Vizca\u00edno",
+                        "identifier": "http://www.wikidata.org/entity/Q29998931"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Henning Hermjakob",
+                        "identifier": "http://www.wikidata.org/entity/Q28833307"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Andrew R Jones"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Qing-Wei Xu"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "mzML--a community standard for mass spectrometry data",
+                        "identifier": "http://www.wikidata.org/entity/Q28743778",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The mzIdentML data standard for mass spectrometry-based proteomics results",
+                        "identifier": "http://www.wikidata.org/entity/Q28727227",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The PRoteomics IDEntifications (PRIDE) database and associated tools: status in 2013",
+                        "identifier": "http://www.wikidata.org/entity/Q28710185",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The mzQuantML data standard for mass spectrometry-based quantitative studies in proteomics",
+                        "identifier": "http://www.wikidata.org/entity/Q28687007",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tools (Viewer, Library and Validator) that facilitate use of the peptide and protein identification standard format, termed mzIdentML",
+                        "identifier": "http://www.wikidata.org/entity/Q28661716",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "jmzIdentML API: A Java interface to the mzIdentML standard for peptide and protein identification data",
+                        "identifier": "http://www.wikidata.org/entity/Q28658662",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MetaboLights--an open-access general-purpose repository for metabolomics studies and associated meta-data",
+                        "identifier": "http://www.wikidata.org/entity/Q27818909",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The mzTab data exchange format: communicating mass-spectrometry-based proteomics and metabolomics experimental results to a wider audience",
+                        "identifier": "http://www.wikidata.org/entity/Q28654922",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Development of data representation standards by the human proteome organization proteomics standards initiative",
+                        "identifier": "http://www.wikidata.org/entity/Q28645794",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "2016 update of the PRIDE database and its related tools",
+                        "identifier": "http://www.wikidata.org/entity/Q28603110",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2014-06-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Proteomics",
+                        "identifier": "http://www.wikidata.org/entity/Q15614164"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "data standard",
+                        "identifier": "http://www.wikidata.org/entity/Q45941145"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        }
+    ]
+}
