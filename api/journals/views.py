@@ -5,9 +5,9 @@ from sparql_utils.sparql_helper_wikidata import SparqlHelperWikidata
 from sparql_utils.sparql_helper_dblp import SparqlHelperDblp
 
 
-def publication_by_id(request, publication_id):
+def publications_by_journal(request, journal_id):
     if request.META.get('X-Server-Choice') == 'dblp':
         helper = SparqlHelperDblp()
     else:
         helper = SparqlHelperWikidata()
-    return JsonResponse(helper.publication_info(publication_id))
+    return JsonResponse(helper.journal_info(journal_id))

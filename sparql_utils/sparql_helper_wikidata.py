@@ -6,16 +6,26 @@ from functools import wraps
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 from config.settings import DEFAULT_ENDPOINT, DEFAULT_PREFIXES, DISCOVER_PROPERTY, PROPERTIES, REQUIRED_PAPER_INFO, \
-    PUBLICATION_TYPES, DISCOVER_PUBLICATION, RETURNS_PUBLICATIONS, CACHE_LOCATION, SIMPLE_SEARCH, ATTRIBUTE_MAPPING, \
-    ANNOTATIONS_BEGIN, ANNOTATIONS_ITEM_LIST
+    PUBLICATION_TYPES, DISCOVER_PUBLICATION, RETURNS_PUBLICATIONS, CACHE_LOCATION_WIKIDATA, SIMPLE_SEARCH, \
+    ATTRIBUTE_MAPPING, ANNOTATIONS_BEGIN, ANNOTATIONS_ITEM_LIST, LABEL_SEARCH, TYPE_SEARCH, AUTHOR_SEARCH, \
+    SUBJECT_SEARCH
+
+
+def _timed(func):
+    @wraps(func)
+    def wrapper(self, *args, **kwargs):
+        start = time.time()
+        content = func(self, *args, **kwargs)
+        print('Query took: {:.3f} seconds ({})'.format(time.time() - start, func.__name__))
+        return content
+
+    return wrapper
 
 
 def _annotate_json_ld(func):
     @wraps(func)
     def wrapper(self, *args, **kwargs):
-        start = time.time()
         content = func(self, *args, **kwargs)
-        print('Query took: {:.3f} seconds'.format(time.time() - start))
         json_ld_results = {"results": list()}
         for json_to_convert in content["results"]:
             json_ld = {"@context": ANNOTATIONS_BEGIN["@context"],
@@ -37,6 +47,7 @@ def _annotate_json_ld(func):
                     json_ld[values] = json_to_convert[key]
             json_ld_results["results"].append(json_ld)
         return json_ld_results
+
     return wrapper
 
 
@@ -117,19 +128,20 @@ class SparqlQuery:
         return self._sparql.query().convert()['results']['bindings']
 
 
-class SparqlHelper:
+class SparqlHelperWikidata:
     def __init__(self):
-        if not os.path.isfile(CACHE_LOCATION):
+        if not os.path.isfile(CACHE_LOCATION_WIKIDATA):
             self._property_cache = {}
             self._discover_properties(PROPERTIES)
             self._publication_cache = {}
             self._discover_publications(PUBLICATION_TYPES)
-            with open(CACHE_LOCATION, 'wb') as handle:
+            with open(CACHE_LOCATION_WIKIDATA, 'wb') as handle:
                 handle.write(pickle.dumps((self._property_cache, self._publication_cache)))
         else:
-            with open(CACHE_LOCATION, 'rb') as handle:
+            with open(CACHE_LOCATION_WIKIDATA, 'rb') as handle:
                 self._property_cache, self._publication_cache = pickle.loads(handle.read())
 
+    @_timed
     def _discover_properties(self, properties):
         for item in properties:
             sparql_query = SparqlQuery()
@@ -139,6 +151,7 @@ class SparqlHelper:
             result = sparql_query.execute()[0]
             self._property_cache[item] = result['property']['value']
 
+    @_timed
     def _discover_publications(self, publications):
         for item in publications:
             sparql_query = SparqlQuery()
@@ -148,6 +161,7 @@ class SparqlHelper:
             result = sparql_query.execute()[0]
             self._publication_cache[item] = result['publication']['value']
 
+    @_timed
     @_annotate_json_ld
     def publication_info(self, publication_id):
         # build and execute query
@@ -195,6 +209,7 @@ class SparqlHelper:
                 value_id = result['author']['value']
                 if (value_id, value) not in author_set:
                     author_set.add((value_id, value))
+                    author_name_set.add(value)
                     parsed_results['author_list'].append({'author': value, 'author_id': value_id})
             if 'author_name' in result:
                 value = result['author_name']['value']
@@ -247,6 +262,7 @@ class SparqlHelper:
                     parsed_results['resource_list'].append({'resource': value})
         return {'results': [parsed_results]}
 
+    @_timed
     @_annotate_json_ld
     def author_info(self, author_id):
         # build and execute query
@@ -276,6 +292,7 @@ class SparqlHelper:
         })
         return {'results': [parsed_results]}
 
+    @_timed
     @_annotate_json_ld
     def journal_info(self, journal_id):
         # build and execute query
@@ -305,12 +322,54 @@ class SparqlHelper:
         })
         return {'results': [parsed_results]}
 
+    @_timed
     def publication_simple_search(self, query, page=1, size=10):
         # build and execute query
         sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
         sparql_query.add_body(SIMPLE_SEARCH.format(query=query))
         sparql_query.add_select('publication')
-        sparql_query.add_select('publication_label')
+        sparql_query.set_offset((page - 1) * size)
+        sparql_query.set_limit(size)
+        results = sparql_query.execute()
+
+        parsed_results = []
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            futures = [executor.submit(self.publication_info, result['publication']['value']) for result in results]
+            for future in as_completed(futures):
+                result = future.result()
+                parsed_results.append(result['results'][0])
+        return {'results': parsed_results}
+
+    @_timed
+    def publication_advanced_search(self, title=None, authors=None, topics=None, types=None,
+                                    after=None, before=None, page=1, size=10):
+        # build and execute query
+        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
+        sparql_query.add_select('publication')
+
+        if not types:
+            types = PUBLICATION_TYPES
+        sparql_query.add_body(TYPE_SEARCH.format(types=' || '.join(
+            '?publication_type = {}'.format(self._publication_cache[item]) for item in types)))
+
+        if title:
+            sparql_query.add_body(LABEL_SEARCH.format(title=title))
+
+        if authors:
+            sparql_query.add_body(AUTHOR_SEARCH.format(author='|'.join(authors)))
+
+        if topics:
+            sparql_query.add_body(SUBJECT_SEARCH.format(subjects='|'.join(topics)))
+
+        if after or before:
+            sparql_query.add_body('\n?publication wdt:P577 ?publication_date .')
+        if after:
+            sparql_query.add_body('\nfilter(?publication_date > "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
+                                  ''.format(year=after[0], month=after[1]))
+        if before:
+            sparql_query.add_body('\nfilter(?publication_date < "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
+                                  ''.format(year=before[0], month=before[1]))
+
         sparql_query.set_offset((page - 1) * size)
         sparql_query.set_limit(size)
         results = sparql_query.execute()
