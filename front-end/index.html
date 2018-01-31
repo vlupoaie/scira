@@ -2,194 +2,182 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="resources/css/index.css">
-  <title>SciRa</title>
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/result.css">
+    <title>SciRa</title>
 </head>
 
 <body class="bg-light">
-
-  <nav class="navbar navbar-light bg-light ml-auto">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <button class="btn btn-outline-success" type="button" data-toggle="modal" data-target="#signInModal">Sign in</button>
-      </li>
-    </ul>
-  </nav>
-
-  <main role="main" class="container">
-    <div class="container">
-      <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="resources/img/logo.png" alt="" width="350" height="140">
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-outline-primary" type="button">Search</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br/>
-        <div class="row">
-          <div class="col-md-5"></div>
-          <div class="col-md-1">
-            <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#advancedSearch" aria-expanded="false"
-              aria-controls="advancedSearch">Advanced Search</button>
-          </div>
-        </div>
-        <br/>
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <div class="collapse" id="advancedSearch">
-              <div class="card card-body">
-                <form class="advanced-search">
-                  <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <label for="author">Author</label>
-                      <input type="text" class="form-control" id="author" placeholder="Enter author...">
+    <main role="main" class="container">
+        <div class="container">
+            <form id="search">
+                <div class="py-5 text-center">
+                    <img class="d-block mx-auto mb-4" src="resources/img/logo.png" alt="" width="350" height="140">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <input type="text" id="simpleSearch" name="simpleSearch" class="form-control" placeholder="Search" aria-describedby="basic-addon2">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary btn-outline" id="searchButton" type="button">Search</button>
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group col-md-6">
-                      <label for="title">Title</label>
-                      <input type="text" class="form-control" id="title" placeholder="Enter title...">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="coauthor">Co-Authors</label>
-                    <input type="text" class="form-control" id="coauthor" aria-describedby="coauthorHelp" placeholder="Enter Co-authors...">
-                    <small id="coauthorHelp" class="form-text text-muted">The co-authors are separated with commas</small>
-                  </div>
-                  <div class="form-group">
-                    <label for="topic">Topics</label>
-                    <input type="text" class="form-control" id="topic" placeholder="E.g. machine learning, algorithm, etc...">
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-5">
-                      <label for="date">Publication Year</label>
-                      <input type="date" class="form-control" id="date">
-                    </div>
-                    <div class="form-group col-md-4">
-                      <label for="type">Type</label>
-                      <select id="type" class="form-control">
-                        <option selected>Article</option>
-                        <option>Presentation</option>
-                        <option>Tutorial</option>
-                        <option>Book</option>
-                        <option>Thesis</option>
-                      </select>
-                    </div>
-                    <div class="form-group col-md-3">
-                      <label for="language">Language</label>
-                      <select id="language" class="form-control">
-                        <option selected>EN</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="html">
-                        <label class="form-check-label" for="html"></label>HTML</label>
-                      </div>
-                    </div>
-                    <div class="form-group col-md-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="html">
-                        <label class="form-check-label" for="html"></label>PDF</label>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Modal -->
-  <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-          <ul class="nav nav-tabs" id="userTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
-            </li>
-          </ul>
-
-          <div class="tab-content" id="userTabContent">
-            <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-              <form>
+                </div>
                 <br/>
-                <div class="form-group">
-                  <label for="username">Username</label>
-                  <input type="text" class="form-control" id="username" placeholder="Enter username">
+                <div class="row">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-1">
+                        <button class="btn btn-primary btn-outline" type="button" data-toggle="collapse" data-target="#advancedSearch" aria-expanded="false"
+                            aria-controls="advancedSearch">Advanced Search</button>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Enter password">
-                </div>
-                <button type="submit" class="btn btn-success">Login</button>
-              </form>
-            </div>
-            <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
-              <form>
                 <br/>
-                <div class="form-group">
-                  <label for="username">Username</label>
-                  <input type="text" class="form-control" id="username" placeholder="Enter username">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div class="collapse" id="advancedSearch">
+                            <div class="panel-body well text-center">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="author">Author</label>
+                                        <input type="text" class="form-control" id="author" name="author" placeholder="Enter author...">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="title">Title</label>
+                                        <input type="text" class="form-control" id="title" name="title" placeholder="Enter title...">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label for="coauthor">Co-Authors</label>
+                                        <input type="text" class="form-control" id="coauthor" name="coauthor" aria-describedby="coauthorHelp" placeholder="Enter Co-authors...">
+                                        <small id="coauthorHelp" class="form-text text-muted">The co-authors are separated with commas</small>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <label for="topic">Topics</label>
+                                        <input type="text" class="form-control" id="topic" name="topic" placeholder="E.g. machine learning, algorithm, etc...">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label>Publication Year</label>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="afterDate">After</label>
+                                        <input type="date" class="form-control" id="afterDate" name="afterDate">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="beforeDate">Before </label>
+                                        <input type="date" class="form-control" id="beforeDate" name="beforeDate">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label>Type</label>
+                                </div>
+                                <div class="form-row text-left">
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="journal" name="journal">
+                                                    <label class="form-check-label" for="journal">Academic journal</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="article" name="article">
+                                                    <label class="form-check-label" for="article">Article</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="book" name="book">
+                                                    <label class="form-check-label" for="book">Book</label>
+                                                </div>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="publication" name="publication">
+                                                    <label class="form-check-label" for="publication">Publication</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-group">
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="report" name="report">
+                                                    <label class="form-check-label" for="report">Report</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="textbook" name="textbook">
+                                                    <label class="form-check-label" for="textbook">Textbook</label>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="thesis" name="thesis">
+                                                    <label class="form-check-label" for="thesis">Thesis</label>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </form>
+            <br>
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <div class="panel-group text-left" id="accordion">
+                    </div>
                 </div>
-                <div class="form-group">
-                  <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Enter password">
-                </div>
-                <div class="form-group">
-                    <label for="confirm">Confirm password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Enter password again">
-                  </div>
-                <button type="submit" class="btn btn-primary">Register</button>
-              </form>
             </div>
-          </div>
-
-
+            <div class="row hidden" id="pag">
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <ul class="pager">
+                        <li class="previous" id="prev">
+                            <a href="#">
+                                <span aria-hidden="true">&larr;</span> Previous</a>
+                        </li>
+                        <li class="next" id="next">
+                            <a href="#">Next
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap core JavaScript
+    </main>
+    <!-- Bootstrap core JavaScript
 ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster -->
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="resources/js/jquery-1.12.4.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/convert.js"></script>
+    <script src="resources/js/main.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-    crossorigin="anonymous"></script>
-  <script src="resources/js/bootstrap.min.js"></script>
 </body>
 
 </html>

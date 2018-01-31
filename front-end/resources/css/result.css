@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'm_1mregular';
+    src: url('../fonts/mplus-1m-regular-webfont.eot');
+    src: url('../fonts/mplus-1m-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mplus-1m-regular-webfont.woff') format('woff'),
+         url('../fonts/mplus-1m-regular-webfont.ttf') format('truetype'),
+         url('../fonts/mplus-1m-regular-webfont.svg#m_1mregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #f8f9fa;
+}
+
+.well {
+    background-color: white;
+}
+.plugins-title {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.edit-plugin-title {
+    padding: 7px 7px 7px 20px;
+}
+
+.edit-plugin-heading:hover {
+    background: #c4dcf8;
+    color: #FFF;
+}
+
+.edit-plugin-heading a {
+    font-weight: bold;
+    color: black;
+}
+
+.edit-plugin-heading a:hover,
+.edit-plugin-heading a:active,
+.edit-plugin-heading a:link,
+.edit-plugin-heading a:visited {
+    text-decoration: None;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary.btn-outline:hover {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.btn-primary.btn-outline:focus {
+    color: #007bff;
+    background-color: transparent;
+}
+
+.no-decoration-panel {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+}
