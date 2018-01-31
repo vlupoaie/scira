@@ -9,11 +9,10 @@ RUN apk update \
         && apk upgrade \
         && apk add gcc \
         && apk add musl-dev \
-	&& yum clean all \
 	&& pip install --no-cache-dir \
 		CherryPy==12.0.0 \
 		Django==1.11.7 \
-                psycopg2==2.7.3.2
+		SPARQLWrapper
 
 
 ##################### FINISHED INSTALLATION #####################
@@ -25,7 +24,7 @@ USER nobody
 EXPOSE 8080
 
 # set working directory to apps directory
-WORKDIR /app
+WORKDIR /app/api
 
 # start upload server
 CMD ["python3.6", "runserver.py"]

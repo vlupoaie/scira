@@ -16,8 +16,8 @@ Including another URLconf
 from django.conf.urls import url, include
 
 urlpatterns = [
-    url(r'api/publications/', include('publications.urls', namespace='publications')),
-    url(r'api/journals/', include('journals.urls', namespace='journals')),
-    url(r'api/authors/', include('authors.urls', namespace='authors')),
-    url(r'api/search/', include('search.urls', namespace='search')),
+    url(r'^api/publications/', include('publications.urls', namespace='publications')),
+    url(r'^api/journals/', include('journals.urls', namespace='journals')),
+    url(r'^api/authors/', include('authors.urls', namespace='authors')),
+    url(r'^api/search/', include('search.urls', namespace='search')),
 ]
