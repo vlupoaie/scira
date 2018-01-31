@@ -1,6 +1,6 @@
 $("#searchButton").click(function (e) {
-
-    var baseUrl = "file:///home/ronesim/Projects/scira-front/index.html";
+                                                 
+    var baseUrl = "file:///D:/Facultate-general/scira/scira/front-end/index.html";
 
     var simpleSearch = document.getElementById("simpleSearch").value;
     var author = document.getElementById("author").value;
@@ -17,6 +17,9 @@ $("#searchButton").click(function (e) {
     var report = document.getElementById("report").checked;
     var textbook = document.getElementById("textbook").checked;
     var thesis = document.getElementById("thesis").checked;
+
+    var datasource = document.querySelector('input[name="datasource"]:checked').value;
+    document.cookie = "datasource=" + datasource;
 
     if (author || title || coauthor || topic || afterDate || beforeDate ||
         journal || article || book || publication || report || textbook || thesis) {
