@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/result.css">
+    <title>SciRa</title>
+</head>
+
+<body class="bg-light">
+    <main role="main" class="container">
+        <div class="container">
+            <div class="py-5 text-center">
+                <img class="d-block mx-auto mb-4" src="resources/img/logo.png" alt="" width="350" height="140">
+
+            </div>
+            <br/>
+            <form id="search">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div class="panel panel-info">
+                            <div class="panel-heading edit-plugin-heading">
+                                <h4 class="panel-title edit-plugin-title">
+                                    <a>SPARQL Editor </a>
+                                </h4>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group text-left">
+                                    <textarea class="form-control" placeholder="Input a SPARQL query..." rows="10" id="query" name="query"></textarea>
+                                </div>
+                                <button class="btn btn-large btn-primary btn-outline" style="float: right" id="submitQuery" type="button">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div id="results"></div>
+
+        </div>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="resources/js/jquery-1.12.4.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+
+</html>
