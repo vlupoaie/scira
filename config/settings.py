@@ -6,7 +6,9 @@ import os
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
-CACHE_LOCATION = os.path.join(ROOT_DIR, 'cache')
+CACHE_LOCATION_WIKIDATA = os.path.join(ROOT_DIR, 'cache_wikidata')
+
+CACHE_LOCATION_DBLP = os.path.join(ROOT_DIR, 'cache_dblp')
 
 #################
 # Sparql settings
@@ -27,8 +29,8 @@ PROPERTIES = ['instance of', 'author name string', 'author', 'cites', 'publicati
 RETURNS_PUBLICATIONS = {'cites', '^cites'}
 
 DISCOVER_PROPERTY = '''
-  ?entity http://www.w3.org/2000/01/rdf-schema#label "{property}"@en.
-  ?entity http://wikiba.se/ontology#directClaim ?property
+?entity http://www.w3.org/2000/01/rdf-schema#label "{property}"@en.
+?entity http://wikiba.se/ontology#directClaim ?property
 '''
 
 # maybe: 'diploma thesis', 'academic writing', 'reference work', 'patent', 'thesis', 'technical report'
@@ -37,7 +39,7 @@ PUBLICATION_TYPES = ['scientific article', 'science book', 'academic journal art
                      'report', 'textbook', 'doctoral thesis', 'publication']
 
 DISCOVER_PUBLICATION = '''
-  ?publication http://www.w3.org/2000/01/rdf-schema#label "{entity}"@en
+?publication http://www.w3.org/2000/01/rdf-schema#label "{entity}"@en
 '''
 
 REQUIRED_PAPER_INFO = [
@@ -54,13 +56,32 @@ REQUIRED_PAPER_INFO = [
 ]
 
 SIMPLE_SEARCH = r'''
-  ?publication wdt:P31 ?pub_type .
-  filter(?pub_type = wd:Q13442814) .
-  ?publication rdfs:label ?publication_label .
-  filter(lang(?publication_label) = 'en') .
-  filter(regex(?publication_label, "(\\W|^){query}(\\W|$)"))
-'''
+?publication wdt:P31 ?publication_type .
+filter(?publication_type = wd:Q13442814)
 
+?publication rdfs:label ?publication_label .
+filter(lang(?publication_label) = 'en')
+filter(regex(?publication_label, "(\\W|^){query}(\\W|$)"))'''
+
+TYPE_SEARCH = r'''
+?publication wdt:P31 ?publication_type .
+filter({types})'''
+
+LABEL_SEARCH = r'''
+?publication rdfs:label ?publication_label .
+filter(lang(?publication_label) = 'en')
+filter(regex(?publication_label, '{title}', 'i'))'''
+
+AUTHOR_SEARCH = r'''
+?publication wdt:P50 ?publication_author .
+?publication_author rdfs:label ?author_label .
+filter(lang(?author_label) = 'en') .
+filter(regex(?author_label, '{author}', 'i'))'''
+
+SUBJECT_SEARCH = r'''
+?publication wdt:P921 ?publication_subject .
+?publication_subject rdfs:label ?subject_label .
+filter(regex(?subject_label, '{subjects}', 'i'))'''
 
 ##################
 # JSON-LD settings

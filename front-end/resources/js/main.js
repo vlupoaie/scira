@@ -18,6 +18,9 @@ $("#searchButton").click(function (e) {
     var textbook = document.getElementById("textbook").checked;
     var thesis = document.getElementById("thesis").checked;
 
+    var datasource = document.querySelector('input[name="datasource"]:checked').value;
+    document.cookie = "datasource=" + datasource;
+
     if (author || title || coauthor || topic || afterDate || beforeDate ||
         journal || article || book || publication || report || textbook || thesis) {
         baseUrl += "?author=" + author + "&title=" + title + "&coauthor=" + coauthor +

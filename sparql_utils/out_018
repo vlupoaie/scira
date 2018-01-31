@@ -1,0 +1,1642 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Semantic Web Revisited",
+            "identifier": "http://www.wikidata.org/entity/Q29037447",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nigel Shadbolt",
+                        "identifier": "http://www.wikidata.org/entity/Q7032634"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wendy Hall",
+                        "identifier": "http://www.wikidata.org/entity/Q11626"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-05-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "IEEE Intelligent Systems",
+                        "identifier": "http://www.wikidata.org/entity/Q5970394"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Semantic Web",
+                        "identifier": "http://www.wikidata.org/entity/Q54837"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli",
+            "identifier": "http://www.wikidata.org/entity/Q30133458",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Amy Guy",
+                        "identifier": "http://www.wikidata.org/entity/Q30086138"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ruben Verborgh",
+                        "identifier": "http://www.wikidata.org/entity/Q30085536"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sarven Capadisli",
+                        "identifier": "http://www.wikidata.org/entity/Q30078591"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "S\u00f6ren Auer",
+                        "identifier": "http://www.wikidata.org/entity/Q27453085"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christoph Lange",
+                        "identifier": "http://www.wikidata.org/entity/Q30276490"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2017-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "MediaObject",
+                        "contentUrl": "http://csarven.ca/dokieli-rww"
+                    }
+                }
+            ]
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "World\u2010wide web: the information universe",
+            "identifier": "http://www.wikidata.org/entity/Q29167947",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert Cailliau",
+                        "identifier": "http://www.wikidata.org/entity/Q92749"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bernd Pollermann"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jean\u2010Fran\u00e7ois Groff"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-08-17T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Internet Research",
+                        "identifier": "http://www.wikidata.org/entity/Q2308800"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "World Wide Web",
+                        "identifier": "http://www.wikidata.org/entity/Q466"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "World\u2010Wide Web: The Information Universe",
+            "identifier": "http://www.wikidata.org/entity/Q29167966",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert Cailliau",
+                        "identifier": "http://www.wikidata.org/entity/Q92749"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bernd Pollermann"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jean\u2010Fran\u00e7ois Groff"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The World-Wide Web",
+                        "identifier": "http://www.wikidata.org/entity/Q29165870",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1992-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Internet Research",
+                        "identifier": "http://www.wikidata.org/entity/Q2308800"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "World Wide Web",
+                        "identifier": "http://www.wikidata.org/entity/Q466"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The World-Wide Web",
+            "identifier": "http://www.wikidata.org/entity/Q29165870",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ari Luotonen",
+                        "identifier": "http://www.wikidata.org/entity/Q653822"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Arthur Secret"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Robert Cailliau",
+                        "identifier": "http://www.wikidata.org/entity/Q92749"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Henrik Frystyk Nielsen",
+                        "identifier": "http://www.wikidata.org/entity/Q5716233"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "World\u2010Wide Web: The Information Universe",
+                        "identifier": "http://www.wikidata.org/entity/Q29167966",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Authoritative sources in a hyperlinked environment",
+                        "identifier": "http://www.wikidata.org/entity/Q29647542",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1994-08-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Communications of the ACM",
+                        "identifier": "http://www.wikidata.org/entity/Q1120519"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "World Wide Web",
+                        "identifier": "http://www.wikidata.org/entity/Q466"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The role of ammonites in the Mesozoic marine food web revealed by jaw preservation.",
+            "identifier": "http://www.wikidata.org/entity/Q33787840",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Tafforeau",
+                        "identifier": "http://www.wikidata.org/entity/Q2062682"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Isabelle Kruta"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Fabrizio Cecca"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Isabelle Rouget"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Neil Landman"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "3D-Analysis of a non-planispiral ammonoid from the Hunsr\u00fcck Slate: natural or pathological variation?",
+                        "identifier": "http://www.wikidata.org/entity/Q40982469",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intraspecific variation of phragmocone chamber volumes throughout ontogeny in the modern nautilid Nautilus and the Jurassic ammonite Normannites",
+                        "identifier": "http://www.wikidata.org/entity/Q28608606",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ammonite habitat revealed via isotopic composition and comparisons with co-occurring benthic and planktonic organisms",
+                        "identifier": "http://www.wikidata.org/entity/Q28603375",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evolution of habitat depth in the Jurassic-Cretaceous ammonoids",
+                        "identifier": "http://www.wikidata.org/entity/Q28603366",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Seven 365-Million-Year-Old Trilobites Moulting within a Nautiloid Conch",
+                        "identifier": "http://www.wikidata.org/entity/Q28597975",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011-01-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Science",
+                        "identifier": "http://www.wikidata.org/entity/Q192864"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The Semantic Web",
+            "identifier": "http://www.wikidata.org/entity/Q29164671",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ora Lassila",
+                        "identifier": "http://www.wikidata.org/entity/Q7099202"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "James Hendler",
+                        "identifier": "http://www.wikidata.org/entity/Q6135847"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Qualitative and Quantitative Analysis of How Wikipedia Talk Pages Are Used",
+                        "identifier": "http://www.wikidata.org/entity/Q30071844",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Linked Data: The Story So Far",
+                        "identifier": "http://www.wikidata.org/entity/Q29165581",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "BioTCM-SE: a semantic search engine for the information retrieval of modern biology and traditional Chinese medicine",
+                        "identifier": "http://www.wikidata.org/entity/Q28659942",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Using data crawlers and semantic Web to build financial XBRL data generators: the SONAR extension approach",
+                        "identifier": "http://www.wikidata.org/entity/Q28659227",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A grammar-based semantic similarity algorithm for natural language sentences",
+                        "identifier": "http://www.wikidata.org/entity/Q28658177",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Open Biodiversity Knowledge Management System in Scholarly Publishing",
+                        "identifier": "http://www.wikidata.org/entity/Q28651062",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An evidence-based approach to identify aging-related genes in Caenorhabditis elegans",
+                        "identifier": "http://www.wikidata.org/entity/Q28649457",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "FoodWiki: Ontology-Driven Mobile Safe Food Consumption System",
+                        "identifier": "http://www.wikidata.org/entity/Q28647316",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SITRUS: Semantic Infrastructure for Wireless Sensor Networks",
+                        "identifier": "http://www.wikidata.org/entity/Q28603223",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Transforming the Medical Subject Headings into Linked Data: Creating the Authorized Version of MeSH in RDF",
+                        "identifier": "http://www.wikidata.org/entity/Q28601038",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Resource description framework technologies in chemistry",
+                        "identifier": "http://www.wikidata.org/entity/Q27134761",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Comparative Survey of DBpedia, Freebase, OpenCyc, Wikidata, and YAGO",
+                        "identifier": "http://www.wikidata.org/entity/Q27044165",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Developing a kidney and urinary pathway knowledge base",
+                        "identifier": "http://www.wikidata.org/entity/Q21198687",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Integration among databases and data sets to support productive nanotechnology: Challenges and recommendations",
+                        "identifier": "http://www.wikidata.org/entity/Q43066944",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Freebase: a collaboratively created graph database for structuring human knowledge",
+                        "identifier": "http://www.wikidata.org/entity/Q30087582",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Discovering Similarity and Dissimilarity Relations for Knowledge Propagation in Web Ontologies",
+                        "identifier": "http://www.wikidata.org/entity/Q30087201",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2001-05-01T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Scientific American",
+                        "identifier": "http://www.wikidata.org/entity/Q39379"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Semantic Web",
+                        "identifier": "http://www.wikidata.org/entity/Q54837"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Creating a science of the Web",
+            "identifier": "http://www.wikidata.org/entity/Q28257164",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nigel Shadbolt",
+                        "identifier": "http://www.wikidata.org/entity/Q7032634"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Daniel J Weitzner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "James Hendler",
+                        "identifier": "http://www.wikidata.org/entity/Q6135847"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Wendy Hall",
+                        "identifier": "http://www.wikidata.org/entity/Q11626"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Collective dynamics of social annotation.",
+                        "identifier": "http://www.wikidata.org/entity/Q37250060",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Accelerating cancer systems biology research through Semantic Web technology.",
+                        "identifier": "http://www.wikidata.org/entity/Q36572429",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Opportunities for web-based indicators in environmental sciences.",
+                        "identifier": "http://www.wikidata.org/entity/Q28728421",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Drug cocktail optimization in chemotherapy of cancer",
+                        "identifier": "http://www.wikidata.org/entity/Q28484254",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The evolution of the Web and implications for eResearch",
+                        "identifier": "http://www.wikidata.org/entity/Q28304240",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The emergent discipline of health web science",
+                        "identifier": "http://www.wikidata.org/entity/Q28297114",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Computational ecosystems for data-driven medical genomics",
+                        "identifier": "http://www.wikidata.org/entity/Q27499760",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SSWAP: A Simple Semantic Web Architecture and Protocol for semantic web services",
+                        "identifier": "http://www.wikidata.org/entity/Q21284374",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Publishing perishing? Towards tomorrow's information architecture",
+                        "identifier": "http://www.wikidata.org/entity/Q21284236",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Semantic Web management model for integrative biomedical informatics",
+                        "identifier": "http://www.wikidata.org/entity/Q21144263",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Googling social interactions: web search engine based social network construction",
+                        "identifier": "http://www.wikidata.org/entity/Q21136341",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2006-08-11T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Science",
+                        "identifier": "http://www.wikidata.org/entity/Q192864"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Publishing on the semantic web",
+            "identifier": "http://www.wikidata.org/entity/Q28185770",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "James Hendler",
+                        "identifier": "http://www.wikidata.org/entity/Q6135847"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tim Berners-Lee",
+                        "identifier": "http://www.wikidata.org/entity/Q80"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Seeking a new biology through text mining.",
+                        "identifier": "http://www.wikidata.org/entity/Q42220103",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "PharmaTrek: A Semantic Web Explorer for Open Innovation in Multitarget Drug Discovery.",
+                        "identifier": "http://www.wikidata.org/entity/Q38453607",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "HealthRecSys: A semantic content-based recommender system to complement health videos",
+                        "identifier": "http://www.wikidata.org/entity/Q29994687",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A wiki for the life sciences where authorship matters",
+                        "identifier": "http://www.wikidata.org/entity/Q28842736",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Jeremiah Metzger lecture: Osler - web - rendezvous: impact of the information explosion on medical education",
+                        "identifier": "http://www.wikidata.org/entity/Q28765947",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Life Sciences and the web: a new era for collaboration",
+                        "identifier": "http://www.wikidata.org/entity/Q28757403",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biomedical semantics in the Semantic Web",
+                        "identifier": "http://www.wikidata.org/entity/Q28744085",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Phylotastic! Making tree-of-life knowledge accessible, reusable and convenient",
+                        "identifier": "http://www.wikidata.org/entity/Q28683167",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Can social semantic web techniques foster collaborative curriculum mapping in medicine?",
+                        "identifier": "http://www.wikidata.org/entity/Q28681339",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Drug cocktail optimization in chemotherapy of cancer",
+                        "identifier": "http://www.wikidata.org/entity/Q28484254",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "From XML to RDF: how semantic web technologies will change the design of 'omic' standards",
+                        "identifier": "http://www.wikidata.org/entity/Q28271403",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The BioPAX community standard for pathway data sharing",
+                        "identifier": "http://www.wikidata.org/entity/Q27987775",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Chemical Markup, XML, and the World Wide Web. 5. Applications of Chemical Metadata in RSS Aggregators",
+                        "identifier": "http://www.wikidata.org/entity/Q27093408",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Seal of transparency heritage in the CISMeF quality-controlled health gateway",
+                        "identifier": "http://www.wikidata.org/entity/Q24798476",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Time to organize the bioinformatics resourceome",
+                        "identifier": "http://www.wikidata.org/entity/Q21563513",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "eXframe: reusable framework for storage, analysis and visualization of genomics experiments",
+                        "identifier": "http://www.wikidata.org/entity/Q21284333",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Semantic Web management model for integrative biomedical informatics",
+                        "identifier": "http://www.wikidata.org/entity/Q21144263",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Defrosting the digital library: bibliographic tools for the next generation web.",
+                        "identifier": "http://www.wikidata.org/entity/Q21092568",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2001-04-26T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Nature",
+                        "identifier": "http://www.wikidata.org/entity/Q180445"
+                    }
+                }
+            ],
+            "inLanguage": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Language",
+                        "name": "English",
+                        "identifier": "http://www.wikidata.org/entity/Q1860"
+                    }
+                }
+            ],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Semantic Web",
+                        "identifier": "http://www.wikidata.org/entity/Q54837"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Complementary molecular information changes our perception of food web structure.",
+            "identifier": "http://www.wikidata.org/entity/Q37571150",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul D. N. Hebert",
+                        "identifier": "http://www.wikidata.org/entity/Q7150099"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Sean W Prosser"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tomas Roslin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Helena K Wirta"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Gergely V\u00e1rkonyi"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Riikka Kaartinen"
+                    }
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Experimental evidence for apparent competition in a tropical forest food web.",
+                        "identifier": "http://www.wikidata.org/entity/Q39270770",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A road map for molecular ecology.",
+                        "identifier": "http://www.wikidata.org/entity/Q38101136",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Food webs: a ladder for picking strawberries or a practical tool for practical problems?",
+                        "identifier": "http://www.wikidata.org/entity/Q37200426",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Apparent competition, quantitative food webs, and the structure of phytophagous insect communities.",
+                        "identifier": "http://www.wikidata.org/entity/Q36332745",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A pragmatic approach to the analysis of diets of generalist predators: the use of next-generation sequencing with no blocking probes.",
+                        "identifier": "http://www.wikidata.org/entity/Q34956240",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Antagonistic interaction networks are structured independently of latitude and host guild.",
+                        "identifier": "http://www.wikidata.org/entity/Q34669760",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Compartmentalization increases food-web persistence.",
+                        "identifier": "http://www.wikidata.org/entity/Q34621528",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Tropical plant-herbivore networks: reconstructing species interactions using DNA barcodes.",
+                        "identifier": "http://www.wikidata.org/entity/Q34544610",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Carrion fly-derived DNA as a tool for comprehensive and cost-effective assessment of mammalian biodiversity.",
+                        "identifier": "http://www.wikidata.org/entity/Q34539317",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Specialization of mutualistic interaction networks decreases toward tropical latitudes.",
+                        "identifier": "http://www.wikidata.org/entity/Q34415293",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Disentangling nestedness from models of ecological complexity.",
+                        "identifier": "http://www.wikidata.org/entity/Q34283385",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The robustness and restoration of a network of ecological networks.",
+                        "identifier": "http://www.wikidata.org/entity/Q34169629",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Food-web structure and network theory: The role of connectance and size.",
+                        "identifier": "http://www.wikidata.org/entity/Q34149855",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Stability of ecological communities and the architecture of mutualistic and trophic networks.",
+                        "identifier": "http://www.wikidata.org/entity/Q34131034",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Strong contributors to network persistence are the most vulnerable to extinction.",
+                        "identifier": "http://www.wikidata.org/entity/Q34019728",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Barcoding a quantified food web: crypsis, concepts, ecology and hypotheses.",
+                        "identifier": "http://www.wikidata.org/entity/Q33960265",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA BARCODING: CO1 DNA barcoding amphibians: take the chance, meet the challenge.",
+                        "identifier": "http://www.wikidata.org/entity/Q33902785",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular detection of trophic links in a complex insect host-parasitoid food web.",
+                        "identifier": "http://www.wikidata.org/entity/Q33887450",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Shrinking by numbers: landscape context affects the species composition but not the quantitative structure of local food webs.",
+                        "identifier": "http://www.wikidata.org/entity/Q33821264",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular analysis of parasitoid linkages (MAPL): gut contents of adult parasitoid wasps reveal larval host.",
+                        "identifier": "http://www.wikidata.org/entity/Q33748958",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Guild-specific patterns of species richness and host specialization in plant-herbivore food webs from a tropical forest.",
+                        "identifier": "http://www.wikidata.org/entity/Q33645827",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Generalized models reveal stabilizing factors in food webs.",
+                        "identifier": "http://www.wikidata.org/entity/Q33491403",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Do differences in food web structure between organic and conventional farms affect the ecosystem service of pest control?",
+                        "identifier": "http://www.wikidata.org/entity/Q33399629",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Ecological networks--beyond food webs.",
+                        "identifier": "http://www.wikidata.org/entity/Q33397093",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Interaction diversity within quantified insect food webs in restored and adjacent intensively managed meadows.",
+                        "identifier": "http://www.wikidata.org/entity/Q33294918",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Response of complex food webs to realistic extinction sequences.",
+                        "identifier": "http://www.wikidata.org/entity/Q33284653",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Habitat modification alters the structure of tropical host-parasitoid food webs.",
+                        "identifier": "http://www.wikidata.org/entity/Q33268816",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The nested assembly of plant-animal mutualistic networks.",
+                        "identifier": "http://www.wikidata.org/entity/Q33187874",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Indirect interactions in the High Arctic.",
+                        "identifier": "http://www.wikidata.org/entity/Q30653406",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "High-throughput sequencing offers insight into mechanisms of resource partitioning in cryptic bat species.",
+                        "identifier": "http://www.wikidata.org/entity/Q30469823",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Network motifs: simple building blocks of complex networks",
+                        "identifier": "http://www.wikidata.org/entity/Q29547340",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Persistence increases with diversity and connectance in trophic metacommunities",
+                        "identifier": "http://www.wikidata.org/entity/Q28744193",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "New M13 vectors for cloning",
+                        "identifier": "http://www.wikidata.org/entity/Q27861042",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "BARCODING: bold: The Barcode of Life Data System (http://www.barcodinglife.org)",
+                        "identifier": "http://www.wikidata.org/entity/Q27860883",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Molecular diet analysis of two african free-tailed bats (molossidae) using high throughput sequencing.",
+                        "identifier": "http://www.wikidata.org/entity/Q27478461",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA barcodes affirm that 16 species of apparently generalist tropical parasitoid flies (Diptera, Tachinidae) are not all generalists",
+                        "identifier": "http://www.wikidata.org/entity/Q24680094",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Barcoding animal life: cytochrome c oxidase subunit 1 divergences among closely related species",
+                        "identifier": "http://www.wikidata.org/entity/Q24673120",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA barcodes reveal cryptic host-specificity within the presumed polyphagous members of a genus of parasitoid flies (Diptera: Tachinidae)",
+                        "identifier": "http://www.wikidata.org/entity/Q24541376",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "DNA sequencing with chain-terminating inhibitors",
+                        "identifier": "http://www.wikidata.org/entity/Q22066207",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysing diet of small herbivores: the efficiency of DNA barcoding coupled with high-throughput pyrosequencing for deciphering the composition of complex plant mixtures",
+                        "identifier": "http://www.wikidata.org/entity/Q21231979",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Below-ground plant-fungus network topology is not congruent with above-ground plant-animal network topology.",
+                        "identifier": "http://www.wikidata.org/entity/Q36284793",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2014-01-21T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Proceedings of the National Academy of Sciences of the United States of America",
+                        "identifier": "http://www.wikidata.org/entity/Q1146531"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

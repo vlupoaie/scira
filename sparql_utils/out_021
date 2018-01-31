@@ -1,0 +1,1999 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Novel technique for quantifying adhesion of Metarhizium anisopliae conidia to the tick cuticle.",
+            "identifier": "http://www.wikidata.org/entity/Q33876792",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Itamar Glazer"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Asael Rot"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dana Ment"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Galina Gindin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Samish"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Victoria Soroker"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Shimon Barel"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied and Environmental Microbiology",
+                        "identifier": "http://www.wikidata.org/entity/Q4781593"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A novel hydrolytic dehalogenase for the chlorinated aromatic compound chlorothalonil.",
+            "identifier": "http://www.wikidata.org/entity/Q33876895",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rong Li"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Shunpeng Li"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jiandong Jiang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Guangli Wang"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Marine-Derived Biocatalysts: Importance, Accessing, and Application in Aromatic Pollutant Bioremediation.",
+                        "identifier": "http://www.wikidata.org/entity/Q37651686",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Bacteriology",
+                        "identifier": "http://www.wikidata.org/entity/Q478419"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A predominant multidrug-resistant Salmonella enterica serovar Saintpaul clonal line in German turkey and related food products.",
+            "identifier": "http://www.wikidata.org/entity/Q33876852",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Annemarie K\u00e4sbohrer",
+                        "identifier": "http://www.wikidata.org/entity/Q47007179"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Irene Rodr\u00edguez"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Beatriz Guerra"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Janine Beutlich"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Andreas Schroeter"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Reiner Helmuth"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied and Environmental Microbiology",
+                        "identifier": "http://www.wikidata.org/entity/Q4781593"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Double-blind characterization of non-genome-sequenced bacteria by mass spectrometry-based proteomics.",
+            "identifier": "http://www.wikidata.org/entity/Q33876845",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "A Peter Snyder"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Rabih E Jabbour"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Alan W Zulich"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Charles H Wick"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Evan W Skowronski"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mary Margaret Wade"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael F Stanford"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Samir V Deshpande"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assessment of marker proteins identified in whole cell extracts for bacterial speciation using liquid chromatography electrospray ionization tandem mass spectrometry.",
+                        "identifier": "http://www.wikidata.org/entity/Q37509669",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A peptide identification-free, genome sequence-independent shotgun proteomics workflow for strain-level bacterial differentiation.",
+                        "identifier": "http://www.wikidata.org/entity/Q36099570",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "No evidence of enemy release in pathogen and microbial communities of common wasps (Vespula vulgaris) in their native and introduced range",
+                        "identifier": "http://www.wikidata.org/entity/Q28544857",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Iridovirus and microsporidian linked to honey bee colony decline",
+                        "identifier": "http://www.wikidata.org/entity/Q21562153",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied and Environmental Microbiology",
+                        "identifier": "http://www.wikidata.org/entity/Q4781593"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Multiple interaction domains in FtsL, a protein component of the widely conserved bacterial FtsLBQ cell division complex.",
+            "identifier": "http://www.wikidata.org/entity/Q33876882",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jon Beckwith"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dana Boyd"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mark D Gonzalez"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Esra A Akbay"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Strand-specific transcriptomes of Enterohemorrhagic Escherichia coli in response to interactions with ground beef microbiota: interactions between microorganisms in raw meat.",
+                        "identifier": "http://www.wikidata.org/entity/Q40095881",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cytoskeletal proteins of actinobacteria.",
+                        "identifier": "http://www.wikidata.org/entity/Q38000559",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Advances in understanding E. coli cell fission.",
+                        "identifier": "http://www.wikidata.org/entity/Q37799899",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Fine-mapping the contact sites of the Escherichia coli cell division proteins FtsB and FtsL on the FtsQ protein.",
+                        "identifier": "http://www.wikidata.org/entity/Q37112629",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Soluble Periplasmic Domains of Escherichia coli Cell Division Proteins FtsQ/FtsB/FtsL Form a Trimeric Complex with Submicromolar Affinity.",
+                        "identifier": "http://www.wikidata.org/entity/Q36065094",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Evidence from artificial septal targeting and site-directed mutagenesis that residues in the extracytoplasmic \u03b2 domain of DivIB mediate its interaction with the divisomal transpeptidase PBP 2B",
+                        "identifier": "http://www.wikidata.org/entity/Q28488952",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "In the beginning, Escherichia coli assembled the proto-ring: an initial phase of division",
+                        "identifier": "http://www.wikidata.org/entity/Q27694716",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Structural Organization of FtsB, a Transmembrane Protein of the Bacterial Divisome",
+                        "identifier": "http://www.wikidata.org/entity/Q27676985",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Bacteriology",
+                        "identifier": "http://www.wikidata.org/entity/Q478419"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Loss of the response regulator CtrA causes pleiotropic effects on gene expression but does not affect growth phase regulation in Rhodobacter capsulatus.",
+            "identifier": "http://www.wikidata.org/entity/Q33876909",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Hynek Strnad"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "J Thomas Beatty"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Vaclav Paces"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Stephen J Callister"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mary S Lipton"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ljiljana Pasa-Tolic"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Andrew S Lang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ryan G Mercer"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Analysis of the CtrA pathway in Magnetospirillum reveals an ancestral role in motility in alphaproteobacteria.",
+                        "identifier": "http://www.wikidata.org/entity/Q42189171",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The SOS Response Master Regulator LexA Regulates the Gene Transfer Agent of Rhodobacter capsulatus and Represses Transcription of the Signal Transduction Protein CckA.",
+                        "identifier": "http://www.wikidata.org/entity/Q39256614",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genome-wide identification and characterization of small RNAs in Rhodobacter capsulatus and identification of small RNAs affected by loss of the response regulator CtrA.",
+                        "identifier": "http://www.wikidata.org/entity/Q38906196",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Functional and Evolutionary Characterization of a Gene Transfer Agent's Multilocus \"Genome\".",
+                        "identifier": "http://www.wikidata.org/entity/Q37261990",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "RNA-Seq and microarrays analyses reveal global differential transcriptomes of Mesorhizobium huakuii 7653R between bacteroids and free-living cells",
+                        "identifier": "http://www.wikidata.org/entity/Q28541792",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "One for all or all for one: heterogeneous expression and host cell lysis are key to gene transfer agent activity in Rhodobacter capsulatus",
+                        "identifier": "http://www.wikidata.org/entity/Q21560770",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Bacteriology",
+                        "identifier": "http://www.wikidata.org/entity/Q478419"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A deficiency in arabinogalactan biosynthesis affects Corynebacterium glutamicum mycolate outer membrane stability.",
+            "identifier": "http://www.wikidata.org/entity/Q33876915",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mohamed Chami"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mamadou Daff\u00e9"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Marielle Tropis"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Cecile Labarre"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Celia de Sousa-d'Auria"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christine Houssin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Christophe Salmeron"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nicolas Bayan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Roland Bou Raad"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Xavier M\u00e9niche"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assembling of the Mycobacterium tuberculosis Cell Wall Core.",
+                        "identifier": "http://www.wikidata.org/entity/Q40650968",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Differential detergent extraction of mycobacterium marinum cell envelope proteins identifies an extensively modified threonine-rich outer membrane protein with channel activity.",
+                        "identifier": "http://www.wikidata.org/entity/Q39799580",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Targeting the mycobacterial envelope for tuberculosis drug development.",
+                        "identifier": "http://www.wikidata.org/entity/Q38056149",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Emerging facets of prokaryotic glycosylation.",
+                        "identifier": "http://www.wikidata.org/entity/Q37606959",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of a Mycoloyl Transferase Selectively Involved in O-Acylation of Polypeptides in Corynebacteriales",
+                        "identifier": "http://www.wikidata.org/entity/Q27679091",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Bacteriology",
+                        "identifier": "http://www.wikidata.org/entity/Q478419"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Loss of negative feedback control of nuclear factor-kappaB2 activity in lymphocytes leads to fatal lung inflammation.",
+            "identifier": "http://www.wikidata.org/entity/Q33882384",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Lin Liu"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Zhe Wang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Hongjuan Cui"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Liqun Yang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jane Ding"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Baochun Zhang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Han-Fei Ding"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Sonic hedgehog pathway contributes to gastric cancer cell growth and proliferation.",
+                        "identifier": "http://www.wikidata.org/entity/Q37715796",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Cytokine candidate genes predict the development of secondary lymphedema following breast cancer surgery.",
+                        "identifier": "http://www.wikidata.org/entity/Q37653735",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Indications for distinct pathogenic mechanisms of asbestos and silica through gene expression profiling of the response of lung epithelial cells",
+                        "identifier": "http://www.wikidata.org/entity/Q28392117",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "The American Journal of Pathology",
+                        "identifier": "http://www.wikidata.org/entity/Q4744259"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Insulin resistance, lipotoxicity, type 2 diabetes and atherosclerosis: the missing links. The Claude Bernard Lecture 2009.",
+            "identifier": "http://www.wikidata.org/entity/Q33880303",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R A DeFronzo"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Muscle-specific activation of Ca(2+)/calmodulin-dependent protein kinase IV increases whole-body insulin action in mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q42172798",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pioglitazone Prevents Diabetes in Patients With Insulin Resistance and Cerebrovascular Disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q41640163",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The relationship between insulin sensitivity and heart rate-corrected QT interval in patients with type 2 diabetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q41281402",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Propionic acid and butyric acid inhibit lipolysis and de novo lipogenesis and increase insulin-stimulated glucose uptake in primary rat adipocytes.",
+                        "identifier": "http://www.wikidata.org/entity/Q41189607",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Enhanced insulin signaling in density-enhanced phosphatase-1 (DEP-1) knockout mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q41129993",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Induction of insulin resistance by the adipokines resistin, leptin, plasminogen activator inhibitor-1 and retinol binding protein 4 in human megakaryocytes.",
+                        "identifier": "http://www.wikidata.org/entity/Q39366558",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Inhibition of Src homology 2 domain-containing phosphatase 1 increases insulin sensitivity in high-fat diet-induced insulin-resistant mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q39065291",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Childhood type 2 diabetes: Risks and complications.",
+                        "identifier": "http://www.wikidata.org/entity/Q38972330",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bone-specific insulin resistance disrupts whole-body glucose homeostasis via decreased osteocalcin activation.",
+                        "identifier": "http://www.wikidata.org/entity/Q38592281",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Characterization of the heterozygous glucokinase knockout mouse as a  translational disease model for glucose control in type 2 diabetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q38529399",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin resistance in the liver: deficiency or excess of insulin?",
+                        "identifier": "http://www.wikidata.org/entity/Q38285131",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Current Insights into the Joint Genetic Basis of Type 2 Diabetes and Coronary Heart Disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q38204372",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Potential Roles of Stevia rebaudiana Bertoni in Abrogating Insulin Resistance and Diabetes: A Review.",
+                        "identifier": "http://www.wikidata.org/entity/Q38170114",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Stearoyl CoA desaturase 1: role in cellular inflammation and stress.",
+                        "identifier": "http://www.wikidata.org/entity/Q37972614",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "New insights into insulin action and resistance in the vasculature.",
+                        "identifier": "http://www.wikidata.org/entity/Q37707789",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Maternal butyrate supplementation induces insulin resistance associated with enhanced intramuscular fat deposition in the offspring.",
+                        "identifier": "http://www.wikidata.org/entity/Q37706546",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intrinsic disorder in biomarkers of insulin resistance, hypoadiponectinemia, and endothelial dysfunction among the type 2 diabetic patients.",
+                        "identifier": "http://www.wikidata.org/entity/Q37649609",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparison of Visceral Fat Accumulation and Metabolome Markers among Cats of Varying BCS and Novel Classification of Feline Obesity and Metabolic Syndrome.",
+                        "identifier": "http://www.wikidata.org/entity/Q37639762",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Connection of Nicotine to Diet-Induced Obesity and Non-Alcoholic Fatty Liver Disease: Cellular and Mechanistic Insights.",
+                        "identifier": "http://www.wikidata.org/entity/Q37634620",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The treatment of type 2 diabetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q37634244",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Adiponectin/(FBG\u200a\u00d7\u200aFIns) as a predictor of insulin sensitivity and metabolic syndrome in patients with polycystic ovary syndrome.",
+                        "identifier": "http://www.wikidata.org/entity/Q37606088",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nicotine in combination with a high-fat diet causes intramyocellular mitochondrial abnormalities in male mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q37594077",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pathophysiologic approach to therapy in patients with newly diagnosed type 2 diabetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q37577162",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "In vivo actions of peroxisome proliferator-activated receptors: glycemic control, insulin sensitivity, and insulin secretion.",
+                        "identifier": "http://www.wikidata.org/entity/Q37577126",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Combined acute hyperglycemic and hyperinsulinemic clamp induced profibrotic and proinflammatory responses in the kidney.",
+                        "identifier": "http://www.wikidata.org/entity/Q37575350",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Lactate, a Neglected Factor for Diabetes and Cancer Interaction.",
+                        "identifier": "http://www.wikidata.org/entity/Q37547661",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Association of Weight Loss and Medication Adherence Among Adults With Type 2 Diabetes Mellitus: SHIELD (Study to Help Improve Early evaluation and management of risk factors Leading to Diabetes).",
+                        "identifier": "http://www.wikidata.org/entity/Q37502125",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pathogenesis and management of postprandial hyperglycemia: role of incretin-based therapies.",
+                        "identifier": "http://www.wikidata.org/entity/Q37446672",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prediction of diabetes based on baseline metabolic characteristics in individuals at high risk.",
+                        "identifier": "http://www.wikidata.org/entity/Q37278256",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Prevention of diabetes with pioglitazone in ACT NOW: physiologic correlates.",
+                        "identifier": "http://www.wikidata.org/entity/Q37251096",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Assessment of cardiovascular disease risk in South asian populations.",
+                        "identifier": "http://www.wikidata.org/entity/Q37218645",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin resistance, incident cardiovascular diseases, and decreased kidney function among nondiabetic American Indians: the Strong Heart Study.",
+                        "identifier": "http://www.wikidata.org/entity/Q37193499",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Genetic risk score of 46 type 2 diabetes risk variants associates with changes in plasma glucose and estimates of pancreatic \u03b2-cell function over 5 years of follow-up.",
+                        "identifier": "http://www.wikidata.org/entity/Q37193367",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Expression of cardiac insulin signalling genes and proteins in rats fed a high-sucrose diet: effect of bilberry anthocyanin extract.",
+                        "identifier": "http://www.wikidata.org/entity/Q37123144",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Telomeres and atherosclerosis.",
+                        "identifier": "http://www.wikidata.org/entity/Q37041786",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exercise-like effects by Estrogen-related receptor-gamma in muscle do not prevent insulin resistance in db/db mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q36933850",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Association of Common Genetic Variants in Mitogen-activated Protein Kinase Kinase Kinase Kinase 4 with Type 2 Diabetes Mellitus in a Chinese Han Population.",
+                        "identifier": "http://www.wikidata.org/entity/Q36930139",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effect of current glycemic control on qualitative body composition in sedentary ambulatory Type 2 diabetics.",
+                        "identifier": "http://www.wikidata.org/entity/Q36876717",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "SGLT2 Inhibitors and Cardiovascular Risk: Lessons Learned From the EMPA-REG OUTCOME Study.",
+                        "identifier": "http://www.wikidata.org/entity/Q36820604",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Glucose-lowering therapy in type 2 diabetes. New hope after the EMPA-REG outcome trial.",
+                        "identifier": "http://www.wikidata.org/entity/Q36820255",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin signaling and insulin resistance.",
+                        "identifier": "http://www.wikidata.org/entity/Q36806238",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Elimination of endoplasmic reticulum stress and cardiovascular, type 2 diabetic, and other metabolic diseases.",
+                        "identifier": "http://www.wikidata.org/entity/Q36634922",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin sensitivity affects propensity to obesity in an ethnic-specific manner: results from two controlled weight loss intervention studies.",
+                        "identifier": "http://www.wikidata.org/entity/Q36608657",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Intrahepatic diacylglycerol content is associated with hepatic insulin resistance in obese subjects.",
+                        "identifier": "http://www.wikidata.org/entity/Q36588248",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Waist Circumference Percentiles in Indigenous Argentinean School Children Living at High Altitudes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36580105",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Additive effects of nicotine and high-fat diet on hepatic steatosis in male mice.",
+                        "identifier": "http://www.wikidata.org/entity/Q36439605",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Subtle Balance between Lipolysis and Lipogenesis: A Critical Point in Metabolic Homeostasis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36329899",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Biochemical changes in blood of type 2 diabetes with and without metabolic syndrome and their association with metabolic syndrome components.",
+                        "identifier": "http://www.wikidata.org/entity/Q36298314",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Regular physical exercise as a strategy to improve antioxidant and anti-inflammatory status: benefits in type 2 diabetes mellitus.",
+                        "identifier": "http://www.wikidata.org/entity/Q36184201",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Potential association between coronary artery disease and the inflammatory biomarker YKL-40 in asymptomatic patients with type 2 diabetes mellitus.",
+                        "identifier": "http://www.wikidata.org/entity/Q36136647",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The new biology of diabetes.",
+                        "identifier": "http://www.wikidata.org/entity/Q36113537",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Whey protein supplementation does not affect exercise training-induced changes in body composition and indices of metabolic syndrome in middle-aged overweight and obese adults.",
+                        "identifier": "http://www.wikidata.org/entity/Q36096337",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Computational pharmacokinetics and in vitro-in vivo correlation of anti-diabetic synergistic phyto-composite blend.",
+                        "identifier": "http://www.wikidata.org/entity/Q36044445",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Apolipoprotein E gene polymorphism: effects on plasma lipids and risk of type 2 diabetes and coronary artery disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q36023835",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exercise Ameliorates Endocrine Pancreas Damage Induced by Chronic Cola Drinking in Rats.",
+                        "identifier": "http://www.wikidata.org/entity/Q36021126",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Triangulated mal-signaling in Alzheimer's disease: roles of neurotoxic ceramides, ER stress, and insulin resistance reviewed.",
+                        "identifier": "http://www.wikidata.org/entity/Q35997884",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Brain metabolic dysfunction at the core of Alzheimer's disease.",
+                        "identifier": "http://www.wikidata.org/entity/Q35997881",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Naturally improving insulin resistance with amorfrutins.",
+                        "identifier": "http://www.wikidata.org/entity/Q35983091",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Long-lasting partnership between insulin resistance and endothelial dysfunction: role of metabolic memory.",
+                        "identifier": "http://www.wikidata.org/entity/Q35978075",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Multiorgan insulin sensitivity in lean and obese subjects.",
+                        "identifier": "http://www.wikidata.org/entity/Q35976440",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Healthy Chilean Adolescents with HOMA-IR \u2265 2.6 Have Increased Cardiometabolic Risk: Association with Genetic, Biological, and Environmental Factors.",
+                        "identifier": "http://www.wikidata.org/entity/Q35932350",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Effects of rose hip intake on risk markers of type 2 diabetes and cardiovascular disease: a randomized, double-blind, cross-over investigation in obese persons.",
+                        "identifier": "http://www.wikidata.org/entity/Q35931628",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Oxamate Improves Glycemic Control and Insulin Sensitivity via Inhibition of Tissue Lactate Production in db/db Mice",
+                        "identifier": "http://www.wikidata.org/entity/Q28550524",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Pathogenesis of diabetic cerebral vascular disease complication",
+                        "identifier": "http://www.wikidata.org/entity/Q28087462",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Homeostasis, inflammation, and disease susceptibility",
+                        "identifier": "http://www.wikidata.org/entity/Q28082739",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin resistance and skeletal muscle vasculature: significance, assessment and therapeutic modulators",
+                        "identifier": "http://www.wikidata.org/entity/Q28081458",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Type 2 diabetes can be prevented with early pharmacological intervention",
+                        "identifier": "http://www.wikidata.org/entity/Q27694430",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of Four Mouse Diabetes Candidate Genes Altering \u03b2-Cell Proliferation",
+                        "identifier": "http://www.wikidata.org/entity/Q27310317",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insulin resistance, hyperglycemia, and atherosclerosis",
+                        "identifier": "http://www.wikidata.org/entity/Q27011696",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Role of lipotoxicity in endothelial dysfunction",
+                        "identifier": "http://www.wikidata.org/entity/Q27000731",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Treatment of prediabetes",
+                        "identifier": "http://www.wikidata.org/entity/Q26783350",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Diabetes Mellitus, Arterial Wall, and Cardiovascular Risk Assessment",
+                        "identifier": "http://www.wikidata.org/entity/Q26767215",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metabolic Inflammation-Differential Modulation by Dietary Constituents",
+                        "identifier": "http://www.wikidata.org/entity/Q26748868",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Diabetologia",
+                        "identifier": "http://www.wikidata.org/entity/Q5270140"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Direct targets of CodY in Staphylococcus aureus.",
+            "identifier": "http://www.wikidata.org/entity/Q33876899",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Marat R Sadykov"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Chia Y Lee"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Abraham L Sonenshein"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Greg A Somerville"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul M Dunman"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Thanh T Luong"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Kip Bodi"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Charlotte D Majerczyk"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Disassembly of the Staphylococcus aureus hibernating 100S ribosome by an evolutionarily conserved GTPase.",
+                        "identifier": "http://www.wikidata.org/entity/Q42284102",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Life and death of proteins: a case study of glucose-starved Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q42225260",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Insight into the Genome of Staphylococcus xylosus, a Ubiquitous Species Well Adapted to Meat Products.",
+                        "identifier": "http://www.wikidata.org/entity/Q42173583",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Comparative Bioinformatics and Experimental Analysis of the Intergenic Regulatory Regions of Bacillus cereus hbl and nhe Enterotoxin Operons and the Impact of CodY on Virulence Heterogeneity.",
+                        "identifier": "http://www.wikidata.org/entity/Q40723441",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A spectrum of CodY activities drives metabolic reorganization and virulence gene expression in Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q40698464",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Novel Nucleoside Diphosphatase Contributes to Staphylococcus aureus Virulence.",
+                        "identifier": "http://www.wikidata.org/entity/Q40611568",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Global analysis of the Staphylococcus aureus response to mupirocin.",
+                        "identifier": "http://www.wikidata.org/entity/Q40601719",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Active Component of Aspirin, Salicylic Acid, Promotes Staphylococcus aureus Biofilm Formation in a PIA-dependent Manner.",
+                        "identifier": "http://www.wikidata.org/entity/Q40342449",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "The Staphylococcus aureus \u03b1-Acetolactate Synthase ALS Confers Resistance to Nitrosative Stress.",
+                        "identifier": "http://www.wikidata.org/entity/Q38661286",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of Rgg binding sites in the Streptococcus pyogenes chromosome.",
+                        "identifier": "http://www.wikidata.org/entity/Q38285572",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Adaptation of Staphylococcus xylosus to Nutrients and Osmotic Stress in a Salted Meat Model.",
+                        "identifier": "http://www.wikidata.org/entity/Q38264528",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CodY-mediated regulation of the Staphylococcus aureus Agr system integrates nutritional and population density signals.",
+                        "identifier": "http://www.wikidata.org/entity/Q37643413",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Nutrient limitation governs Staphylococcus aureus metabolism and niche adaptation in the human nose.",
+                        "identifier": "http://www.wikidata.org/entity/Q37488113",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MgrA activates expression of capsule genes, but not the \u03b1-toxin gene in experimental Staphylococcus aureus endocarditis.",
+                        "identifier": "http://www.wikidata.org/entity/Q37272332",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Trapping and identification of cellular substrates of the Staphylococcus aureus ClpC chaperone.",
+                        "identifier": "http://www.wikidata.org/entity/Q37253049",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CodY-Dependent Regulation of Sporulation in Clostridium difficile.",
+                        "identifier": "http://www.wikidata.org/entity/Q37093370",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Regulatory Requirements for Staphylococcus aureus Nitric Oxide Resistance.",
+                        "identifier": "http://www.wikidata.org/entity/Q37093362",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "RpiRc Is a Pleiotropic Effector of Virulence Determinant Synthesis and Attenuates Pathogenicity in Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q37073997",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Impact of Environmental Cues on Staphylococcal Quorum Sensing and Biofilm Development.",
+                        "identifier": "http://www.wikidata.org/entity/Q37066456",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Inactivation of the Pta-AckA pathway causes cell death in Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q36970582",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "MsaB activates capsule production at the transcription level in Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q36966028",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Identification of CodY targets in Bacillus anthracis by genome-wide in vitro binding analysis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36667419",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Proline-dependent regulation of Clostridium difficile Stickland metabolism.",
+                        "identifier": "http://www.wikidata.org/entity/Q36581238",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "RbsR Activates Capsule but Represses the rbsUDK Operon in Staphylococcus aureus.",
+                        "identifier": "http://www.wikidata.org/entity/Q36227435",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "CodY deletion enhances in vivo virulence of community-associated methicillin-resistant Staphylococcus aureus clone USA300.",
+                        "identifier": "http://www.wikidata.org/entity/Q36155969",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Determination of essentiality and regulatory function of staphylococcal YeaZ in branched-chain amino acid biosynthesis.",
+                        "identifier": "http://www.wikidata.org/entity/Q36154997",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Methionine biosynthesis in Staphylococcus aureus is tightly controlled by a hierarchical network involving an initiator tRNA-specific T-box riboswitch",
+                        "identifier": "http://www.wikidata.org/entity/Q28533319",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bacterial endophthalmitis in the age of outpatient intravitreal therapies and cataract surgeries: host-microbe interactions in intraocular infection",
+                        "identifier": "http://www.wikidata.org/entity/Q26998053",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Staphylococcal response to oxidative stress",
+                        "identifier": "http://www.wikidata.org/entity/Q26991866",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Microbial biofilms and gastrointestinal diseases",
+                        "identifier": "http://www.wikidata.org/entity/Q26852574",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Bacterial quorum sensing: its role in virulence and possibilities for its control",
+                        "identifier": "http://www.wikidata.org/entity/Q26830110",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Regulating the Intersection of Metabolism and Pathogenesis in Gram-positive Bacteria",
+                        "identifier": "http://www.wikidata.org/entity/Q26799806",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Metabolite-enabled eradication of bacterial persisters by aminoglycosides",
+                        "identifier": "http://www.wikidata.org/entity/Q24628050",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Thioridazine induces major changes in global gene expression and cell wall composition in methicillin-resistant Staphylococcus aureus USA300",
+                        "identifier": "http://www.wikidata.org/entity/Q21133515",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A genome-wide approach to discovery of small RNAs involved in regulation of virulence in Vibrio cholerae",
+                        "identifier": "http://www.wikidata.org/entity/Q21131415",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010-04-02T00:00:00Z"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Journal of Bacteriology",
+                        "identifier": "http://www.wikidata.org/entity/Q478419"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}
