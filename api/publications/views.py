@@ -1,8 +1,8 @@
 # django http
 from django.http import JsonResponse
 
-from sparql_utils.sparql_helper_wikidata import SparqlHelperWikidata
-from sparql_utils.sparql_helper_dblp import SparqlHelperDblp
+from sparql_helper_wikidata import SparqlHelperWikidata
+from sparql_helper_dblp import SparqlHelperDblp
 
 
 def publication_by_id(request, publication_id):

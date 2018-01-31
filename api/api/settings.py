@@ -25,7 +25,7 @@ SECRET_KEY = 'i_u@1v&#pef@&p41e64l^xk98al5v&*2e5pc%!u1it)3epuldo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['scira-app']
 
 
 # Application definition

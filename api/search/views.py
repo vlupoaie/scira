@@ -1,10 +1,10 @@
 # django http
 from django.http import JsonResponse
 
-from config.settings import PUBLICATION_TYPES
+from settings import PUBLICATION_TYPES
 
-from sparql_utils.sparql_helper_wikidata import SparqlHelperWikidata
-from sparql_utils.sparql_helper_dblp import SparqlHelperDblp
+from sparql_helper_wikidata import SparqlHelperWikidata
+from sparql_helper_dblp import SparqlHelperDblp
 
 
 def simple_search(request):

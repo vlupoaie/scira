@@ -1,6 +1,6 @@
 # import cherrypy
 #
-# from server.wsgi import application
+# from api.wsgi import application
 #
 #
 # cherrypy.tree.graft(application, '/')
