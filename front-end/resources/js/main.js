@@ -1,4 +1,5 @@
 $("#searchButton").click(function (e) {
+
     var baseUrl = "file:///home/ronesim/Projects/scira-front/index.html";
 
     var simpleSearch = document.getElementById("simpleSearch").value;
@@ -23,31 +24,32 @@ $("#searchButton").click(function (e) {
             "&topic=" + topic + "&afterDate=" + afterDate + "&beforeDate=" + beforeDate +
             "&academic journal article=" + journal + "&scientific article=" + article + "&science book=" + book + "&publication=" + publication +
             "&report=" + report + "&textbook=" + textbook + "&doctoral thesis=" + thesis;
-
-        doAdvancedQuery(baseUrl, 1);
+        window.location.replace(baseUrl + "&page=1");
     }
     else if (simpleSearch) {
         baseUrl += "?query=" + simpleSearch;
-        doSimpleQuery(baseUrl, 1);
+        window.location.replace(baseUrl + "&page=1");
     }
 
 });
 
-function doAdvancedQuery(url, page) {
-    var newUrl = url.split("&page=")[0];
-    console.log(newUrl+"&page=" + page);
-    window.location.replace(newUrl+"&page=" + page);
+function doQuery(url, page) {
+    $.get("http://localhost:8080/", function (data) {
+        buildRDFA(data);
+    }, "json");
 }
 
-function doSimpleQuery(url, page) {
-    var newUrl = url.split("&page=")[0];
-    console.log(newUrl+"&page=" + page);
-    window.location.replace(newUrl+"&page=" + page);
+window.onload = function() {
+    var displayResults = window.location.href.indexOf("?");
+    if (displayResults != -1) {
+        doQuery(window.location.href, 1);
+    } 
 }
+
+
 $(document).ready(function () {
-    var findPage = window.location.href.split("&page=")[1];
-    var page = 1;
-    if (findPage > 1) page = findPage;
+    var page = window.location.href.split("&page=")[1];
+
     if(page == 1) {
         var prev = document.getElementById("prev");
         prev.classList.add("disabled");
@@ -59,13 +61,17 @@ $(document).ready(function () {
     $('.next').on('click', function () {
         page++;
         var url = window.location.href;
-        doSimpleQuery(url, page);
+        $("#results" ).remove();
+        var newUrl = url.split("&page=")[0];
+        window.location.replace(newUrl + "&page=" + page);
     })
 
     $('.previous').on('click', function () {
         page--;
         var url = window.location.href;
-        doAdvancedQuery(url, page);
+        $("#results" ).remove();
+        var newUrl = url.split("&page=")[0];
+        window.location.replace(newUrl + "&page=" + page);
     })  
 });
 

@@ -56,7 +56,7 @@
                     "item": {
                         "@type": "Person",
                         "identifier": "http://www.wikidata.org/entity/Q5777626",
-                        "name": "Claes Gustafsson"
+                        "name": "Robert ONESIM"
                     }
                 }
             ],
@@ -189,7 +189,7 @@
                 }
             ],
             "@context": "http://schema.org",
-            "name": "bla",
+            "name": "ivona",
             "@type": "CreativeWork",
             "identifier": "blasssss2",
             "subjectOf": [
@@ -221,6 +221,6 @@
                     }
                 }
             ]
-        }
+}
     ]
 }
