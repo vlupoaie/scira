@@ -370,11 +370,11 @@ class SparqlHelperWikidata:
             sparql_query.add_body('\n?publication wdt:P577 ?publication_date .')
         if after:
             sparql_query.add_body('\nfilter(?publication_date > "{year}-{month:02d}-{day:02d}'
-                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=after[2], month=after[0], day=after[1]))
+                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=after[0], month=after[1], day=after[2]))
         if before:
             sparql_query.add_body('\nfilter(?publication_date < "{year}-{month:02d}-{day:02d}'
-                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=before[2], month=before[0],
-                                                                           day=before[1]))
+                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=before[0], month=before[1],
+                                                                           day=before[2]))
 
         sparql_query.set_offset((page - 1) * size)
         sparql_query.set_limit(size)

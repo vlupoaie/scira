@@ -32,10 +32,10 @@ def advanced_search(request):
     types = [item for item in PUBLICATION_TYPES if request.GET.get(item)]
     after = request.GET.get('after')
     if after:
-        after = map(int, after.split('/'))
+        after = map(int, after.split('-'))
     before = request.GET.get('before')
     if before:
-        before = map(int, before.split('/'))
+        before = map(int, before.split('-'))
     page = int(request.GET.get('page', 1))
     if not any([title, authors, topics, types, after, before]):
         return JsonResponse({})
