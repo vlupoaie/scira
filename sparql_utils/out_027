@@ -1,0 +1,550 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Applying agent technology.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/JenningsW95",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Wooldridge",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Michael_Wooldridge"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nicholas R. Jennings",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Nicholas_R._Jennings"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1995"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Artificial intelligence for social citizenship: toward an anthropocentric technology.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/Gill91",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Karamjit S. Gill",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Karamjit_S._Gill"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1991"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Application of conceptual learning techniques to generalized group technology.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/MutelBG92",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "B. Mutel",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/B._Mutel"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "L. Bouzid",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/L._Bouzid"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "R. De Guio",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/R._De_Guio"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1992"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Artificial intelligence: Human focus on technology.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/Vamos91",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tibor V\u00e1mos",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Tibor_V%C3%A1mos"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1991"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Data management technology for decision support systems.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/ac/ChaudhuriDG04",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Surajit Chaudhuri",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Surajit_Chaudhuri"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Umeshwar Dayal",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Umeshwar_Dayal"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Venkatesh Ganti",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Venkatesh_Ganti"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2004"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Advances in Computers",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/ac"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Adaptive technology of the sampling of noise-corrupted signals.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/accs/AlievAMR08",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "D. I. Mastalieva",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/D._I._Mastalieva"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "E. R. Aliev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/E._R._Aliev"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "T. A. Aliev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/T._A._Aliev"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "U. E. Rzaeva",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/U._E._Rzaeva"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Automatic Control and Computer Sciences",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/accs"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Issues and approaches for developing lerner-centered technology.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/ac/QuintanaKS03",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Chris Quintana",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Chris_Quintana"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Elliot Soloway",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Elliot_Soloway"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Joseph Krajcik",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Joseph_Krajcik"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2003"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Advances in Computers",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/ac"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Digital technology and systems for generating and analyzing information from deep strata of the Earth for the purpose of interference monitoring of the technical state of major structures.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/accs/AlievAAG07",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Ali M. Abbasov",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Ali_M._Abbasov"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "E. R. Aliev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/E._R._Aliev"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "G. A. Guliev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/G._A._Guliev"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "T. A. Aliev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/T._A._Aliev"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2007"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Automatic Control and Computer Sciences",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/accs"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Incremental approach to the technology of test design for industrial projects.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/accs/DrobintsevKNL16",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Alexander A. Letichevsky",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Alexander_A._Letichevsky"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "I. V. Nikiforov",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/I._V._Nikiforov"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Pavel Drobintsev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Pavel_Drobintsev"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Vsevolod Kotlyarov",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Vsevolod_Kotlyarov"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2016"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Automatic Control and Computer Sciences",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/accs"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "The use of virtualization technology in the dynamic analysis of software code.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/accs/ChernovK15",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "A. Yu. Chernov",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/A._Yu._Chernov"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Artem S. Konoplev",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Artem_S._Konoplev"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2015"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Automatic Control and Computer Sciences",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/accs"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

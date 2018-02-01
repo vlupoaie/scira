@@ -1,14 +1,10 @@
-import os
 import time
-import pickle
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import wraps
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-from config.settings import DEFAULT_ENDPOINT, DEFAULT_PREFIXES, DISCOVER_PROPERTY, PROPERTIES, REQUIRED_PAPER_INFO, \
-    PUBLICATION_TYPES, DISCOVER_PUBLICATION, RETURNS_PUBLICATIONS, CACHE_LOCATION_WIKIDATA, SIMPLE_SEARCH, \
-    ATTRIBUTE_MAPPING, ANNOTATIONS_BEGIN, ANNOTATIONS_ITEM_LIST, LABEL_SEARCH, TYPE_SEARCH, AUTHOR_SEARCH, \
-    SUBJECT_SEARCH
+from config.settings import DBLP_ENDPOINT, DEFAULT_PREFIXES, ANNOTATIONS_BEGIN, ANNOTATIONS_ITEM_LIST, \
+    ATTRIBUTE_MAPPING, SIMPLE_SEARCH_DBLP, LABEL_SEARCH_DBLP, AUTHOR_SEARCH_DBLP, SUBJECT_SEARCH_DBLP
 
 
 def _timed(func):
@@ -55,7 +51,7 @@ class SparqlQuery:
     def __init__(self, property_cache=None, publications_cache=None, endpoints=None, prefixes=None):
         self._property_cache = property_cache
         self._publications_cache = publications_cache
-        self._endpoint = endpoints or DEFAULT_ENDPOINT
+        self._endpoint = endpoints or DBLP_ENDPOINT
         self._sparql = SPARQLWrapper(self._endpoint)
         self._prefixes = prefixes or DEFAULT_PREFIXES
         self._prefix_text = self._get_prefix_text(self._prefixes)
@@ -103,13 +99,9 @@ class SparqlQuery:
             self.add_select(entity)
             self.add_select(entity + '_label')
         if is_publication:
-            pattern += '\n?{object} {instance_of} ?{object}_type .\n' \
-                       'filter({allowed_types})\n' \
+            pattern += '\n?{object} rdf:type swrc:Article .\n' \
                        '?{object}_type http://www.w3.org/2000/01/rdf-schema#label ?{object}_type_label .\n' \
-                       'filter(lang(?{object}_type_label) = \'en\')' \
-                .format(object=entity, instance_of=self._property_cache['instance of'],
-                        allowed_types=' || '.join('?{}_type = {}'.format(entity, self._publications_cache[allowed])
-                                                  for allowed in PUBLICATION_TYPES))
+                       'filter(lang(?{object}_type_label) = \'en\')'.format(object=entity)
             self.add_select(entity + '_type_label')
         self._body += pattern + '\n' if not optional else 'optional {{\n{}\n}}\n'.format(pattern)
 
@@ -129,72 +121,47 @@ class SparqlQuery:
 
 
 class SparqlHelperDblp:
-    def __init__(self):
-        if not os.path.isfile(CACHE_LOCATION_WIKIDATA):
-            self._property_cache = {}
-            self._discover_properties(PROPERTIES)
-            self._publication_cache = {}
-            self._discover_publications(PUBLICATION_TYPES)
-            with open(CACHE_LOCATION_WIKIDATA, 'wb') as handle:
-                handle.write(pickle.dumps((self._property_cache, self._publication_cache)))
-        else:
-            with open(CACHE_LOCATION_WIKIDATA, 'rb') as handle:
-                self._property_cache, self._publication_cache = pickle.loads(handle.read())
-
-    @_timed
-    def _discover_properties(self, properties):
-        for item in properties:
-            sparql_query = SparqlQuery()
-            sparql_query.add_body(DISCOVER_PROPERTY.format(property=item))
-            sparql_query.add_select('property')
-            sparql_query.set_limit(1)
-            result = sparql_query.execute()[0]
-            self._property_cache[item] = result['property']['value']
-
-    @_timed
-    def _discover_publications(self, publications):
-        for item in publications:
-            sparql_query = SparqlQuery()
-            sparql_query.add_body(DISCOVER_PUBLICATION.format(entity=item))
-            sparql_query.add_select('publication')
-            sparql_query.set_limit(1)
-            result = sparql_query.execute()[0]
-            self._publication_cache[item] = result['publication']['value']
-
     @_timed
     @_annotate_json_ld
     def publication_info(self, publication_id):
         # build and execute query
-        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
-        sparql_query.add_body('{} http://www.w3.org/2000/01/rdf-schema#label ?this_label .\n'
-                              'filter(lang(?this_label) = \'en\')'.format(publication_id))
-        sparql_query.add_select('this_label')
-        for info in REQUIRED_PAPER_INFO:
-            parsed_property = info['property']
-            for key, value in self._property_cache.items():
-                if key in parsed_property:
-                    parsed_property = parsed_property.replace(key, value)
-                    break
-            returns_publication = info['property'] in RETURNS_PUBLICATIONS
-            sparql_query.add_pattern(publication_id, parsed_property, info['name'],
-                                     label=info['label'], optional=info['optional'], is_publication=returns_publication)
+        sparql_query = SparqlQuery()
+
+        # title
+        sparql_query.add_body('<{}> dc:title ?title .'.format(publication_id))
+        sparql_query.add_select('title')
+
+        # authors
+        sparql_query.add_body('<{}> dc:creator ?author .\n?author rdfs:label ?author_label .'.format(publication_id))
+        sparql_query.add_select('author')
+        sparql_query.add_select('author_label')
+
+        # published date
+        sparql_query.add_body('optional{{\n<{}> dcterms:issued ?publication_date .\n}}'.format(publication_id))
+        sparql_query.add_select('publication_date')
+
+        # main subject
+        sparql_query.add_body('optional{{\n<{}> dc:subject ?main_subject .\n}}'.format(publication_id))
+        sparql_query.add_select('main_subject')
+
+        # published in
+        sparql_query.add_body('optional{{\n<{}> swrc:journal ?published_in .\n'
+                              '?published_in rdfs:label ?published_in_label .\n}}'.format(publication_id))
+        sparql_query.add_select('published_in')
+        sparql_query.add_select('published_in_label')
+
         results = sparql_query.execute()
 
         # deduplicate results
         parsed_results = {}
         author_set = set()
-        author_name_set = set()
-        cites_set = set()
-        cited_by_set = set()
         publication_date_set = set()
         published_in_set = set()
-        language_set = set()
         main_subject_set = set()
-        resource_set = set()
 
-        parsed_results['publication'] = results[0]['this_label']['value']
+        parsed_results['publication'] = results[0]['title']['value']
         parsed_results['publication_id'] = publication_id
-        parsed_results['resource_type'] = results[0]['type_label']['value']
+        parsed_results['resource_type'] = 'scientific article'
         parsed_results['author_list'] = []
         parsed_results['cites_list'] = []
         parsed_results['cited_by_list'] = []
@@ -209,29 +176,7 @@ class SparqlHelperDblp:
                 value_id = result['author']['value']
                 if (value_id, value) not in author_set:
                     author_set.add((value_id, value))
-                    author_name_set.add(value)
                     parsed_results['author_list'].append({'author': value, 'author_id': value_id})
-            if 'author_name' in result:
-                value = result['author_name']['value']
-                if value not in author_name_set:
-                    author_name_set.add(value)
-                    parsed_results['author_list'].append({'author': value})
-            if 'cites' in result:
-                value = result['cites_label']['value']
-                value_id = result['cites']['value']
-                value_type = result['cites_type_label']['value']
-                if (value_id, value, value_type) not in cites_set:
-                    cites_set.add((value_id, value, value_type))
-                    parsed_results['cites_list'].append({'publication': value, 'publication_id': value_id,
-                                                         'resource_type': value_type})
-            if 'cited_by' in result:
-                value = result['cited_by_label']['value']
-                value_id = result['cited_by']['value']
-                value_type = result['cited_by_type_label']['value']
-                if (value_id, value, value_type) not in cited_by_set:
-                    cited_by_set.add((value_id, value, value_type))
-                    parsed_results['cited_by_list'].append({'publication': value, 'publication_id': value_id,
-                                                            'resource_type': value_type})
             if 'publication_date' in result:
                 value = result['publication_date']['value']
                 if value not in publication_date_set:
@@ -243,51 +188,42 @@ class SparqlHelperDblp:
                 if (value_id, value) not in published_in_set:
                     published_in_set.add((value_id, value))
                     parsed_results['published_in_list'].append({'journal': value, 'journal_id': value_id})
-            if 'language' in result:
-                value = result['language_label']['value']
-                value_id = result['language']['value']
-                if (value_id, value) not in language_set:
-                    language_set.add((value_id, value))
-                    parsed_results['language_list'].append({'language': value, 'language_id': value_id})
             if 'main_subject' in result:
-                value = result['main_subject_label']['value']
-                value_id = result['main_subject']['value']
-                if (value_id, value) not in main_subject_set:
-                    main_subject_set.add((value_id, value))
-                    parsed_results['main_subject_list'].append({'main_subject': value, 'main_subject_id': value_id})
-            if 'resource' in result:
-                value = result['resource']['value']
-                if (value_id, value) not in resource_set:
-                    resource_set.add((value_id, value))
-                    parsed_results['resource_list'].append({'resource': value})
+                value = result['main_subject']['value']
+                if value not in main_subject_set:
+                    main_subject_set.add(value)
+                    parsed_results['main_subject_list'].append({'main_subject': value})
         return {'results': [parsed_results]}
 
     @_timed
     @_annotate_json_ld
     def author_info(self, author_id):
         # build and execute query
-        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
-        sparql_query.add_body('{} http://www.w3.org/2000/01/rdf-schema#label ?this_label .\n'
-                              'filter(lang(?this_label) = \'en\')'.format(author_id))
-        sparql_query.add_select('this_label')
-        parsed_property = '^author'
-        for key, value in self._property_cache.items():
-            if key in parsed_property:
-                parsed_property = parsed_property.replace(key, value)
-                break
-        sparql_query.add_pattern(author_id, parsed_property, 'publication',
-                                 label=True, optional=False, is_publication=True)
+        sparql_query = SparqlQuery()
+
+        # author name
+        sparql_query.add_body('<{}> rdfs:label ?author_name.'.format(author_id))
+        sparql_query.add_select('author_name')
+
+        # publications from author
+        sparql_query.add_body('?publication dc:creator <{}> .'.format(author_id))
+        sparql_query.add_select('publication')
+
+        # title
+        sparql_query.add_body('?publication dc:title ?title .')
+        sparql_query.add_select('title')
+
         results = sparql_query.execute()
 
         # parse results
         parsed_results = {
-            'author': results[0]['this_label']['value'],
+            'author': results[0]['author_name']['value'],
             'author_id': author_id
         }
         parsed_results.update({'publication_list': [
-            {'publication': result['publication_label']['value'],
+            {'publication': result['title']['value'],
              'publication_id': result['publication']['value'],
-             'resource_type': result['publication_type_label']['value']}
+             'resource_type': 'scientific article'}
             for result in results]
         })
         return {'results': [parsed_results]}
@@ -296,28 +232,31 @@ class SparqlHelperDblp:
     @_annotate_json_ld
     def journal_info(self, journal_id):
         # build and execute query
-        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
-        sparql_query.add_body('{} http://www.w3.org/2000/01/rdf-schema#label ?this_label .\n'
-                              'filter(lang(?this_label) = \'en\')'.format(journal_id))
-        sparql_query.add_select('this_label')
-        parsed_property = '^published in'
-        for key, value in self._property_cache.items():
-            if key in parsed_property:
-                parsed_property = parsed_property.replace(key, value)
-                break
-        sparql_query.add_pattern(journal_id, parsed_property, 'publication',
-                                 label=True, optional=False, is_publication=True)
+        sparql_query = SparqlQuery()
+
+        # author name
+        sparql_query.add_body('<{}> rdfs:label ?journal_name.'.format(journal_id))
+        sparql_query.add_select('journal_name')
+
+        # publications from author
+        sparql_query.add_body('?publication swrc:journal <{}> .'.format(journal_id))
+        sparql_query.add_select('publication')
+
+        # title
+        sparql_query.add_body('?publication dc:title ?title .')
+        sparql_query.add_select('title')
+
         results = sparql_query.execute()
 
         # parse results
         parsed_results = {
-            'journal': results[0]['this_label']['value'],
+            'journal': results[0]['journal_name']['value'],
             'journal_id': journal_id
         }
         parsed_results.update({'publication_list': [
-            {'publication': result['publication_label']['value'],
+            {'publication': result['title']['value'],
              'publication_id': result['publication']['value'],
-             'resource_type': result['publication_type_label']['value']}
+             'resource_type': 'scientific article'}
             for result in results]
         })
         return {'results': [parsed_results]}
@@ -325,8 +264,8 @@ class SparqlHelperDblp:
     @_timed
     def publication_simple_search(self, query, page=1, size=10):
         # build and execute query
-        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
-        sparql_query.add_body(SIMPLE_SEARCH.format(query=query))
+        sparql_query = SparqlQuery()
+        sparql_query.add_body(SIMPLE_SEARCH_DBLP.format(query=query))
         sparql_query.add_select('publication')
         sparql_query.set_offset((page - 1) * size)
         sparql_query.set_limit(size)
@@ -344,31 +283,25 @@ class SparqlHelperDblp:
     def publication_advanced_search(self, title=None, authors=None, topics=None, types=None,
                                     after=None, before=None, page=1, size=10):
         # build and execute query
-        sparql_query = SparqlQuery(self._property_cache, self._publication_cache)
+        sparql_query = SparqlQuery()
         sparql_query.add_select('publication')
-
-        if not types:
-            types = PUBLICATION_TYPES
-        sparql_query.add_body(TYPE_SEARCH.format(types=' || '.join(
-            '?publication_type = {}'.format(self._publication_cache[item]) for item in types)))
+        sparql_query.add_body('?publication rdf:type swrc:Article .')
 
         if title:
-            sparql_query.add_body(LABEL_SEARCH.format(title=title))
+            sparql_query.add_body(LABEL_SEARCH_DBLP.format(title=title))
 
         if authors:
-            sparql_query.add_body(AUTHOR_SEARCH.format(author='|'.join(authors)))
+            sparql_query.add_body(AUTHOR_SEARCH_DBLP.format(author='|'.join(authors)))
 
         if topics:
-            sparql_query.add_body(SUBJECT_SEARCH.format(subjects='|'.join(topics)))
+            sparql_query.add_body(SUBJECT_SEARCH_DBLP.format(subjects='|'.join(topics)))
 
-        if after or before:
-            sparql_query.add_body('\n?publication wdt:P577 ?publication_date .')
-        if after:
-            sparql_query.add_body('\nfilter(?publication_date > "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
-                                  ''.format(year=after[0], month=after[1]))
-        if before:
-            sparql_query.add_body('\nfilter(?publication_date < "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
-                                  ''.format(year=before[0], month=before[1]))
+        # if after or before:
+        #     sparql_query.add_body('\n?publication dcterms:issued ?publication_date .')
+        # if after:
+        #     sparql_query.add_body('\nfilter(?publication_date > "{year}"^^xsd:gYear)'.format(year=after[2]))
+        # if before:
+        #     sparql_query.add_body('\nfilter(?publication_date < "{year}"^^xsd:gYear)'.format(year=before[2]))
 
         sparql_query.set_offset((page - 1) * size)
         sparql_query.set_limit(size)

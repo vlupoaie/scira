@@ -1,0 +1,200 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Combining metaheuristics with mathematical programming, constraint programming and machine learning.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/4or/Talbi13",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "El-Ghazali Talbi",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/El-Ghazali_Talbi"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2013"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "4OR",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/4or"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Industrial expert system acquired by machine learning.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/AttarH94",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mouna el Attar",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Mouna_el_Attar"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Xavier Hamery",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Xavier_Hamery"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1994"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Fielded machine learning system for vocational counseling.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/KjellinB94",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Harald Kjellin",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Harald_Kjellin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Magnus Boman",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Magnus_Boman"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1994"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Can machine learning solve my problem?",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aai/KodratoffMG94",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nicolas Graner",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Nicolas_Graner"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Vassilis Moustakis",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Vassilis_Moustakis"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Yves Kodratoff",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Yves_Kodratoff"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1994"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Applied Artificial Intelligence",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aai"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

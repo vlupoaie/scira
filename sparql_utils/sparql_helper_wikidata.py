@@ -64,6 +64,7 @@ class SparqlQuery:
         self._body = ''
         self._offset = 0
         self._limit = 500000
+        self._distinct = False
 
     def __str__(self):
         return self.get_query()
@@ -92,6 +93,9 @@ class SparqlQuery:
     def add_body(self, content):
         self._body += content + '\n'
 
+    def distinct(self):
+        self._distinct = True
+
     def add_pattern(self, subject, edge, entity, label=False, optional=False, is_publication=False):
         if not label:
             pattern = '{subject} {property} ?{object} .'.format(subject=subject, property=edge, object=entity)
@@ -118,8 +122,9 @@ class SparqlQuery:
 
     def get_query(self):
         prepared_select = ' '.join('?' + item for item in self._select)
-        return '{header}\nselect {select} where {{\n{body}\n}}\noffset {offset}\nlimit {limit}'.format(
-            header=self._header, select=prepared_select, body=self._body, offset=self._offset, limit=self._limit)
+        return '{header}\nselect {distinct}{select} where {{\n{body}\n}}\noffset {offset}\nlimit {limit}'.format(
+            header=self._header, distinct=' ' if not self._distinct else 'distinct ',
+            select=prepared_select, body=self._body, offset=self._offset, limit=self._limit)
 
     def execute(self):
         self._prepare_query()
@@ -364,14 +369,16 @@ class SparqlHelperWikidata:
         if after or before:
             sparql_query.add_body('\n?publication wdt:P577 ?publication_date .')
         if after:
-            sparql_query.add_body('\nfilter(?publication_date > "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
-                                  ''.format(year=after[0], month=after[1]))
+            sparql_query.add_body('\nfilter(?publication_date > "{year}-{month:02d}-{day:02d}'
+                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=after[2], month=after[0], day=after[1]))
         if before:
-            sparql_query.add_body('\nfilter(?publication_date < "{year}-{month:02d}-00T00:00:00+00:00"^^xsd:dateTime)'
-                                  ''.format(year=before[0], month=before[1]))
+            sparql_query.add_body('\nfilter(?publication_date < "{year}-{month:02d}-{day:02d}'
+                                  'T00:00:00+00:00"^^xsd:dateTime)'.format(year=before[2], month=before[0],
+                                                                           day=before[1]))
 
         sparql_query.set_offset((page - 1) * size)
         sparql_query.set_limit(size)
+        sparql_query.distinct()
         results = sparql_query.execute()
 
         parsed_results = []

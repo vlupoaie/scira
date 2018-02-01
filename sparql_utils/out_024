@@ -1,0 +1,156 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Keyvan Amini",
+            "identifier": "http://dblp.l3s.de/d2r/resource/authors/Keyvan_Amini",
+            "publication": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Combination Adaptive Trust Region Method by Non-Monotone Strategy for unconstrained nonlinear Programming.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/apjor/AminiA11",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A line search trust-region algorithm with nonmonotone adaptive radius for a system of nonlinear equations.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/4or/AminiSK16",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Solving rank one perturbed linear Diophantine systems by the ABS method.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/oms/AminiM06",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A Nonmonotone trust region method with adaptive radius for unconstrained optimization problems.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/cma/AhookhoshA10",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Complexity analysis of interior-point methods for linear optimization based on some conditions on kernel function.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/amc/AminiP06",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Exploring complexity of large update interior-point methods for P*(kappa) linear complementarity problem based on Kernel function.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/amc/AminiP09",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Extended reduced rank two Abaffian update schemes in the ABS-type methods.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/amc/AminiMP07",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An improved adaptive trust-region algorithm.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/ol/KamandiAA17",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Three-steps modified Levenberg-Marquardt method with a new line search for systems of nonlinear equations.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/jcam/AminiR16",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A modified two steps Levenberg-Marquardt method for nonlinear equations.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/jcam/AminiR15",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new structured quasi-Newton algorithm using partial information on Hessian.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/jcam/AminiR10",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A double-projection-based algorithm for large-scale nonlinear systems of monotone equations.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/na/AminiKB15",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An efficient nonmonotone trust-region method for unconstrained optimization.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/na/AhookhoshA12",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "Two derivative-free projection approaches for systems of large-scale nonlinear monotone equations.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/na/AhookhoshAB13",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "An inexact line search approach using modified nonmonotone strategy for unconstrained optimization.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/na/AminiAN14",
+                        "learningResourceType": "scientific article"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWork",
+                        "name": "A new line search strategy for finding separating hyperplane in projection-based methods.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/na/AminiK15",
+                        "learningResourceType": "scientific article"
+                    }
+                }
+            ]
+        }
+    ]
+}

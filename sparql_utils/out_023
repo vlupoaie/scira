@@ -1,0 +1,61 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Vertical Navigation of Layout Adapted Web Documents.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/conf/www/BeszteriV07",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Istvan Beszteri",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Istvan_Beszteri"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Petri Vuorimaa",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Petri_Vuorimaa"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2007"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "World Wide Web",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/www"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "internet; adaptation; browsing; navigation"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        }
+    ]
+}

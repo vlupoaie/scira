@@ -1,0 +1,61 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "A line search trust-region algorithm with nonmonotone adaptive radius for a system of nonlinear equations.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/4or/AminiSK16",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Keyvan Amini",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Keyvan_Amini"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Morteza Kimiaei",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Morteza_Kimiaei"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mushtak A. K. Shiker",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Mushtak_A._K._Shiker"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2016"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "4OR",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/4or"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

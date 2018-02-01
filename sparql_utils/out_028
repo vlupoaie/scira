@@ -1,0 +1,686 @@
+{
+    "results": [
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Attraction probabilities in variable neighborhood search.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/4or/BrimbergHM10",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jack Brimberg",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Jack_Brimberg"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Nenad Mladenovic",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Nenad_Mladenovic"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Pierre Hansen",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Pierre_Hansen"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2010"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "4OR",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/4or"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Locating a general minisum 'circle' on the plane.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/4or/BrimbergJKS11",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Anita Sch\u00f6bel",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Anita_Sch%C3%B6bel"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Henrik Juel",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Henrik_Juel"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jack Brimberg",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Jack_Brimberg"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Mark-Christoph K\u00f6rner",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Mark-Christoph_K%C3%B6rner"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "4OR",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/4or"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "On Sea Level Variability and Trends in United States Coastal Waters and Relationships with Climate Factors.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aada/PietrafesaBYSG15",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Leonard J. Pietrafesa",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Leonard_J._Pietrafesa"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Slattery",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Michael_Slattery"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul T. Gayes",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_T._Gayes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Shaowu Bao",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Shaowu_Bao"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tingzhuang Yan",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Tingzhuang_Yan"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2015"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Advances in Adaptive Data Analysis",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aada"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "On the Powerline System.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aaecc/CamionC99",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Herv\u00e9 Chabanne",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Herv%C3%A9_Chabanne"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Camion",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_Camion"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1999"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Appl. Algebra Eng. Commun. Comput.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aaecc"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Public Key Cryptosystem (PKC), Knapsack, RSA, Chor-Rivest, Powerline, Fractional Powerline, Quadratic Fractional Power System, Identification, Berlekamp-Massey"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "On r-Partition Designs in Hamming Spaces.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aaecc/CamionCD91",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bernard Courteau",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Bernard_Courteau"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Camion",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_Camion"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Philippe Delsarte",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Philippe_Delsarte"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1991"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Appl. Algebra Eng. Commun. Comput.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aaecc"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "An Empirical Study of Tropical Cyclone Activity in the Atlantic and Pacific Oceans: 1851-2005.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aada/BaoPHWDGY11",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "D. A. Dickey",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/D._A._Dickey"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "L. J. Pietrafesa",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/L._J._Pietrafesa"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Norden E. Huang",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Norden_E._Huang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul T. Gayes",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_T._Gayes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Shaowu Bao",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Shaowu_Bao"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tingzhuang Yan",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Tingzhuang_Yan"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Zhaohua Wu",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Zhaohua_Wu"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2011"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Advances in Adaptive Data Analysis",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aada"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "t-resilient functions and the partial exposure problem.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aaecc/CamionP08",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jacques Patarin",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Jacques_Patarin"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Camion",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_Camion"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2008"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Appl. Algebra Eng. Commun. Comput.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aaecc"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "Exposure-Resilient Function; Resilient function; Secret key; Wire-tapping; Correlation-immune functions; Orthogonal arrays; Linear codes; Nonlinear codes; Binary channel; Symmetric encryption scheme; (n, k, t)-scheme"
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Weight Distribution of the Hermitian Forms Codes.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aaecc/CherdieuDMM97",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Antoine Delcroix",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Antoine_Delcroix"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Dany-Jack Mercier",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Dany-Jack_Mercier"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jean-Claude Mado",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Jean-Claude_Mado"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Jean-Pierre Cherdieu",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Jean-Pierre_Cherdieu"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1997"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Appl. Algebra Eng. Commun. Comput.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aaecc"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Text",
+                        "name": "He?mitian-forms Codes; Trace Codes; Weight distribution."
+                    }
+                }
+            ],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "Great Lakes Water Levels: Decomposing Time Series for Attribution.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aada/PietrafesaBHGYS16",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Leonard J. Pietrafesa",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Leonard_J._Pietrafesa"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Michael Slattery",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Michael_Slattery"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Norden E. Huang",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Norden_E._Huang"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul T. Gayes",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_T._Gayes"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Shaowu Bao",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Shaowu_Bao"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Tingzhuang Yan",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Tingzhuang_Yan"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "2016"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Advances in Adaptive Data Analysis",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aada"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        },
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "name": "NC Algorithms for Real Algebraic Numbers.",
+            "identifier": "http://dblp.l3s.de/d2r/resource/publications/journals/aaecc/CuckerLMPR92",
+            "learningResourceType": "scientific article",
+            "author": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Bud Mishra",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Bud_Mishra"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Felipe Cucker",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Felipe_Cucker"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Herv\u00e9 Lanneau",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Herv%C3%A9_Lanneau"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Marie-Fran\u00e7oise Roy",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Marie-Fran%C3%A7oise_Roy"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Person",
+                        "name": "Paul Pedersen",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/authors/Paul_Pedersen"
+                    }
+                }
+            ],
+            "citation": [],
+            "subjectOf": [],
+            "datePublished": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "Date",
+                        "dateCreated": "1992"
+                    }
+                }
+            ],
+            "isPartOf": [
+                {
+                    "@type": "ListItem",
+                    "item": {
+                        "@type": "CreativeWorkSeries",
+                        "name": "Appl. Algebra Eng. Commun. Comput.",
+                        "identifier": "http://dblp.l3s.de/d2r/resource/journals/aaecc"
+                    }
+                }
+            ],
+            "inLanguage": [],
+            "keywords": [],
+            "associatedMedia": []
+        }
+    ]
+}

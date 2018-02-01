@@ -16,11 +16,17 @@ CACHE_LOCATION_DBLP = os.path.join(ROOT_DIR, 'cache_dblp')
 
 DEFAULT_ENDPOINT = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
 
+DBLP_ENDPOINT = 'http://dblp.l3s.de/d2r/sparql'
+
 DEFAULT_PREFIXES = {
     'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
     'wd': 'http://www.wikidata.org/entity/',
     'wdt': 'http://www.wikidata.org/prop/direct/',
     'wikibase': 'http://wikiba.se/ontology#',
+    'dc': 'http://purl.org/dc/elements/1.1/',
+    'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+    'swrc': 'http://swrc.ontoware.org/ontology#',
+    'dcterms': 'http://purl.org/dc/terms/'
 }
 
 PROPERTIES = ['instance of', 'author name string', 'author', 'cites', 'publication date', 'published in',
@@ -82,6 +88,48 @@ SUBJECT_SEARCH = r'''
 ?publication wdt:P921 ?publication_subject .
 ?publication_subject rdfs:label ?subject_label .
 filter(regex(?subject_label, '{subjects}', 'i'))'''
+
+DISCOVER_PROPERTY_DBLP = '''
+?entity http://www.w3.org/2000/01/rdf-schema#label "{property}"@en.
+?entity http://wikiba.se/ontology#directClaim ?property
+'''
+
+PUBLICATION_DBLP = 'swrc:Article'
+
+DISCOVER_PUBLICATION_DBLP = '''
+?publication http://www.w3.org/2000/01/rdf-schema#label "{entity}"@en
+'''
+
+REQUIRED_PAPER_INFO_DBLP = [
+    {'name': 'author', 'property': 'author', 'label': True, 'optional': True},
+    {'name': 'author_name', 'property': 'author name string', 'label': False, 'optional': True},
+    {'name': 'cites', 'property': 'cites', 'label': True, 'optional': True},
+    {'name': 'cited_by', 'property': '^cites', 'label': True, 'optional': True},
+    {'name': 'publication_date', 'property': 'publication date', 'label': False, 'optional': True},
+    {'name': 'published_in', 'property': 'published in', 'label': True, 'optional': True},
+    {'name': 'language', 'property': 'language of work or name', 'label': True, 'optional': True},
+    {'name': 'main_subject', 'property': 'main subject', 'label': True, 'optional': True},
+    {'name': 'resource', 'property': 'full work available at', 'label': False, 'optional': True},
+]
+
+SIMPLE_SEARCH_DBLP = r'''
+?publication rdf:type swrc:Article .
+?publication dc:title ?publication_label .
+filter(regex(?publication_label, "(\\W|^){query}(\\W|$)"))'''
+
+LABEL_SEARCH_DBLP = r'''
+?publication dc:title ?publication_label .
+filter(regex(?publication_label, '{title}', 'i'))'''
+
+AUTHOR_SEARCH_DBLP = r'''
+?publication dc:creator ?publication_author .
+?publication_author rdfs:label ?author_label .
+filter(regex(?author_label, '{author}', 'i'))'''
+
+SUBJECT_SEARCH_DBLP = r'''
+?publication dc:subject ?subject_label .
+filter(regex(?subject_label, '{subjects}', 'i'))'''
+
 
 ##################
 # JSON-LD settings
