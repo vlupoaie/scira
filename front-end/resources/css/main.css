@@ -12,3 +12,8 @@ textarea {
     resize: none;
 }
 
+a:active, a:focus, a.link {
+    outline: 0;
+    border: none;
+    outline-style: none
+  }

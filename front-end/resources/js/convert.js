@@ -443,6 +443,7 @@ function buildRDFA(jsonldlist) {
 
         headDiv = document.createElement("div");
         headDiv.setAttribute("class", "panel-heading edit-plugin-heading");
+        headDiv.setAttribute("id", "panel_" + contor);
         headDiv.setAttribute("data-toggle", "collapse");
         headDiv.setAttribute("data-parent", "#accordion");
         headDiv.setAttribute("href", "#collapse_" + contor);
@@ -491,8 +492,12 @@ function buildRDFA(jsonldlist) {
         var span = document.createElement("span");
         span.setAttribute("property", "name");
         span.textContent = jsonld["name"];
-
-        small.appendChild(span);
+        var aResource = document.createElement("a");
+        aResource.setAttribute("href", "http://scira.tk/publications/" + publication_identifier);
+        aResource.setAttribute("style", "text-decoration: none");
+        aResource.setAttribute("target", "_blank");
+        aResource.appendChild(span);
+        small.appendChild(aResource);
         h42.appendChild(small);
         colmd10Div.appendChild(h42);
         //------------
@@ -648,7 +653,14 @@ function buildRDFA(jsonldlist) {
             span = document.createElement("span");
             span.setAttribute("property", "name");
             span.textContent = name;
-            small.appendChild(span);
+
+            var aResource = document.createElement("a");
+            aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+            aResource.setAttribute("style", "text-decoration: none");
+            aResource.setAttribute("target", "_blank");
+    
+            aResource.appendChild(span);
+            small.appendChild(aResource);
             h4.appendChild(small);
             div.appendChild(h4);
             colmd10Div.appendChild(div);
@@ -679,7 +691,14 @@ function buildRDFA(jsonldlist) {
                 span = document.createElement("span");
                 span.setAttribute("property", "name");
                 span.textContent = name;
-                div.appendChild(span);
+                
+                var aResource = document.createElement("a");
+                aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+                aResource.setAttribute("style", "text-decoration: none");
+                aResource.setAttribute("target", "_blank");
+        
+                aResource.appendChild(span);
+                div.appendChild(aResource);
                 li.appendChild(div);
                 ul.appendChild(li);
             }
@@ -745,7 +764,12 @@ function buildRDFA(jsonldlist) {
             span = document.createElement("span");
             span.setAttribute("property", "name");
             span.textContent = name;
-            small.appendChild(span);
+            var aResource = document.createElement("a");
+            aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+            aResource.setAttribute("style", "text-decoration: none");
+            aResource.setAttribute("target", "_blank");
+            aResource.appendChild(span);
+            small.appendChild(aResource);
             h4.appendChild(small);
             div.appendChild(h4);
             colmd10Div.appendChild(div);
@@ -772,7 +796,12 @@ function buildRDFA(jsonldlist) {
                 span = document.createElement("span");
                 span.setAttribute("property", "name");
                 span.textContent = name;
-                div.appendChild(span);
+                var aResource = document.createElement("a");
+                aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+                aResource.setAttribute("style", "text-decoration: none");
+                aResource.setAttribute("target", "_blank");
+                aResource.appendChild(span);
+                div.appendChild(aResource);
                 li.appendChild(div);
                 ul.appendChild(li);
             }
@@ -1080,24 +1109,14 @@ function buildRDFA(jsonldlist) {
         div_graph = document.createElement("div");
         div_graph.setAttribute('class', 'collapse');
         div_graph.setAttribute('style', 'width:100%; height:700px');
-
-
-
         div_graph.setAttribute('id', "collapseGraph_" + contor);
 
         div_body = document.createElement("div");
         div_body.setAttribute('class', 'well');
         div_body.setAttribute('id', "well_" + contor);
-
-
         div_body.setAttribute('style', 'width:100%; height:700px');
 
-
-
         div_graph.appendChild(div_body);
-
-
-
         divcol.appendChild(button);
         divcfgraph.appendChild(divcol);
 
@@ -1118,6 +1137,13 @@ function buildRDFA(jsonldlist) {
     }
 
     document.getElementById('accordion').appendChild(bigbigDiv);
-    document.getElementById('pag').classList.remove("hidden");
-    var c = 0;
+
+    if(window.location.href.indexOf("/publications/") != -1) {
+        //start remove collapse
+        document.getElementById("collapse_1").classList.remove("collapse");
+        document.getElementById("collapse_1").classList.remove("panel-collapse");
+
+    } else {
+        document.getElementById('pag').classList.remove("hidden");
+    }
 }
