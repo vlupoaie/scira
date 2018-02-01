@@ -13,7 +13,7 @@ def simple_search(request):
     else:
         helper = SparqlHelperWikidata()
     query = request.GET.get('query')
-    page = request.GET.get('page', 1)
+    page = int(request.GET.get('page', 1))
     if not query:
         return JsonResponse({})
     else:
@@ -32,7 +32,7 @@ def advanced_search(request):
     types = [item for item in PUBLICATION_TYPES if request.GET.get(item)]
     after = request.GET.get('after')
     before = request.GET.get('before')
-    page = request.GET.get('page', 1)
+    page = int(request.GET.get('page', 1))
     if not any([title, authors, topics, types, after, before]):
         return JsonResponse({})
     else:

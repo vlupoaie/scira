@@ -1,13 +1,15 @@
-const NO_PARSE = ["@context", "@type", "identifier", "name"];
+const NO_PARSE = ["@context", "@type", "identifier", "name", "learningResourceType"];
 var max_map = {};
 var canvas_dict = {};
 var maping_dict = {};
+var diag_objects = {};
 function parseJSON(divname, diagram) {
     var json_data = canvas_dict[divname]
     if (!(divname in max_map)){
         max_map[divname] = 1;
     }
     var root_node = json_data['identifier'];
+    diagram = diag_objects[divname];
     diagram.startTransaction("a");
 
 
@@ -39,7 +41,7 @@ function parseJSON(divname, diagram) {
                 'id': max_map[divname],
                 'clicked': false
             };
-            if (key == "author")
+            if (key == "author" || key == "isPartOf")
                 categ = dest_node['item']['@type'];
             else
                 categ = dest_node['item']['learningResourceType'];
@@ -69,15 +71,21 @@ function parseJSON(divname, diagram) {
     diagram.zoomToFit()
 }
 
+
 function get(divname, pub_id , diagram) {
     var x;
-    $.get("http://127.0.0.1:8080/get_graph", function(data) {
-        canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
-        canvas_dict[divname]['identifier'] = pub_id;
-        parseJSON(divname, diagram);
-    }, "json");
-}
+    if (pub_id == canvas_dict[divname]['identifier']){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
 
+        $.get("http://scira.tk/api/publications/"+pub_id, function(data) {
+            //canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram);
+        }, "json");
+    }
+}
 function showConnections(node) {
     var diagram = node.diagram;
     diagram.startTransaction("highlight");
@@ -170,7 +178,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "pink"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -333,7 +341,7 @@ function setupDiagram(divname) {
     var templmap = new go.Map("string", go.Node);
     templmap.add("scientific article", article_template);
     templmap.add("science book", science_book_template);
-    templmap.add("academic journal article", academic_journal_template);
+    templmap.add("CreativeWorkSeries", academic_journal_template);
     templmap.add("report", report_template);
     templmap.add("textbook", textbook_template);
     templmap.add("doctoral thesis", doctoral_thesis_template);
@@ -372,17 +380,16 @@ function setupDiagram(divname) {
             key: 1,
             category: "scientific article"
     }]);
-    d = myDiagram;
-    setTimeout(function(){parseJSON(divname, d)},1);
+    setTimeout(function(){parseJSON(divname, myDiagram)},1);
     // get(divname,d);
 
-    d.click = function(e) {
-        d.startTransaction("no highlighteds");
-        d.clearHighlighteds();
-        d.commitTransaction("no highlighteds");
+    myDiagram.click = function(e) {
+        myDiagram.startTransaction("no highlighteds");
+        myDiagram.clearHighlighteds();
+        myDiagram.commitTransaction("no highlighteds");
     };
 
-    d.addDiagramListener("ObjectDoubleClicked",
+    myDiagram.addDiagramListener("ObjectDoubleClicked",
         function(e) {
             var part = e.subject.part;
             k = part.data.key;
@@ -390,10 +397,11 @@ function setupDiagram(divname) {
                 if (maping_dict[divname][key]['id'] == k) {
                     f = key
                 }
-            get(divname, f, d)
+            get(divname, f, myDiagram)
             // if (!(part instanceof go.Link)) alert("Clicked on " + part.data.key);
         });
 
+    diag_objects[divname] = myDiagram;
     return myDiagram;
 }
 // setupDiagram("well_1");
@@ -758,7 +766,7 @@ function buildRDFA(jsonldlist) {
             ul.setAttribute("class", "list-group");
 
             for (var i in list_subjectOf) {
-                item = list_citation[i]["item"];
+                item = list_subjectOf[i]["item"];
                 name = item["name"];
                 type = item["@type"];
                 resource = item["identifier"];
