@@ -15,10 +15,15 @@
 </head>
 
 <body class="bg-light">
-    <main role="main" class="container">
+    <a href="editor.html">
+        <button type="button" style="float: right" class="btn btn-default navbar-btn">Endpoint</button>
+    </a>
+    <main role="main"  id="main" class="container">
         <div class="container">
             <div class="py-5 text-center">
-                <img class="d-block mx-auto mb-4" src="resources/img/logo.png" alt="" width="350" height="140">
+                <a href="http://scira.tk">
+                    <img class="d-block mx-auto mb-4" src="resources/img/logo.png" alt="" width="350" height="140">
+                </a>
                 <form id="search">
                     <div class="row">
                         <div class="col-md-3"></div>
@@ -143,162 +148,10 @@
             </div>
             </form>
             <br>
-            <div id="results"></div>
             <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
-                    <div class="panel panel-default">
-                        <div class="panel-heading edit-plugin-heading">
-                            <h4 class="panel-title edit-plugin-title">
-                                <a >Publication Name </a>
-                            </h4>
-                        </div>
-                        <div class="panel-body" vocab="http://schema.org/" typeof="CreativeWork" resource="publication">
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Title:</label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10">
-                                    <h4 style="width: 102.5%; margin-left: -2%;">
-                                        <small>
-                                            <span property="name"> Publication Name </span>
-                                            <span property="url"> Publication URL </span>
-                                        </small>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Authors:</label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="authorList" typeof="ItemList" resource="authorList">
-                                    <h4 style="width: 102.5%; margin-left: -2%;">
-                                        <small>
-                                            <ul class="list-group">
-                                                <li class="list-group-item">
-                                                    <div property="author" typeof="Person" resource="author1">
-                                                        <span property="givenName">Name Author 1</span>,
-                                                        <span property="url">URL Author 1</span>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div property="author" typeof="Person" resource="author2">
-                                                        <span property="givenName">Name Author 2</span>,
-                                                        <span property="url">URL Author 2</span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-
-
-                                        </small>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Citations:</label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="mentionList" typeof="ItemList" resource="mentionList">
-                                    <h4 style="width: 102%; margin-left: -2%;">
-                                        <small>
-                                            <ul class="list-group">
-                                                <li class="list-group-item">
-                                                    <div property="mention" typeof="CreativeWork" resource="mention1">
-                                                        <span property="citation">Name Citation 1</span>,
-                                                        <span property="identifier">Identifier Citation 1</span>
-                                                    </div>
-                                                </li>
-                                                <li class="list-group-item">
-                                                    <div property="mention" typeof="CreativeWork" resource="mention2">
-                                                        <span property="citation">Name Citation 2</span>,
-                                                        <span property="identifier">Identifier Citation 2</span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </small>
-                                    </h4>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Cited:</label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="isPartOfList" typeof="ItemList" resource="isPartOfList">
-                                    <div property="isPartOf" typeof="CreativeWork" resource="isPartOf1">
-                                        <h4 style="width: 102.5%; margin-left: -2%;">
-                                            <small>
-                                                <span property="publication">Name Publication 1</span>,
-                                                <span property="identifier">Identifier Publication 1</span>
-                                            </small>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Date:</label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="datePublishedList" typeof="ItemList" resource="datePublishedList">
-                                    <div property="datePublished" typeof="Date" resource="datePublished1">
-                                        <h4 style="width: 102%; margin-left: -2%;">
-                                            <small>
-                                                <span property="datePublished">Date 1</span>
-                                            </small>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label>Published in: </label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="workFeaturedList" typeof="ItemList" resource="workFeaturedList">
-                                    <div property="workFeatured" typeof="CreativeWorkSeries" resource="workFeatured1">
-                                        <h4 style="width: 102%; margin-left: -2%;">
-                                            <small>
-                                                <span property="publication">Name Publication 1</span>,
-                                                <span property="identifier">Identifier Publication 1</span>
-                                            </small>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2">
-                                    <h4>
-                                        <label> Subjects: </label>
-                                    </h4>
-                                </div>
-                                <div class="col-md-10" property="aboutList" typeof="ItemList" resource="aboutList">
-                                    <div property="about" typeof="CreativeWork" resource="about1">
-                                        <h4 style="width: 102%; margin-left: -2%;">
-                                            <small>
-                                                <span property="subjectOf">Name Subject 1</span>,
-                                                <span property="identifier">Identifier Subject 1</span>
-                                            </small>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="col-md-2" style="float: right">
-                                    <button type="button" class="btn btn-primary btn-outline">View Graph</button>
-                                </div>
-                            </div>
-
-                        </div>
+                    <div class="panel-group text-left" id="accordion">
                     </div>
                 </div>
             </div>
@@ -310,7 +163,7 @@
 
     <script src="resources/js/jquery-1.12.4.min.js"></script>
     <script src="resources/js/bootstrap.min.js"></script>
-    <script src="resources/js/main.js"></script>
+    <script src="resources/js/publication.js"></script>
 </body>
 
 </html>
