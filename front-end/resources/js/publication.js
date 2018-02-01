@@ -36,44 +36,14 @@ $("#searchButton").click(function (e) {
 
 });
 
-function doQuery(url, page) {
-    $.get("http://localhost:8080/", function (data) {
-        buildRDFA(data);
-    }, "json");
-}
-
 window.onload = function() {
-    var displayResults = window.location.href.indexOf("?");
-    if (displayResults != -1) {
-        doQuery(window.location.href, 1);
+    var url = window.location.href
+    var searchPublication = url.indexOf("/publications/");
+
+    var baseUrlApi = "http://scira.tk/api/publications/" +  url.split("/publications/")[1];
+    if (searchPublication != -1) {
+        $.get(baseUrlApi, function (data) {
+            buildRDFA(data);
+        }, "json");
     }
 }
-
-
-$(document).ready(function () {
-    var page = window.location.href.split("&page=")[1];
-
-    if(page == 1) {
-        var prev = document.getElementById("prev");
-        prev.classList.add("disabled");
-    } else {
-        var prev = document.getElementById("prev");
-        prev.classList.remove("disabled");
-    }
-
-    $('.next').on('click', function () {
-        page++;
-        var url = window.location.href;
-        $("#results" ).remove();
-        var newUrl = url.split("&page=")[0];
-        window.location.replace(newUrl + "&page=" + page);
-    })
-
-    $('.previous').on('click', function () {
-        page--;
-        var url = window.location.href;
-        $("#results" ).remove();
-        var newUrl = url.split("&page=")[0];
-        window.location.replace(newUrl + "&page=" + page);
-    })  
-});

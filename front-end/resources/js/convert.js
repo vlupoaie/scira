@@ -1,13 +1,15 @@
-const NO_PARSE = ["@context", "@type", "identifier", "name"];
+const NO_PARSE = ["@context", "@type", "identifier", "name", "learningResourceType"];
 var max_map = {};
 var canvas_dict = {};
 var maping_dict = {};
-function parseJSON(divname, diagram) {
+var diag_objects = {};
+function parseJSON(divname, diagram, inverse='') {
     var json_data = canvas_dict[divname]
     if (!(divname in max_map)){
         max_map[divname] = 1;
     }
     var root_node = json_data['identifier'];
+    diagram = diag_objects[divname];
     diagram.startTransaction("a");
 
 
@@ -39,19 +41,39 @@ function parseJSON(divname, diagram) {
                 'id': max_map[divname],
                 'clicked': false
             };
-            if (key == "author")
+            var use_name = 'name';
+
+
+            var from_node = maping_dict[divname][root_node]['id'];
+            var  to_node = maping_dict[divname][identifier]['id'];
+            if (key == "author" || key == "isPartOf" )
                 categ = dest_node['item']['@type'];
+            else if(key == "datePublished"){
+                categ = "date";
+                use_name = 'dateCreated';
+            } else if (key == "inLanguage"){
+                categ = "report";
+            } else if(key == 'keywords'){
+                categ = 'keywords';
+            }
             else
                 categ = dest_node['item']['learningResourceType'];
-
+            if (!(categ in ["scientific article","science book","CreativeWorkSeries","report","date","keywords","publication","Person"]))
+                  categ = 'none';
+            if (inverse == 'journal' && key == 'publication'){
+                   categ =  'isPartOf'
+                   var aux = from_node;
+                   from_node = to_node;
+                   to_node =  aux;
+            }
             var new_node = {
-                text: dest_node['item']['name'],
+                text: dest_node['item'][use_name],
                 category: categ,
                 key: max_map[divname]
             };
             var new_link = {
-                from: maping_dict[divname][root_node]['id'],
-                to: maping_dict[divname][identifier]['id'],
+                from: from_node,
+                to: to_node,
                 text: key
             };
             model = diagram.model;
@@ -69,15 +91,50 @@ function parseJSON(divname, diagram) {
     diagram.zoomToFit()
 }
 
-function get(divname, pub_id , diagram) {
+function get_journal(divname, pub_id , diagram) {
     var x;
-    $.get("http://127.0.0.1:8080/get_graph", function(data) {
-        canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
-        canvas_dict[divname]['identifier'] = pub_id;
-        parseJSON(divname, diagram);
-    }, "json");
+    if (pub_id in canvas_dict[divname]){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
+
+        $.get("http://scira.tk/api/journals/"+pub_id, function(data) {
+//            canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram, 'journal');
+        }, "json");
+    }
 }
 
+function get(divname, pub_id , diagram) {
+    var x;
+    if (pub_id == canvas_dict[divname]['identifier']){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
+
+        $.get("http://scira.tk/api/publications/"+pub_id, function(data) {
+            //canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram);
+        }, "json");
+    }
+}
+
+function get_author(divname, pub_id , diagram) {
+    var x;
+    if (pub_id in canvas_dict[divname]){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
+
+        $.get("http://scira.tk/api/authors/"+pub_id, function(data) {
+//            canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram);
+        }, "json");
+    }
+}
 function showConnections(node) {
     var diagram = node.diagram;
     diagram.startTransaction("highlight");
@@ -117,9 +174,14 @@ function setupDiagram(divname) {
     // Node template for scientific article
     var article_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
-                }
+                doubleClick: function(e, node) {
+                   // var part = e.subject.part;
+                k = node.data.key;
+                for (var key in maping_dict[divname])
+                 if (maping_dict[divname][key]['id'] == k) {
+                     f = key
+                 }
+                 get(divname, f, myDiagram);}
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
                 fill: "lightblue"
@@ -165,12 +227,16 @@ function setupDiagram(divname) {
     // Node template for academic journal article
     var academic_journal_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
+                doubleClick: function(e, node) {
+                    var k = node.data.key;
+                    for (var key in maping_dict[divname])
+                        if (maping_dict[divname][key]['id'] == k)
+                                 f = key;
+                    get_journal(divname, f, myDiagram);
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "pink"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -194,7 +260,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "yellow"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -211,14 +277,14 @@ function setupDiagram(divname) {
         );
 
     // Node template for textbook
-    var textbook_template =
+    var date_template =
         $(go.Node, "Auto", {
                 click: function(e, node) {
                     showConnections(node);
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "tomato"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -226,7 +292,7 @@ function setupDiagram(divname) {
                     margin: 1,
                     font: "11px sans-serif",
                     name: "Label",
-                    width: 100,
+                    width: 120,
                     wrap: go.TextBlock.WrapFit,
                     isMultiline: true,
                     overflow: go.TextBlock.OverflowEllipsis
@@ -242,7 +308,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "grey"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -279,15 +345,22 @@ function setupDiagram(divname) {
                     isMultiline: true,
                     overflow: go.TextBlock.OverflowEllipsis
                 },
+
+
+
                 new go.Binding("text", "text"))
         );
 
     // Node template for doctoral thesis
     var author_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
-                }
+                doubleClick: function(e, node) {
+                    var k = node.data.key;
+                    for (var key in maping_dict[divname])
+                            if (maping_dict[divname][key]['id'] == k)
+                                     f = key;
+                    get_author(divname, f, myDiagram); 
+         }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "RoundedRectangle", {
                 fill: "lightgreen"
@@ -314,7 +387,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "RoundedRectangle", {
-                fill: "lightblue"
+                fill: "lightgrey"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -333,10 +406,10 @@ function setupDiagram(divname) {
     var templmap = new go.Map("string", go.Node);
     templmap.add("scientific article", article_template);
     templmap.add("science book", science_book_template);
-    templmap.add("academic journal article", academic_journal_template);
+    templmap.add("CreativeWorkSeries", academic_journal_template);
     templmap.add("report", report_template);
-    templmap.add("textbook", textbook_template);
-    templmap.add("doctoral thesis", doctoral_thesis_template);
+    templmap.add("date", date_template);
+    templmap.add("keywords", doctoral_thesis_template);
     templmap.add("publication", publication_template);
     templmap.add("Person", author_template);
     templmap.add("none", blank_template);
@@ -372,28 +445,30 @@ function setupDiagram(divname) {
             key: 1,
             category: "scientific article"
     }]);
-    d = myDiagram;
-    setTimeout(function(){parseJSON(divname, d)},1);
+    setTimeout(function(){parseJSON(divname, myDiagram)},1);
     // get(divname,d);
 
-    d.click = function(e) {
-        d.startTransaction("no highlighteds");
-        d.clearHighlighteds();
-        d.commitTransaction("no highlighteds");
+    myDiagram.click = function(e) {
+        myDiagram.startTransaction("no highlighteds");
+        myDiagram.clearHighlighteds();
+        myDiagram.commitTransaction("no highlighteds");
     };
 
-    d.addDiagramListener("ObjectDoubleClicked",
-        function(e) {
-            var part = e.subject.part;
-            k = part.data.key;
-            for (var key in maping_dict[divname])
-                if (maping_dict[divname][key]['id'] == k) {
-                    f = key
-                }
-            get(divname, f, d)
+//    myDiagram.addDiagramListener("ObjectDoubleClicked",
+//        function(e) {
+//            var part = e.subject.part;
+//            k = part.data.key;
+//            if (part.data.category == 'scientific article'){
+//            for (var key in maping_dict[divname])
+//                if (maping_dict[divname][key]['id'] == k) {
+//                    f = key
+//                }
+//            get(divname, f, myDiagram)}
+//
             // if (!(part instanceof go.Link)) alert("Clicked on " + part.data.key);
-        });
+       // });
 
+    diag_objects[divname] = myDiagram;
     return myDiagram;
 }
 // setupDiagram("well_1");
@@ -443,6 +518,7 @@ function buildRDFA(jsonldlist) {
 
         headDiv = document.createElement("div");
         headDiv.setAttribute("class", "panel-heading edit-plugin-heading");
+        headDiv.setAttribute("id", "panel_" + contor);
         headDiv.setAttribute("data-toggle", "collapse");
         headDiv.setAttribute("data-parent", "#accordion");
         headDiv.setAttribute("href", "#collapse_" + contor);
@@ -491,8 +567,12 @@ function buildRDFA(jsonldlist) {
         var span = document.createElement("span");
         span.setAttribute("property", "name");
         span.textContent = jsonld["name"];
-
-        small.appendChild(span);
+        var aResource = document.createElement("a");
+        aResource.setAttribute("href", "http://scira.tk/publications/" + publication_identifier);
+        aResource.setAttribute("style", "text-decoration: none");
+        aResource.setAttribute("target", "_blank");
+        aResource.appendChild(span);
+        small.appendChild(aResource);
         h42.appendChild(small);
         colmd10Div.appendChild(h42);
         //------------
@@ -648,7 +728,14 @@ function buildRDFA(jsonldlist) {
             span = document.createElement("span");
             span.setAttribute("property", "name");
             span.textContent = name;
-            small.appendChild(span);
+
+            var aResource = document.createElement("a");
+            aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+            aResource.setAttribute("style", "text-decoration: none");
+            aResource.setAttribute("target", "_blank");
+    
+            aResource.appendChild(span);
+            small.appendChild(aResource);
             h4.appendChild(small);
             div.appendChild(h4);
             colmd10Div.appendChild(div);
@@ -679,7 +766,14 @@ function buildRDFA(jsonldlist) {
                 span = document.createElement("span");
                 span.setAttribute("property", "name");
                 span.textContent = name;
-                div.appendChild(span);
+                
+                var aResource = document.createElement("a");
+                aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+                aResource.setAttribute("style", "text-decoration: none");
+                aResource.setAttribute("target", "_blank");
+        
+                aResource.appendChild(span);
+                div.appendChild(aResource);
                 li.appendChild(div);
                 ul.appendChild(li);
             }
@@ -745,7 +839,12 @@ function buildRDFA(jsonldlist) {
             span = document.createElement("span");
             span.setAttribute("property", "name");
             span.textContent = name;
-            small.appendChild(span);
+            var aResource = document.createElement("a");
+            aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+            aResource.setAttribute("style", "text-decoration: none");
+            aResource.setAttribute("target", "_blank");
+            aResource.appendChild(span);
+            small.appendChild(aResource);
             h4.appendChild(small);
             div.appendChild(h4);
             colmd10Div.appendChild(div);
@@ -758,7 +857,7 @@ function buildRDFA(jsonldlist) {
             ul.setAttribute("class", "list-group");
 
             for (var i in list_subjectOf) {
-                item = list_citation[i]["item"];
+                item = list_subjectOf[i]["item"];
                 name = item["name"];
                 type = item["@type"];
                 resource = item["identifier"];
@@ -772,7 +871,12 @@ function buildRDFA(jsonldlist) {
                 span = document.createElement("span");
                 span.setAttribute("property", "name");
                 span.textContent = name;
-                div.appendChild(span);
+                var aResource = document.createElement("a");
+                aResource.setAttribute("href", "http://scira.tk/publications/" + resource);
+                aResource.setAttribute("style", "text-decoration: none");
+                aResource.setAttribute("target", "_blank");
+                aResource.appendChild(span);
+                div.appendChild(aResource);
                 li.appendChild(div);
                 ul.appendChild(li);
             }
@@ -1080,24 +1184,14 @@ function buildRDFA(jsonldlist) {
         div_graph = document.createElement("div");
         div_graph.setAttribute('class', 'collapse');
         div_graph.setAttribute('style', 'width:100%; height:700px');
-
-
-
         div_graph.setAttribute('id', "collapseGraph_" + contor);
 
         div_body = document.createElement("div");
         div_body.setAttribute('class', 'well');
         div_body.setAttribute('id', "well_" + contor);
-
-
         div_body.setAttribute('style', 'width:100%; height:700px');
 
-
-
         div_graph.appendChild(div_body);
-
-
-
         divcol.appendChild(button);
         divcfgraph.appendChild(divcol);
 
@@ -1118,6 +1212,14 @@ function buildRDFA(jsonldlist) {
     }
 
     document.getElementById('accordion').appendChild(bigbigDiv);
-    document.getElementById('pag').classList.remove("hidden");
-    var c = 0;
+
+    if(window.location.href.indexOf("/publications/") != -1) {
+        //start remove collapse
+        document.getElementById("collapse_1").classList.remove("collapse");
+        document.getElementById("collapse_1").classList.remove("panel-collapse");
+
+    } else {
+        document.getElementById('pag').classList.remove("hidden");
+    }
 }
+
