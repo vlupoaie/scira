@@ -3,7 +3,7 @@ var max_map = {};
 var canvas_dict = {};
 var maping_dict = {};
 var diag_objects = {};
-function parseJSON(divname, diagram) {
+function parseJSON(divname, diagram, inverse='') {
     var json_data = canvas_dict[divname]
     if (!(divname in max_map)){
         max_map[divname] = 1;
@@ -41,19 +41,39 @@ function parseJSON(divname, diagram) {
                 'id': max_map[divname],
                 'clicked': false
             };
-            if (key == "author" || key == "isPartOf")
+            var use_name = 'name';
+
+
+            var from_node = maping_dict[divname][root_node]['id'];
+            var  to_node = maping_dict[divname][identifier]['id'];
+            if (key == "author" || key == "isPartOf" )
                 categ = dest_node['item']['@type'];
+            else if(key == "datePublished"){
+                categ = "date";
+                use_name = 'dateCreated';
+            } else if (key == "inLanguage"){
+                categ = "report";
+            } else if(key == 'keywords'){
+                categ = 'keywords';
+            }
             else
                 categ = dest_node['item']['learningResourceType'];
-
+            if (!(categ in ["scientific article","science book","CreativeWorkSeries","report","date","keywords","publication","Person"]))
+                  categ = 'none';
+            if (inverse == 'journal' && key == 'publication'){
+                   categ =  'isPartOf'
+                   var aux = from_node;
+                   from_node = to_node;
+                   to_node =  aux;
+            }
             var new_node = {
-                text: dest_node['item']['name'],
+                text: dest_node['item'][use_name],
                 category: categ,
                 key: max_map[divname]
             };
             var new_link = {
-                from: maping_dict[divname][root_node]['id'],
-                to: maping_dict[divname][identifier]['id'],
+                from: from_node,
+                to: to_node,
                 text: key
             };
             model = diagram.model;
@@ -71,6 +91,20 @@ function parseJSON(divname, diagram) {
     diagram.zoomToFit()
 }
 
+function get_journal(divname, pub_id , diagram) {
+    var x;
+    if (pub_id in canvas_dict[divname]){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
+
+        $.get("http://scira.tk/api/journals/"+pub_id, function(data) {
+//            canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram, 'journal');
+        }, "json");
+    }
+}
 
 function get(divname, pub_id , diagram) {
     var x;
@@ -80,6 +114,21 @@ function get(divname, pub_id , diagram) {
 
         $.get("http://scira.tk/api/publications/"+pub_id, function(data) {
             //canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
+            canvas_dict[divname] = data['results'][0];
+            canvas_dict[divname]['identifier'] = pub_id;
+            parseJSON(divname, diagram);
+        }, "json");
+    }
+}
+
+function get_author(divname, pub_id , diagram) {
+    var x;
+    if (pub_id in canvas_dict[divname]){
+        setTimeout(function(){parseJSON(divname,diagram);},0);
+    }else{
+
+        $.get("http://scira.tk/api/authors/"+pub_id, function(data) {
+//            canvas_dict[divname] = $.extend(canvas_dict[divname], data['results'][0]);
             canvas_dict[divname] = data['results'][0];
             canvas_dict[divname]['identifier'] = pub_id;
             parseJSON(divname, diagram);
@@ -125,9 +174,14 @@ function setupDiagram(divname) {
     // Node template for scientific article
     var article_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
-                }
+                doubleClick: function(e, node) {
+                   // var part = e.subject.part;
+                k = node.data.key;
+                for (var key in maping_dict[divname])
+                 if (maping_dict[divname][key]['id'] == k) {
+                     f = key
+                 }
+                 get(divname, f, myDiagram);}
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
                 fill: "lightblue"
@@ -173,8 +227,12 @@ function setupDiagram(divname) {
     // Node template for academic journal article
     var academic_journal_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
+                doubleClick: function(e, node) {
+                    var k = node.data.key;
+                    for (var key in maping_dict[divname])
+                        if (maping_dict[divname][key]['id'] == k)
+                                 f = key;
+                    get_journal(divname, f, myDiagram);
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
@@ -202,7 +260,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "yellow"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -219,14 +277,14 @@ function setupDiagram(divname) {
         );
 
     // Node template for textbook
-    var textbook_template =
+    var date_template =
         $(go.Node, "Auto", {
                 click: function(e, node) {
                     showConnections(node);
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "tomato"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -234,7 +292,7 @@ function setupDiagram(divname) {
                     margin: 1,
                     font: "11px sans-serif",
                     name: "Label",
-                    width: 100,
+                    width: 120,
                     wrap: go.TextBlock.WrapFit,
                     isMultiline: true,
                     overflow: go.TextBlock.OverflowEllipsis
@@ -250,7 +308,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "Ellipse", {
-                fill: "lightblue"
+                fill: "grey"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -287,15 +345,22 @@ function setupDiagram(divname) {
                     isMultiline: true,
                     overflow: go.TextBlock.OverflowEllipsis
                 },
+
+
+
                 new go.Binding("text", "text"))
         );
 
     // Node template for doctoral thesis
     var author_template =
         $(go.Node, "Auto", {
-                click: function(e, node) {
-                    showConnections(node);
-                }
+                doubleClick: function(e, node) {
+                    var k = node.data.key;
+                    for (var key in maping_dict[divname])
+                            if (maping_dict[divname][key]['id'] == k)
+                                     f = key;
+                    get_author(divname, f, myDiagram); 
+         }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "RoundedRectangle", {
                 fill: "lightgreen"
@@ -322,7 +387,7 @@ function setupDiagram(divname) {
                 }
             }, new go.Binding("visible", "visible"),
             $(go.Shape, "RoundedRectangle", {
-                fill: "lightblue"
+                fill: "lightgrey"
             }, new go.Binding("stroke", "isHighlighted", function(h) {
                 return h ? "red" : "black";
             }).ofObject()),
@@ -343,8 +408,8 @@ function setupDiagram(divname) {
     templmap.add("science book", science_book_template);
     templmap.add("CreativeWorkSeries", academic_journal_template);
     templmap.add("report", report_template);
-    templmap.add("textbook", textbook_template);
-    templmap.add("doctoral thesis", doctoral_thesis_template);
+    templmap.add("date", date_template);
+    templmap.add("keywords", doctoral_thesis_template);
     templmap.add("publication", publication_template);
     templmap.add("Person", author_template);
     templmap.add("none", blank_template);
@@ -389,17 +454,19 @@ function setupDiagram(divname) {
         myDiagram.commitTransaction("no highlighteds");
     };
 
-    myDiagram.addDiagramListener("ObjectDoubleClicked",
-        function(e) {
-            var part = e.subject.part;
-            k = part.data.key;
-            for (var key in maping_dict[divname])
-                if (maping_dict[divname][key]['id'] == k) {
-                    f = key
-                }
-            get(divname, f, myDiagram)
+//    myDiagram.addDiagramListener("ObjectDoubleClicked",
+//        function(e) {
+//            var part = e.subject.part;
+//            k = part.data.key;
+//            if (part.data.category == 'scientific article'){
+//            for (var key in maping_dict[divname])
+//                if (maping_dict[divname][key]['id'] == k) {
+//                    f = key
+//                }
+//            get(divname, f, myDiagram)}
+//
             // if (!(part instanceof go.Link)) alert("Clicked on " + part.data.key);
-        });
+       // });
 
     diag_objects[divname] = myDiagram;
     return myDiagram;
